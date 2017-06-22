@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regression on John R Little</title>
-    <link>/tags/regression/index.xml</link>
+    <link>/tags/regression/</link>
     <description>Recent content in Regression on John R Little</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/tags/regression/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <atom:link href="/tags/regression/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello R Markdown</title>

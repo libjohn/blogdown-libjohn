@@ -21,7 +21,7 @@ weight = 1
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "MSLS Library & Information Science"
-  institution = "UNC Capel Hill"
+  institution = "UNC Chapel Hill"
   year = 1992
 
 [[education.courses]]
@@ -40,4 +40,4 @@ weight = 1
 
 John is a Data Anaylsis Librarian/Consultant working in the [Data & Visualization Services Department](//library.duke.edu/data).  I help Duke University students and researchers navigate practical data science challenges.  To that end I provide a series of *workshops* on R and OpenRefine; offer walk-in and by-appointment consultations; and host the *R we having fun yet* learning series. 
 
-Some of my workshop topics include twitter stream gathering, web scraping, data parsing, and data cleaning. Each workshop is designed as a hands-on experience where you can download the practice data, the presentation slides, and workbook guides. Accompanying recording of the workshops are available. *Details…*
+Some of my workshop topics include twitter stream gathering, web scraping, data parsing, and data cleaning. Each workshop is designed as a hands-on experience where you can download the practice data, the presentation slides, and workbook guides. Accompanying recordings of the workshops are available below. *John, edit theses details…*

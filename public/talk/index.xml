@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on John R Little</title>
-    <link>/talk/index.xml</link>
+    <link>/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on John R Little</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Example Talk</title>

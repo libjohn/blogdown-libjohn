@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jekyll on John R Little</title>
-    <link>/tags/jekyll/index.xml</link>
+    <link>/tags/jekyll/</link>
     <description>Recent content in Jekyll on John R Little</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/jekyll/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Migrate from Jekyll to Hugo</title>
