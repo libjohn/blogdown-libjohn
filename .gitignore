@@ -21,7 +21,7 @@
 # Website output
 # public/*
 static/*
-themes/*
+# themes/*
 
 # Xaringan Slides
 *libs/
