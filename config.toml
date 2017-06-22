@@ -1,0 +1,208 @@
+baseurl = "/"
+title = "John R Little"
+# copyright = "&copy; 2016 Your Name"
+theme = "hugo-academic"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  name = "John R Little"
+  role = "Data Janitor"
+  organization = "Duke Unversity"
+  organization_url = "http://library.duke.edu/data/"
+#  avatar = "bicycle.png"
+  avatar = "data-science-vector-fromPixabay.svg"
+#  email = "John.Little@Duke.edu"
+#  address = "Data & Visualization Studio, the /Edge, Duke University Libraries"
+#  office_hours = "Wednesday 1PM to 3PM or make an appointment: http://v.gd/littleconsult"
+#  phone = "http://v.gd/littleconsult"
+#  skype = "echo123"
+#  telegram = "send me a t'gram"
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = ""
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  # Highlight.js options
+  #   highlight
+  #     Enable global source code highlighting?  If false, you can
+  #     override it for a particular page in that page's preamble.
+  #
+  #     Example: highlight = true
+  #
+  #   highlight_languages
+  #     Add support for highlighting additional languages. Support for
+  #     languages mentioned here will be included in all pages. You
+  #     can also set this variable for a particular page in that
+  #     page's preamble.
+  #
+  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
+  #
+  #   highlight_style
+  #     Choose a different CSS style for highlighting source
+  #     code. Setting this option in a page's preamble has no
+  #     effect.
+  #
+  #     Example: highlight_style = "github-gist"
+  #
+  #   highlight_version
+  #     Choose the version of highlight.js you want. Setting this
+  #     option in a page's preamble has no effect.
+  #
+  #     Example: highlight_version = "9.9.0"
+  #
+  #   For the list of supported languages, styles, and versions, see:
+  #   https://cdnjs.com/libraries/highlight.js/
+  #
+  #   For more info on the highlighting options, see:
+  #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
+  highlight = true
+  highlight_languages = ["r", "yaml"]
+  highlight_style = "github"
+  highlight_version = "9.9.0"
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = ["duke.css","duke-academic.css","font-awesome-4.7.0/css/font-awesome.min.css"]
+  custom_js  = []
+
+  # Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  publication_types = [
+    'Uncategorized',  # 0
+    'Conference proceedings',  # 1
+    'Journal',  # 2
+    'Work in progress',  # 3
+    'Technical report',  # 4
+    'Book',  # 5
+    'Book chapter'  # 6
+  ]
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+  [[params.social]]
+    icon = "clock-o"
+    icon_pack = "fa"
+    link = "#contact"
+    
+  [[params.social]]
+    icon = "calendar"
+    icon_pack = "fa"
+    link = "//duke.libcal.com/appointment/2695"
+    
+  [[params.social]]
+    icon = "phone"
+    icon_pack = "fa"
+    link = "//library.duke.edu/about/directory/staff/1441"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/libjohn"
+
+#  [[params.social]]
+#    icon = "twitter"
+#    icon_pack = "fa"
+#    link = "//twitter.com/john_little"
+
+#  [[params.social]]
+#    icon = "google-scholar"
+#    icon_pack = "ai"
+#    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+
+#  [[params.social]]
+#    icon = "linkedin"
+#    icon_pack = "fa"
+#    link = "//www.linkedin.com/in/johnrobertlittle"
+
+
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[menu.main]]
+  name = "Workshops"
+  url = "#publications_selected"
+  weight = 2
+
+[[menu.main]]
+  name = "Presentations"
+  url = "#projects"
+  weight = 3
+  
+[[menu.main]]
+  name = "Rfun"
+  url = "https://github.com/data-and-visualization/Rfun/blob/master/readme.md"
+  weight = 4  
+
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
+
+# Languages
+#   Create a [languages.X] block for each language you want, where X is the language ID.
+
+# Configure the English version of the website.
+[languages.en]
+  languageCode = "en-us"
