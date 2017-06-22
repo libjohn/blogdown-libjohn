@@ -15,7 +15,12 @@ How to Build this site manually
 
     - Initially you would have edited the `config.toml`, plus `layouts`, and `static` directories
 
-5. For Manual Deployment...  Stop blogdown server; drag `public` directory to netlify.com deploy
+5. Deployment...  
+
+    - For Manual Deployment, Optionally stop blogdown server.  Drag `public` directory to netlify.com deploy
+    - For Continuous Depolyment, set up according to the [Netlify Docs](https://www.netlify.com/docs/continuous-deployment/) pointing to the `/public` of an appropriate github repository.
+
+        - I used Command = `hugo_0.19`.  I Probably need to follow the [additional steps](https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/) for beyond version 0.20, but version 0.19 works and it was easiest.
 
 ## ISSUES
 
