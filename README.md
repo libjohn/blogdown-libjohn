@@ -6,14 +6,15 @@ How to Build this site manually
 2. `library(blogdown)` [Resources:  [github](https://github.com/rstudio/blogdown), [Yihui's Book](https://bookdown.org/yihui/blogdown/)]
 
     - Dependencies:
-    - devtools::install_github('rstudio/blogdown')
-    - blogdown::install_hugo()
-    - blogdown::install_theme('jbub/ghostwriter')
     
-3. blogdown::serve_site()
-4. Edit via Rmarkdown or markdown in the `content` directory and subdirs
+        - devtools::install_github('rstudio/blogdown')
+        - blogdown::install_hugo()
+        - blogdown::install_theme('jbub/ghostwriter')
+    
+3. `blogdown::serve_site()`
+4. Edit via *Rmarkdown* or *markdown* in the `content` directory and subdirs
 
-    - Initially you would have edited the `config.toml`, plus `layouts`, and `static` directories (e.g. CSS, templates, etc. and such)
+    - Initially, you will have edited the `config.toml`, plus `layouts`, and `static` directories (e.g. CSS, templates, etc. and such)
 
 5. Deployment on [Netlify](http://netlify.com)  
 
