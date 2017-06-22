@@ -3,7 +3,7 @@
 How to Build this site manually
 
 1. Clone the github repo into RStudio
-2. library(blogdown)
+2. `library(blogdown)` [Resources:  [github](https://github.com/rstudio/blogdown), [Yihui's Book](https://bookdown.org/yihui/blogdown/)]
 
     - Dependencies:
     - devtools::install_github('rstudio/blogdown')
@@ -13,9 +13,9 @@ How to Build this site manually
 3. blogdown::serve_site()
 4. Edit via Rmarkdown or markdown in the `content` directory and subdirs
 
-    - Initially you would have edited the `config.toml`, plus `layouts`, and `static` directories
+    - Initially you would have edited the `config.toml`, plus `layouts`, and `static` directories (e.g. CSS, templates, etc. and such)
 
-5. Deployment...  
+5. Deployment on [Netlify](http://netlify.com)  
 
     - For Manual Deployment, Optionally stop blogdown server.  Drag `public` directory to netlify.com deploy
     - For Continuous Depolyment, set up according to the [Netlify Docs](https://www.netlify.com/docs/continuous-deployment/) pointing to the `/public` of an appropriate github repository.
