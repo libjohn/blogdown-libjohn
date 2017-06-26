@@ -65,13 +65,5 @@ detailed_list = false
         <p class="institution"><a href="http://twitter.com/john_little">Twitter</a> -- fallow, but it’s a way to get in touch</p>
       </div>
   </li>
-  
-  <li>
-    <span class="fa-li fa fa-linkedin"></span>
-      <div class="description">
-        <p class="institution"><a href="http://www.linkedin.com/in/johnrobertlittle">Linkedin</a> -- o.k. I don't really use this</p>
-      </div>
-  </li>
-</ul>
 
 [![xkcd - I have five phone numbers which should I use](//imgs.xkcd.com/comics/phone_numbers.png)](http://xkcd.com/1789/)
