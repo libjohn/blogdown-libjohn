@@ -19,7 +19,7 @@
 *.Rproj
 
 # Website output
-# public/*
+public
 ## static/*  ## Initially this must be added and committed at the CLI shell
 ## themes/*  ## Initially this must be added and committed at the CLI shell
 
