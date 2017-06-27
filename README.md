@@ -28,9 +28,11 @@ How to Build this site manually
 
     - Initially, you will have edited the `config.toml`, plus `layouts`, and `static` directories (e.g. CSS, templates, etc. and such)
     
-5. Make customizations and stylistic (i.e. non-content) changes (CSS, layouts, etc., see ["*static*"](https://bookdown.org/yihui/blogdown/templates.html)) in the `static` directory, where the sub-hierarchy of `static` mirrors the sub-hierarchy into `public` 
+5. Make customizations and stylistic (i.e. non-content) changes (CSS, see ["*static*"](https://bookdown.org/yihui/blogdown/templates.html)) in the `static` directory, where the sub-hierarchy of `static` mirrors the sub-hierarchy into `public` 
 
     - Do not need to mirror the entire sub-hieary.  Customize/mirror only as necessary and appropriate.
+    
+5. Override `layouts` by ghosting the `themes/../layouts/...` sub-hiearchy into the `layouts` directory.  See [custom-layours documentation](https://bookdown.org/yihui/blogdown/custom-layouts.html)
 
 5. Deployment on [Netlify](http://netlify.com)  
 
