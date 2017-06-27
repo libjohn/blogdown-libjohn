@@ -4,9 +4,9 @@ How to Build this site manually
 
 1. [If starting from scratch...] Clone the github repo into RStudio  
 
-    - My preferred method of making Rstuio Projects
+    - My preferred method of making new repos as RStuio Projects...
     
-        1. Github.com > New Repo
+        1. Start at Github.com > New Repo
         1. Clone [new & empty] Repo as new project into Rstudio IDE running on localhost
         1. git push -- README.md, license.md, and .gitignore
     
@@ -20,13 +20,15 @@ How to Build this site manually
             - might need to, occasionally but not initially, run `blogdown::update_hugo()`
         - `blogdown::new_site(theme = "gcushen/hugo-academic")` 
             - must be a completely empty directory except for .Rproj file
+            - view [other theme](https://themes.gohugo.io/) options
+                - See [Yihui's recommendation](https://github.com/rstudio/blogdown#blogdown) of selecting one of only a few workable themes for newbies
     
 3. `blogdown::serve_site()`
 4. Edit via *Rmarkdown* or *markdown* in the `content` directory and subdirs
 
     - Initially, you will have edited the `config.toml`, plus `layouts`, and `static` directories (e.g. CSS, templates, etc. and such)
     
-5. Make all stylistic changes (CSS, layouts, etc., see ["*static*"](https://bookdown.org/yihui/blogdown/templates.html)) in the `static` directory, where the sub-hierarchy of `static` mirrors the sub-hierarchy of public 
+5. Make customizations and stylistic (i.e. non-content) changes (CSS, layouts, etc., see ["*static*"](https://bookdown.org/yihui/blogdown/templates.html)) in the `static` directory, where the sub-hierarchy of `static` mirrors the sub-hierarchy into `public` 
 
     - Do not need to mirror the entire sub-hieary.  Customize/mirror only as necessary and appropriate.
 
@@ -40,5 +42,3 @@ How to Build this site manually
 ## ISSUES
 
 - At least on Windows in RStudio (in my experience), trying to use RStudio to git add the `static` and `themes` directories will cause **git** to **hang** or **freeze** within the GIT *GUI* tab.  This may be because there are a large number of files within those directories.  To fix this kill RStudio; delete .git/lock-file ; goto CLI Shell (i.e. gitbash) and manually add `static` and `themes` (i.e. `git add static .`)
-
-- 
