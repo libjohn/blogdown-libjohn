@@ -16,7 +16,7 @@ image_preview = "twitter-stream-gathering.jpg"
 tags = ["api","twitter","presentation","other"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "project/twitter-slides/slides.html"
+external_link = "project/custom/twitterj/slides.html"
 
 # Does the project detail page use math formatting?
 math = false

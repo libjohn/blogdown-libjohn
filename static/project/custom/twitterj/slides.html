@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Stream Gathering</title>
+    <meta charset="utf-8">
+    <meta name="author" content="John Little" />
+    <meta name="date" content="2017-02-21" />
+    <link href="libs/remark-css-0.0.1/example.css" rel="stylesheet" />
+    <link rel="stylesheet" href="duke.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Twitter Stream Gathering
+## <br>A DVS presentation
+### John Little
+### 2017-02-21
+
+---
+
+exclude: true
+## Social Media
+
+1. Many ways to gather social media data
+
+    - Cloud Tools - Designed for non-programmers
+    - APIs - requires registered keys and programming experience
+    - Buy your data from a service such as GNIP
+    
+2. After you download it you may want to perform analysis
+
+    - Sentiment Analysis, Word Frequency, Correlation, etc.
+    - Text Analysis tools (from [Digital Humanities LibGuide](http://guides.library.duke.edu/text_analysis))
+    - Digital Studio’s program on working with Texts: Comparing and choosing texts analysis tools
+
+---
+class: orange
+## Outline
+
+1. Explore two methods of gathering real-time twitter stream data
+
+    - TAGS
+    - SPLUNK
+    
+2. Hands-on exercises in applying for twitter API Keys and configuring a twitter-stream data gathering tool
+
+    - http://apps.twitter.com
+        - [TAGS Video](https://youtu.be/Vm0kjAvH5HM?t=52s)
+        - [Rtweet Documentation](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+        
+3. Investigate and discuss historical twitter data gathering  
+
+    - gnip
+    
+4. Discuss considerations for analysis
+
+    - TAGS Explorer (Hands-on)
+    - Netlytic
+    - SocioViz
+    - Voyant
+    - Gephi
+
+---
+
+## TAGS:  a tool for collecting Twitter streams
+
+- TAGS (“New Sheets”; Version 6.1ns)
+
+    - Form driven (not command line)
+    - Minimal setup
+    - Data are collected in Google Sheets
+    - Gather twitter stream data by type
+        - screen-name stream data
+        - screen-name status updates
+        - twitter user favorited tweets
+        - Search term for last 7 days:  hashtag stream, username, boolean logic
+        - Limit by date
+        - Schedule to run hourly - set your interval, or run once.
+        - 3 minute setup-video; easy to use - https://youtu.be/Vm0kjAvH5HM 
+        - Outputs:  raw CSV structured data, plus default social graph visualizations
+
+---
+background-image: url(images/tags-screen1.png)
+
+---
+background-image: url(images/gsheets-results1.png)
+
+---
+background-image: url(images/network-graph.png)
+
+---
+class: softblue
+
+## Now You Try...
+
+1. Go to Tags - https://tags.hawksey.info/ 
+
+2. Get Tags &gt; Get version 6.1 (requires Google Account)
+
+    - Make a **copy** of the TAGS 6.1 Template
+    - In the Searchbox search either a hashtag or a Twitter handle
+        - @ViolaDavis
+    - TAGS &gt; Run Now  (requires a Twitter Account ; Authorize TAGS)
+    - Wait for results (maybe 60 seconds)
+    
+3. Results are found in the "Archive" sheet
+
+---
+class: center, bottom
+background-image:  url(images/splunk.png)
+
+[Splunk Academic License](https://www.splunk.com/en_us/solutions/industries/higher-education/academic-licenses.html)
+
+---
+class: h2orange
+background-image: url(images/keys6a.jpg)
+
+## API Keys
+
+.left-column[
+- You can 
+    - Regenerate keys
+    - Change access permissions
+    - Delete the keys/application
+    - Keep your *Secret Key* a secret!
+]
+
+.right-column.pull-right[
+- A way for the Service Host to know how their API is being used
+
+- Register your Application at the Twitter API Dashboard 
+]
+
+&lt;!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  --&gt;
+
+---
+class: softblue
+
+## Now You Try...
+
+1. http://apps.twitter.com
+
+    - Name = TAGS Twitter Data (must be unique across Twittersphere)
+    - Description = My TAGS application collects my Twitter Searches
+    - Web Site = A page that connects to you, or better to your application (e.g. A results report)
+    - Callback URL = https://script.google.com/macros/
+    - Read the developer rules and accept the terms
+
+2. Get your keys
+
+    - Click on the *Keys and Access Tokens* Tab
+        - Consumer Key (API Key)
+        - Consumer Secret (API Secret)
+
+---
+class: orange
+
+## Historical Twitter Data
+
+- Last 7 Days from the Twitter API
+
+- [gnip.com](http://gnip.com) for historical data
+
+- **Plan Ahead**
+
+
+---
+class: orange
+
+## Analysis
+
+TAGS offers 
+
+- Summary Sheet 
+
+- Dashboard Sheet 
+
+- TAGS Explorer 
+    - Network graphs
+    - Top Tweets
+    - Top Hashtags
+    - Top Conversations
+    - Sheet must be publicly available 
+    
+- TAGS Archive 
+    - Search filters of the archive
+
+---
+## Other Analysis Tools
+
+### Simple 
+
+- Netylics - https://netlytic.org/
+
+- SocioViz - http://socioviz.net/ 
+
+### Visual Text Analysis
+
+- Voyant - http://voyant-tools.org/
+
+- Overview - https://www.overviewdocs.com/
+
+### Network Graph Analysis    
+
+- Gephi - https://gephi.org/
+
+---
+class: softblue
+
+## Now You Try...
+
+Using your Twitter stream archive and TAGS, visualize the network of a twitter user
+
+1. TAGS &gt; Add Summary Sheet
+
+2. TAGS &gt; Add Dashboard Sheet
+
+3. Make your Google Sheet Public
+
+    - Share button &gt; Done
+    - &lt;img src="images/Google-Share-button.png" style="vertical-align: top;"&gt;
+    
+4. On the *Readme/Settings* Sheet &gt; TAGSExplorer
+
+
+---
+## Resources
+- TAGS - https://tags.hawksey.info/
+
+- Splunk - Academic Program - https://www.splunk.com/en_us/solutions/industries/higher-education/academic-licenses.html
+
+    - https://www.splunk.com/en_us/about-us/splunk-pledge/academic-license-application.html
+
+---
+class: orange
+## Review
+
+1. Explore two methods of gathering real-time twitter stream data
+
+    - TAGS
+    - SPLUNK
+    
+2. Hands-on exercises in applying for twitter API Keys and configuring a twitter-stream data gathering tool
+
+    - http://apps.twitter.com
+        - [TAGS Video](https://youtu.be/Vm0kjAvH5HM?t=52s)
+        - [Rtweet Documentation](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+        
+3. Investigate and discuss historical twitter data gathering  
+
+    - gnip
+    
+4. Discuss considerations for analysis
+
+    - TAGS Explorer (Hands-on)
+    - Netlytic
+    - SocioViz
+    - Voyant
+    - Gephi
+    
+---
+## Thank You For Attending
+
+.pull-left[
+### I am ...
+
+- John Little
+- http://libjohn.github.io
+- http://github.com/libjohn
+
+#### Schedule Me
+
+- [http:&amp;#47;&amp;#47;v.gd&amp;#47;littleconsult](http://duke.libcal.com/appointment/2695)
+]
+
+.pull-right[
+### We are...
+- Data &amp; Visualization Services
+- http://library.duke.edu/data
+- The /Edge, Bostock (1st Floor)
+
+#### Walk-in Hours
+- [Schedule](http://library.duke.edu/data/about/schedule)
+
+#### Our Workshops
+- [Current Workshops](http://library.duke.edu/data/news)
+- [Past Workshops](http://library.duke.edu/data/news/past-workshops)
+
+#### Contact Us
+- askData@Duke.edu
+]
+
+---
+class: center, middle
+## Shareable under CC BY-NC license 
+
+Data, presentation, and handouts are shareable under [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+
+![This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.](https://licensebuttons.net/l/by-nc/4.0/88x31.png "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License")
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('showSlide', function (slide) {setTimeout(function() {window.dispatchEvent(new Event('resize'));}, 100)});</script>
+
+  </body>
+</html>
