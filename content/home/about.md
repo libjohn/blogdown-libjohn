@@ -25,7 +25,7 @@ weight = 1
   year = 1992
 
 [[education.courses]]
-  course = "Sociology"
+  course = "BA Sociology"
   institution = "UNC Greensboro"
   year = 1990
 
