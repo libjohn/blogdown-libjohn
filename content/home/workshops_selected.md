@@ -1,6 +1,6 @@
 +++
 # Selected Publications widget.
-# Note: this widget will only display if `content/publication/` contains publications
+# Note: this widget will only display if `content/workshop/` contains publications
 # with `selected = true` in their `+++` preamble.
 
 date = "2016-04-20T00:00:00"
