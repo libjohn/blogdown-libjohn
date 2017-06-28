@@ -16,10 +16,21 @@ image_preview = "twitter-stream-gathering.jpg"
 tags = ["api","twitter","presentation","other"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "project/custom/twitterj/slides.html"
+# external_link = "/project/custom/twitterj/slides.html"
 
 # Does the project detail page use math formatting?
 math = false
 
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = "twitter-stream-gathering.jpg"
+caption = "API interactions are interactions with complex systems"
+
 +++
+
+&nbsp;
+
+Explore two methods of gathering real-time twitter stream data, hands-on exercises in applying for twitter API Keys and configuring a twitter-stream data gathering tool.  Investigate and discuss historical twitter data gathering.  Discuss considerations for analysis.
+
+See the [Twitter Stream Gathering Slides](/project/custom/twitterj/slides.html)
 
