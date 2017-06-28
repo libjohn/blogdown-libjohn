@@ -181,7 +181,7 @@ defaultContentLanguageInSubdir = false
   
 [[menu.main]]
   name = "Rfun"
-  url = "https://github.com/data-and-visualization/Rfun/blob/master/readme.md"
+  url = "https://rfun.netlify.com"
   weight = 4  
 
 [[menu.main]]
