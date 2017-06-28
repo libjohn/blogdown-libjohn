@@ -176,7 +176,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Presentations"
-  url = "#projects"
+  url = "#presentations"
   weight = 3
   
 [[menu.main]]
