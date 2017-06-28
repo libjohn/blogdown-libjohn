@@ -1,5 +1,14 @@
 +++
-# Projects widget.
+# Presentation widget is based on the project widget.
+# There are several files that make this work.  
+# Customization is primarily done in the 'static' 
+# and 'layouts' directories.
+# Other files that make this work:
+# content/presentation
+# layouts/presentatin/
+# layouts/presentation/widgets/presentations.html  #note plural
+# inside this file: {{ range $project := where $.Data.Pages "Type" "presentation" }}
+# 
 # Note: this widget will only display if `content/presentation/` contains presentations.
 
 date = "2016-04-20T00:00:00"
@@ -10,7 +19,7 @@ subtitle = ""
 widget = "presentations"
 
 # Order that this section will appear in.
-weight = 35
+weight = 30
 
 # View.
 # Customize how projects are displayed.
