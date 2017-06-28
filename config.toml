@@ -21,7 +21,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "John R Little"
   role = "Data Janitor"
-  organization = "Duke Unversity"
+  organization = "Duke University Libraries"
   organization_url = "http://library.duke.edu/data/"
 #  avatar = "bicycle.png"
   avatar = "data-science-vector-fromPixabay.svg"
