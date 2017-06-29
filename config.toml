@@ -171,7 +171,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Workshops"
-  url = "#workshops_selected"
+  url = "#publications_selected"
   weight = 2
 
 [[menu.main]]
