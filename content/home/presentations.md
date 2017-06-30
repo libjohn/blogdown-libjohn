@@ -37,6 +37,10 @@ view = 1
 [[filter]]
   name = "Twitter"
   tag = ".twitter"
+  
+[[filter]]
+  name = "API"
+  tag = ".api"
 
 +++
 
