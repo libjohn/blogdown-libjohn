@@ -3,17 +3,17 @@
 date = "2017-02-01"
 
 # Project title.
-title = "Using R to Orchestrate APIs"
+title = "Visualing with ggvis"
 
 # Project summary to display on homepage.
-summary = "In this Hand's on presentation, use R to gather movie data from the OMDB API.  In part 2, access the API of Fire and Ice."
+summary = "ggvis is a visualization R library designed to leverage the tidyverse.  This presentation demonstrates basic ggvis commands and syntax, and considers whether you can learn just one: ggvis or ggplot2"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["api","R","JSON"]
+tags = ["r","rfun", "visualization"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""
@@ -30,15 +30,12 @@ caption = ""
 
 &nbsp;
 
-APIs are a great way to gather information for analysis.  R can help you interact with an API.  
-
+Make awesome charts and graphs the *tidyverse* way
 #### Additional Resources
 
-- [Twitter Stream Gathering Slides](https://libjohn.github.io/rcs2017/slides/slides.html) 
+- [Slides](https://libjohn.github.io/ggvis/slides.html)
 
-- [Demonstration code](https://libjohn.github.io/rcs2017/demonstration.nb.html)
-
-- [Hands-on Guide](https://libjohn.github.io/rcs2017/handson.nb.html)
+- [Video](https://warpwire.duke.edu/w/i54BAA/)
 
 
 

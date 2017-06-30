@@ -3,17 +3,17 @@
 date = "2017-02-01"
 
 # Project title.
-title = "Using R to Orchestrate APIs"
+title = "Making Dashboards with R"
 
 # Project summary to display on homepage.
-summary = "In this Hand's on presentation, use R to gather movie data from the OMDB API.  In part 2, access the API of Fire and Ice."
+summary = "Using the flexdashboards package you can easily create attractive dashboard summaries"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["api","R","JSON"]
+tags = ["R","dashboards"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""
@@ -30,15 +30,14 @@ caption = ""
 
 &nbsp;
 
-APIs are a great way to gather information for analysis.  R can help you interact with an API.  
+Dashboads provide a quick overview of key metrics and indicators.  Typically designed as a summary tool to conveny general information, 
+dashboards can effectively highlight interesting information and draw a reader into the details.  
 
 #### Additional Resources
 
-- [Twitter Stream Gathering Slides](https://libjohn.github.io/rcs2017/slides/slides.html) 
+- [Demonstration and Code](https://libjohn.github.io/flexdashboards/)
 
-- [Demonstration code](https://libjohn.github.io/rcs2017/demonstration.nb.html)
-
-- [Hands-on Guide](https://libjohn.github.io/rcs2017/handson.nb.html)
+- [Video](http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=3e301f74-332a-403f-a0f8-b41e19d2822f)
 
 
 

@@ -42,5 +42,25 @@ view = 1
   name = "API"
   tag = ".api"
 
+[[filter]]
+  name = "Web Scraping"
+  tag = ".scraping"
+  
+[[filter]]
+  name = "CSS"
+  tag = ".css"
+  
+[[filter]]
+  name = "R"
+  tag = ".r"
+  
+[[filter]]
+  name = "Rfun"
+  tag = ".rfun"
+  
+[[filter]]
+  name = "Dashboards"
+  tag = ".dashboards"
+
 +++
 
