@@ -20,7 +20,7 @@ title = "Introduction to R: Data Transformations, Analysis, and Data Structures"
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2016-09-01"
+date = "2017-09-01"
 
 # Abstract and optional shortened version.
 abstract = "Whenever a person starts with 'I remember when' you know you got problems.  I remember when we used to tell stories that were about things which actually happened"
@@ -36,7 +36,7 @@ highlight = false
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
 
 # Links (optional)
 url_code = "http://rpubs.com/libjohn/intro2r-dvs"
@@ -49,13 +49,13 @@ url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=be91b9
 # Links -- Custom Option
 # You can make multiple custom links
 [[url_custom]]
-name = "DVS Page"
+name = "DVS Description"
 url = "http://library.duke.edu/data/news/past-workshops#r"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
-caption = ""
+image = "headers/bubbles-wide.jpg"
+caption = "Intro2R :smile:"
 
 +++
 
