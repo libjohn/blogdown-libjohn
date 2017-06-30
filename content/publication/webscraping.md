@@ -12,18 +12,18 @@ authors = ["John Little"]
 # 4 = Research Data Management
 # 5 = Mapping & GIS
 # 6 = Data Visualization
-publication_types = ["1", "2"]
+publication_types = ["3", "2"]
 
 # titles
-title = "Regular Expressions (RegEx)"
+title = "Web Scraping"
 
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2017-02-05"
+date = "2017-02-10"
 
 # Abstract and optional shortened version.
-abstract = "Regular Expressions are a powerful method of finding patterns in text. For example: find all words ending in 'ing'; all words which begin with a capital letter; all telephone area codes that begin with either the numbers 7 or 8; all email addresses which contain 'duke.edu'. Many programming languages use regular expressions as a means to support pattern matching."
+abstract = "Preexisting clean data sets such as the General Social Survey (GSS) or Census data, for example, are readily available, cover long periods of time, and have well documented codebooks. However, some people want to gather their own data. Recent tools and techniques for finding and compiling data from webpages, whole websites or social media sources have become more accessible. But these techniques provide a different layer of complexity."
 
 # Does this page contain LaTeX math? (true/false)
 math = false
@@ -41,19 +41,19 @@ selected = false
 url_code = ""
 url_dataset = ""
 url_pdf = ""
-url_project = "https://github.com/libjohn/guides/tree/master/regex"
-url_slides = ""
-url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=0abd146e-0273-4850-bcaa-3f8a05214e52"
+url_project = ""
+url_slides = "https://docs.google.com/presentation/d/1QVUR3B4QDgM5fLBtFditwKyGwij0hM1qDCUL56vs34k/edit"
+url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=08b0e58a-7b51-44da-9aa4-165c9c509797"
 
 # Links -- Custom Option
 # You can make multiple custom links
 [[url_custom]]
 name = "Guide / Handout"
-url = "https://libjohn.github.io/regex/regex.html"
+url = "https://docs.google.com/presentation/d/1QVUR3B4QDgM5fLBtFditwKyGwij0hM1qDCUL56vs34k/edit"
 
 [[url_custom]]
 name = "DVS Description"
-url = "http://library.duke.edu/data/news/past-workshops#regex"
+url = "http://library.duke.edu/data/news/past-workshops#scraping"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

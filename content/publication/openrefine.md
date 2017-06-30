@@ -20,7 +20,7 @@ title = " OpenRefine for non-programmers: Data Cleaning, Mining, Transformations
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2017-03-15"
+date = "2017-01-15"
 
 # Abstract and optional shortened version.
 abstract = "OpenRefine is a tool for working with semi-structured datasets. It allows you to explore data, easily find facet patterns within data, enables simple detection of data inconsistencies, and offers quick clean-up and transformation options. Open Refine is an often intuitive but powerful tool for normalizing data before importing the dataset into a presentation application (e.g. mapping, charting, or analyzing.) In this hands-on class, we'll explore how Refine can help with common data cleaning challenges."
