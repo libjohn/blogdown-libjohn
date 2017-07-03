@@ -6,7 +6,7 @@ date = "2017-03-23"
 title = "rtweet for Rfun"
 
 # Project summary to display on homepage.
-summary = "Use R to gather, analyze and visualize tweets.  This presentation includes information about text mining, sentiment analysis, network graph anslysis, term-document matrix, and wordclouds"
+summary = "Use R to gather, analyze and visualize tweets.  This presentation includes information about text mining, sentiment analysis, network graph analysis, term-document matrix, and word clouds"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "network-graph.png"
@@ -30,7 +30,7 @@ caption = "Visualizing Twitter as a Network Graph"
 
 &nbsp;
 
-`rtweet` enables tidyverse processing of twitter data.  This Rfun presenation 
+`rtweet` enables tidyverse processing of twitter data.  This Rfun presentation 
 demonstrates some processes and highlights some pitfalls of twitter analysis.
 Particular attention is paid to demonstrating...
 
@@ -38,7 +38,7 @@ Particular attention is paid to demonstrating...
 
 - Term-document matrix
 
-- Network graph anslysis
+- Network graph analysis
 
 - Word clouds
 

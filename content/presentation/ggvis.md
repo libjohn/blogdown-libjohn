@@ -3,7 +3,7 @@
 date = "2017-03-02"
 
 # Project title.
-title = "Visualing with ggvis"
+title = "Visualizing with ggvis"
 
 # Project summary to display on homepage.
 summary = "ggvis is a visualization R library designed to leverage the tidyverse.  This presentation demonstrates basic ggvis commands and syntax, and considers whether you can learn just one: ggvis or ggplot2"

@@ -6,7 +6,7 @@ date = "2017-02-01"
 title = "Using R to Orchestrate APIs"
 
 # Project summary to display on homepage.
-summary = "In this Hand's on presentation given to the Research Computing Symposium (2017), partipants use R to gather movie data from the OMDB API.  In part 2, participants access the API of Fire and Ice."
+summary = "In this Hand's on presentation given to the Research Computing Symposium (2017), participants use R to gather movie data from the OMDB API.  In part 2, participants access the API of Fire and Ice."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -24,7 +24,7 @@ math = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "api.png"
-caption = "Aplication Program Interface"
+caption = "Application Program Interface"
 
 +++
 
@@ -34,7 +34,7 @@ APIs are a great way to gather information for analysis.  R can help you interac
 
 In this Hand's on presentation given to the 
 [Research Computing Symposium (2017)](https://rc.duke.edu/symposium-2017/),
- partipants use R to gather movie data from the OMDB API.  In part 2, participants 
+ participants use R to gather movie data from the OMDB API.  In part 2, participants 
  access the API of Fire and Ice.
 
 #### Additional Resources

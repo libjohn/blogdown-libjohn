@@ -30,7 +30,7 @@ caption = ""
 
 &nbsp;
 
-Dashboads provide a quick overview of key metrics and indicators.  Typically designed as a summary tool to conveny general information, 
+Dashboards provide a quick overview of key metrics and indicators.  Typically designed as a summary tool to convey general information, 
 dashboards can effectively highlight interesting information and draw a reader into the details.  
 
 #### Additional Resources
