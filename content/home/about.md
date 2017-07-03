@@ -15,7 +15,7 @@ weight = 1
     "Data Science",
     "Data: Cleaning, Engineering, Analysis",
     "Reproducibility",
-    "Tidyverse / R / R Studio / Git"
+    "Tidyverse / R / RStudio / git"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -30,8 +30,8 @@ weight = 1
   year = 1990
 
 [[education.courses]]
-  course = "Ciphers of Sybaritic Wisdom"
-  institution = "School of Hard Knocks"
+  course = "Ciphers of Sybaritic Sophistry"
+  institution = "Novel School of Fiction"
   year = 1900
  
 +++

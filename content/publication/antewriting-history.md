@@ -12,19 +12,19 @@ authors = ["Mrs. John Paul Snavely's Daughter"]
 # 4 = Research Data Management
 # 5 = Mapping & GIS
 # 6 = Data Visualization
-publication_types = ["4"]
+publication_types = ["2","3","4","5","6"]
 
 # titles
-title = "re-writing History by Miss Snavely"
+title = "antewriting History by Miss Snavely by Miss Snavely"
 
 # Publication name and optional abbreviated version.
-publication = "Journal of Secondary Reality"
-publication_short = "Jrnl 2nd-Rlty"
-date = "2016-11-24"
+publication = "Journal of Reality"
+publication_short = "Jrnl Rlty"
+date = "2016-09-23"
 
 # Abstract and optional shortened version.
-abstract = "Whenever a person starts with 'I cannot remember' you know you got problems.  I cannot remember when we we past version two and now we have this profound separation of structure, content, and style."
-abstract_short = "Truth is strang,  fiction is stranger."
+abstract = "Whenever a person starts with 'I remember when' you know you got problems.  I remember when we used to tell stories that were about things which actually happened"
+abstract_short = "Truth is stranger than fiction but not nearly as interesting"
 
 # Does this page contain LaTeX math? (true/false)
 math = false
@@ -36,24 +36,20 @@ highlight = false
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Links (optional)
 url_code = "https://github.com/libjohn/DSVIL2017"
-url_dataset = ""
-url_pdf = "#"
-url_project = ""
-url_slides = ""
-url_video = ""
+url_dataset = "https://github.com/data-and-visualization/Intro2R/tree/master/data"
+url_pdf = ""
+url_project = "https://osf.io/njx2u/"
+url_slides = "https://libjohn.github.io/dsvil2017/slides.html"
+url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=0abd146e-0273-4850-bcaa-3f8a05214e52"
 
 # Links -- Custom Option
-[[url_custom]]
-name = "Custom Link"
-url = "http://www.example.org"
-
-[[url_custom]]
-name = "Mensa Score"
-url = "http://www.example.org"
+#[[url_custom]]
+#name = "Custom Link"
+#url = "http://www.example.org"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
@@ -66,4 +62,4 @@ caption = ""
 special details can be written here
 
 Series Dates:
-**Fall of 2016**
+**Fall of 2016 to the Present**

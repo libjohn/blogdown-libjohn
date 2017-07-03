@@ -1,0 +1,51 @@
+---
+title: GIS in R workshop coming this fall
+author: John Little
+date: '2017-07-03'
+slug: gis-in-r-workshop-coming-this-fall
+categories:
+  - GIS
+  - R
+  - Workshop
+tags: ["GIS", "R", "Workshop"]
+---
+
+
+
+<div id="new-workshop-for-the-fall-of-2017." class="section level2">
+<h2>New Workshop for the Fall of 2017.</h2>
+<p>I am pleased to announce <a href="http://library.duke.edu/about/directory/staff/2271">Mark Thomas</a> and I will teach a New R workshop this fall focusing on GIS techniques in R.</p>
+<p>Details to follow but till then a rough draft of potential topics follows. Well, seriously, what you find below is really more of a “laundry list” than a draft. I have too many topics to cover in a two hour session so Mark and I will have to work hard to finalize the curriculum.</p>
+<p>Stay tuned to our <a href="http://library.duke.edu/data/news">Workshop Calendar</a> for dates and times. Or get notified through our official announcement channels like <a href="https://lists.duke.edu/sympa/info/dvs-announce">dvs-annouce</a> and<span class="citation">[ @duke_data]</span>(<a href="http://twitter.com/duke_data" class="uri">http://twitter.com/duke_data</a>) …</p>
+<ol style="list-style-type: decimal">
+<li><p>Library packages: <code>tigris</code>, <code>censusapi</code>, <code>tmap</code>, <code>sp</code>, <code>sf</code>, <code>ggmap</code>, <code>raster</code>, <code>rgdal</code>, <code>tidycensus</code></p></li>
+<li><p>Concepts to consider – super rough draft</p>
+<ol style="list-style-type: lower-alpha">
+<li>Introduce geolocate and layers with <code>ggmap</code></li>
+<li>Use of basemaps with <code>plot()</code> and <code>ggmap()</code></li>
+<li><p>Also with ggmap</p>
+<ol style="list-style-type: lower-roman">
+<li>Choropleth</li>
+<li>Lines and polygons</li>
+<li>Fill polygons with data values</li>
+</ol></li>
+<li><p>Gather some census data (<code>censusapi</code> package)</p>
+<ol style="list-style-type: lower-roman">
+<li>Show county boundaries for some state (RI (<em>small</em>) or NC (<em>local</em>))</li>
+<li><code>qtm()</code> – function for quick thematic maps.</li>
+<li>Introduce SpatialPolygonsDataFrame</li>
+<li>Get the roads layer</li>
+<li>Combine different states (or counties, whatever)</li>
+<li>Merge data with <code>geo_join</code></li>
+<li>Thematic mapping with <code>tmap</code> – standard choropleth with median home value</li>
+<li>interactive map with <code>ttm()</code> (i.e. <code>tmap</code> with <code>leaflet</code>)</li>
+<li>Projection/CRS - Converting projections</li>
+</ol></li>
+<li>Simple features – library(sf)</li>
+<li><code>library(raster)</code></li>
+<li>How to read in ESRI shapefiles: <code>readOGR()</code></li>
+<li>Merging data attributes: <code>merge()</code></li>
+<li><p>geoJSON</p></li>
+</ol></li>
+</ol>
+</div>
