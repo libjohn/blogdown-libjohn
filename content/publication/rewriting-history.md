@@ -24,7 +24,7 @@ date = "2016-11-24"
 
 # Abstract and optional shortened version.
 abstract = "Whenever a person starts with 'I cannot remember' you know you got problems.  I cannot remember when we we past version two and now we have this profound separation of structure, content, and style."
-abstract_short = "Truth is strang,  fiction is stranger."
+abstract_short = "Truth is strange,  fiction is stranger."
 
 # Does this page contain LaTeX math? (true/false)
 math = false
