@@ -12,7 +12,7 @@ authors = ["Joel Herndon", "John Little"]
 # 4 = Research Data Management
 # 5 = Mapping & GIS
 # 6 = Data Visualization
-publication_types = ["1", "2", "6"]
+publication_types = ["1","2","6"]
 
 # titles
 title = "Introduction to R: Data Transformations, Analysis, and Data Structures"

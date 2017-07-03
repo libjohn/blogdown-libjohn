@@ -97,12 +97,13 @@ defaultContentLanguageInSubdir = false
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
   publication_types = [
     'Uncategorized',  # 0
-    'Data Analysis',  # 1
-    'Data Cleaning',  # 2
-    'Data Sources',  # 3
-    'Research Data Management',  # 4
-    'Mapping and GIS',  # 5
-    'Data Visualization'  # 6
+	'Data Analysis',  # 1
+	'Data Cleaning',  # 2
+	'Data Sources',  # 3
+	'GIS Mapping',  # 4
+	'Research Data Management',  # 5
+    'Visualization',  # 6
+	'DogTown Traffic' #7
   ]
 
   # Social/Academic Networking

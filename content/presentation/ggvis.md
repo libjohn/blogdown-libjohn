@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2017-02-01"
+date = "2017-03-02"
 
 # Project title.
 title = "Visualing with ggvis"
@@ -9,11 +9,11 @@ title = "Visualing with ggvis"
 summary = "ggvis is a visualization R library designed to leverage the tidyverse.  This presentation demonstrates basic ggvis commands and syntax, and considers whether you can learn just one: ggvis or ggplot2"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+image_preview = "ggvis.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["r","rfun", "visualization"]
+tags = ["rfun", "visualization"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""
@@ -23,8 +23,8 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
-caption = ""
+image = "ggvis-short.png"
+caption = "ggvis"
 
 +++
 
@@ -36,6 +36,9 @@ Make awesome charts and graphs the *tidyverse* way
 - [Slides](https://libjohn.github.io/ggvis/slides.html)
 
 - [Video](https://warpwire.duke.edu/w/i54BAA/)
+
+#### Date
+2017-03-02
 
 
 

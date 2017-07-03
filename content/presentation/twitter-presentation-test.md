@@ -13,7 +13,7 @@ image_preview = "twitter-stream-gathering.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["api","twitter", "r"]
+tags = ["api","twitter"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = "/project/custom/twitterj/slides.html"
@@ -32,5 +32,7 @@ caption = "API interactions are interactions with complex systems"
 
 Explore two methods of gathering real-time twitter stream data, hands-on exercises in applying for twitter API Keys and configuring a twitter-stream data gathering tool.  Investigate and discuss historical twitter data gathering.  Discuss considerations for analysis.
 
-See the [Twitter Stream Gathering Slides](/project/custom/twitterj/slides.html)
+See the [Slides:  Twitter Stream Gathering Slides](/project/custom/twitterj/slides.html)
 
+#### Date
+2017-02-21

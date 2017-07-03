@@ -47,16 +47,20 @@ view = 1
   tag = ".dashboards"
 
 [[filter]]
+  name = "JSON"
+  tag = ".json"
+
+[[filter]]
   name = "Parsing"
   tag = ".parsing"
 
-  [[filter]]
-  name = "R"
-  tag = ".r"
-  
 [[filter]]
   name = "Rfun"
   tag = ".rfun"
+  
+[[filter]]
+  name = "Text Mining"
+  tag = ".mining"
   
 [[filter]]
   name = "Twitter"

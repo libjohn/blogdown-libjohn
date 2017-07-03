@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2017-02-01"
+date = "2017-02-23"
 
 # Project title.
 title = "Making Dashboards with R"
@@ -9,11 +9,11 @@ title = "Making Dashboards with R"
 summary = "Using the flexdashboards package you can easily create attractive dashboard summaries"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+image_preview = "dashboard.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["R","dashboards", "rfun"]
+tags = ["dashboards", "rfun"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""
@@ -39,5 +39,6 @@ dashboards can effectively highlight interesting information and draw a reader i
 
 - [Video](http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=3e301f74-332a-403f-a0f8-b41e19d2822f)
 
-
+#### Date
+2017-02-23
 

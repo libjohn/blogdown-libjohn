@@ -13,7 +13,7 @@ image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["api","R","JSON"]
+tags = ["api","json"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""
@@ -23,8 +23,8 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
-caption = ""
+image = "api.png"
+caption = "Aplication Program Interface"
 
 +++
 
@@ -39,11 +39,12 @@ In this Hand's on presentation given to the
 
 #### Additional Resources
 
-- [Using R to Orchestrate APIs](https://libjohn.github.io/rcs2017/slides/slides.html) 
+- [Slides:  Using R to Orchestrate APIs](https://libjohn.github.io/rcs2017/slides/slides.html) 
 
 - [Demonstration code](https://libjohn.github.io/rcs2017/demonstration.nb.html)
 
 - [Hands-on Guide](https://libjohn.github.io/rcs2017/handson.nb.html)
 
 
-
+#### Date
+2017-02-01
