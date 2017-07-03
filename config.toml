@@ -101,7 +101,7 @@ defaultContentLanguageInSubdir = false
     'Data Cleaning',  # 2
     'Data Sources',  # 3
     'Research Data Management',  # 4
-    'Mapping & GIS',  # 5
+    'Mapping and GIS',  # 5
     'Data Visualization'  # 6
   ]
 

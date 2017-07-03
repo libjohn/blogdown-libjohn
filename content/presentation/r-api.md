@@ -6,8 +6,7 @@ date = "2017-02-01"
 title = "Using R to Orchestrate APIs"
 
 # Project summary to display on homepage.
-summary = "In this Hand's on presentation given to the Research Computing Symposium (2017), partipants use R to gather 
-movie data from the OMDB API.  In part 2, participants access the API of Fire and Ice."
+summary = "In this Hand's on presentation given to the Research Computing Symposium (2017), partipants use R to gather movie data from the OMDB API.  In part 2, participants access the API of Fire and Ice."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
