@@ -15,7 +15,7 @@ authors = ["Mrs. John Paul Snavely's Daughter"]
 publication_types = ["2","3","4","5","6"]
 
 # titles
-title = "antewriting History by Miss Snavely by Miss Snavely"
+title = "antewriting History by Miss Snavely"
 
 # Publication name and optional abbreviated version.
 publication = "Journal of Reality"
