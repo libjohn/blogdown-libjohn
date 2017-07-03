@@ -1,7 +1,7 @@
 +++
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = [John Little"]
+authors = ["John Little"]
 
 # Publication type.
 # Legend:
