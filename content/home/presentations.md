@@ -35,21 +35,17 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Twitter"
-  tag = ".twitter"
-  
-[[filter]]
   name = "API"
   tag = ".api"
 
 [[filter]]
-  name = "Web Scraping"
-  tag = ".scraping"
-  
-[[filter]]
   name = "CSS"
   tag = ".css"
   
+[[filter]]
+  name = "Dashboards"
+  tag = ".dashboards"
+
 [[filter]]
   name = "R"
   tag = ".r"
@@ -59,8 +55,11 @@ view = 1
   tag = ".rfun"
   
 [[filter]]
-  name = "Dashboards"
-  tag = ".dashboards"
-
+  name = "Twitter"
+  tag = ".twitter"
+  
+[[filter]]
+  name = "Web Scraping"
+  tag = ".scraping"
 +++
 
