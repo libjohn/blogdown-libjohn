@@ -1,4 +1,5 @@
 ---
+draft: false
 title: GIS in R workshop coming this fall
 author: John Little
 date: '2017-07-03'
@@ -8,6 +9,14 @@ categories:
   - R
   - Workshop
 tags: ["GIS", "R", "Workshop"]
+
+math: false
+summary: New GIS workshop in R, comming September 2017. 
+
+# [header]
+# image: headers/getting-started.png
+# caption: "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
+
 ---
 
 ## New Workshop for the Fall of 2017.
