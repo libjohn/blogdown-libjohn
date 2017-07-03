@@ -13,7 +13,7 @@ image_preview = "twitter-stream-gathering.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["api","twitter","presentation","other"]
+tags = ["api","twitter", "r"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = "/project/custom/twitterj/slides.html"

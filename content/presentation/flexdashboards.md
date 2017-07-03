@@ -13,7 +13,7 @@ image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["R","dashboards"]
+tags = ["R","dashboards", "rfun"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""

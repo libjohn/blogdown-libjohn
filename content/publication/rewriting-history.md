@@ -12,7 +12,7 @@ authors = ["Mrs. John Paul Snavely's Daughter"]
 # 4 = Research Data Management
 # 5 = Mapping & GIS
 # 6 = Data Visualization
-publication_types = ["2"]
+publication_types = ["2", "6"]
 
 # titles
 title = "Workshop .md template"

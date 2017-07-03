@@ -47,6 +47,10 @@ view = 1
   tag = ".dashboards"
 
 [[filter]]
+  name = "Parsing"
+  tag = ".parsing"
+
+  [[filter]]
   name = "R"
   tag = ".r"
   
@@ -58,6 +62,10 @@ view = 1
   name = "Twitter"
   tag = ".twitter"
   
+[[filter]]
+  name = "Visualization"
+  tag = ".visualization"
+
 [[filter]]
   name = "Web Scraping"
   tag = ".scraping"
