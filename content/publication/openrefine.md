@@ -12,7 +12,7 @@ authors = ["John Little"]
 # 4 = Research Data Management
 # 5 = Mapping & GIS
 # 6 = Data Visualization
-publication_types = ["2", "6"]
+publication_types = ["2","6"]
 
 # titles
 title = " OpenRefine for non-programmers: Data Cleaning, Mining, Transformations, and Text Normalization"
