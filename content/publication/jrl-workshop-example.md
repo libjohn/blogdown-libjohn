@@ -1,7 +1,7 @@
 +++
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Joel Herndon", "John Little"]
+authors = [John Little"]
 
 # Publication type.
 # Legend:
@@ -15,16 +15,16 @@ authors = ["Joel Herndon", "John Little"]
 publication_types = ["1","2","6"]
 
 # titles
-title = "Introduction to R: Data Transformations, Analysis, and Data Structures"
+title = "JRL's example publication-workshop"
 
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2017-09-01"
+date = "2017-07-03"
 
 # Abstract and optional shortened version.
-abstract = "A gentle introduction to the basics of the R statistical programming language using the RStudio development environment. Learn about managing your R projects, data types, variable assignments, data cleaning and visualization. No previous experience required."
-abstract_short = "Modern R using the tidyverse method"
+abstract = "Whenever a person starts with 'I remember when' you know you got problems.  I remember when we used to tell stories that were about things which actually happened"
+abstract_short = "Truth is stranger than fiction but not nearly as interesting"
 
 # Does this page contain LaTeX math? (true/false)
 math = false
@@ -36,7 +36,7 @@ highlight = false
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Links (optional)
 url_code = "http://rpubs.com/libjohn/intro2r-dvs"
@@ -54,7 +54,7 @@ url = "http://library.duke.edu/data/news/past-workshops#r"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
+image = ""
 caption = "Intro2R :smile:"
 
 +++
