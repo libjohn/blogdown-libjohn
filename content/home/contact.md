@@ -55,7 +55,7 @@ detailed_list = false
     <span class="fa-li fa fa-phone"></span>
       <div class="description">
         <p class="course"><a href="http://library.duke.edu/about/directory/staff/1441">Old ways work</a></p>
-        <p class="institution">telphone, answering machine, email, etc.</p>
+        <p class="institution">telephone, answering machine, email, etc.</p>
       </div>
   </li>
   
