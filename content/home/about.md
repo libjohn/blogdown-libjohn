@@ -38,6 +38,6 @@ weight = 1
 
 # Biography
 
-John is a Data Anaylsis Librarian/Consultant working in the [Data & Visualization Services Department](//library.duke.edu/data).  I help Duke University students and researchers navigate practical data science challenges.  To that end I provide a series of *workshops* on R and OpenRefine; offer walk-in and by-appointment consultations; and host the *R we having fun yet* learning series (Rfun). 
+John is a Data Analysis Librarian/Consultant working in the [Data & Visualization Services Department](//library.duke.edu/data).  I help Duke University students and researchers navigate practical data science challenges.  To that end I provide a series of *workshops* on *R* and *OpenRefine*; offer walk-in and by-appointment consultations; and host the *R we having fun yet* learning series ([Rfun](//rfun.netlify.com/)). 
 
-Some of my workshop topics include twitter stream gathering, web scraping, data parsing, and data cleaning. Each workshop is designed as a hands-on experience where you can download  practice data, presentation slides, and workbook guides. Accompanying video are also available. 
+My [workshops](#publications_selected) and [presentations](#presentations) include twitter stream gathering, web scraping, data parsing, and data cleaning. Each workshop is designed as a hands-on experience where you can download  practice data, presentation slides, and workbook guides.  Recorded video streaming is often available. 

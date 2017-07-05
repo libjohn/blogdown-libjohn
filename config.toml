@@ -96,13 +96,13 @@ defaultContentLanguageInSubdir = false
   #   The language can be edited below.
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
   publication_types = [
-    'Uncategorized',  # 0
+  'Uncategorized',  # 0
 	'Data Analysis',  # 1
 	'Data Cleaning',  # 2
 	'Data Sources',  # 3
 	'GIS Mapping',  # 4
 	'Research Data Management',  # 5
-    'Visualization',  # 6
+  'Visualization',  # 6
 	'DogTown Traffic' #7
   ]
 
@@ -180,11 +180,6 @@ defaultContentLanguageInSubdir = false
   url = "#presentations"
   weight = 3
   
-[[menu.main]]
-  name = "Rfun"
-  url = "https://rfun.netlify.com"
-  weight = 4  
-
 [[menu.main]]
   name = "Posts"
   url = "#posts"
