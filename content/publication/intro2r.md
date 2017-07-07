@@ -54,8 +54,10 @@ url = "http://library.duke.edu/data/news/past-workshops#r"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "Intro2R :smile:"
+# image = "headers/bubbles-wide.jpg"
+# caption = "Intro2R :smile:"
+image = "headers/data_sci.png"
+caption = "Image credit: [Data Science](https://commons.wikimedia.org/wiki/File:Data_visualization_process_v1.png)"
 
 +++
 
