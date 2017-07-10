@@ -44,7 +44,7 @@ APIs are used with social media sources such as Twitter.
 
 #### Additional Resources
 
-- [Slides](//custom/dsvil2017/slides.html) 
+- [Slides](custom/dsvil2017/slides.html) 
 
 #### Date
 2017-04-26
