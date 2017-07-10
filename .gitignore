@@ -24,7 +24,7 @@ public
 ## themes/*  ## Initially this must be added and committed at the CLI shell
 
 # Xaringan Slides
-*libs/
+# *libs/
 # *.html
 
 # produced vignettes
