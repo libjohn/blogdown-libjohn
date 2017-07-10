@@ -32,6 +32,8 @@ Okay and but, in practice I sometimes find the use of the most sophisticated rep
 
 **Our specific focus** will be the use of *git* through *Rstudio* and *OSF*.  Our aim is to quickly demystify processes and **skip past** the too-easily promoted -- but also too-often numbing -- tomes of documentation (which  demi-gods have effectively used as punishment for our warped sense of inconvenience).
 
+:mountain:
+
 ## Resources
 
 Some of the resources which will guide a future curriculum include:
