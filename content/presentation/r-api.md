@@ -39,11 +39,11 @@ In this Hand's on presentation given to the
 
 #### Additional Resources
 
-- [Slides:  Using R to Orchestrate APIs](https://libjohn.github.io/rcs2017/slides/slides.html) 
+- [Slides:  Using R to Orchestrate APIs](/project/custom/ggvis/slides/slides.html) 
 
-- [Demonstration code](https://libjohn.github.io/rcs2017/demonstration.nb.html)
+- [Demonstration code](/project/custom/ggvis/demonstration.nb.html)
 
-- [Hands-on Guide](https://libjohn.github.io/rcs2017/handson.nb.html)
+- [Hands-on Guide](/project/custom/ggvis/handson.nb.html)
 
 
 #### Date
