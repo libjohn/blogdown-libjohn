@@ -49,7 +49,7 @@ url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=0abd14
 # You can make multiple custom links
 [[url_custom]]
 name = "Guide / Handout"
-url = "https://libjohn.github.io/regex/regex.html"
+url = "/project/custom/regex/regex.html"
 
 [[url_custom]]
 name = "DVS Description"
