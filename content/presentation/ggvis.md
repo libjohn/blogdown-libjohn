@@ -33,7 +33,7 @@ caption = "ggvis"
 Make awesome charts and graphs the *tidyverse* way
 #### Additional Resources
 
-- [Slides](/project/custom/ggvis/)
+- [Slides](/project/custom/ggvis/slides.html)
 
 - [Video](https://warpwire.duke.edu/w/i54BAA/)
 
