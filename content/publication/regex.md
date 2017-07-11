@@ -42,7 +42,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = ""
 url_project = "https://github.com/libjohn/guides/tree/master/regex"
-url_slides = "/project/custom/regex/slides/slides.html"
+url_slides = "/project/custom/regex/slides/"
 url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=0abd146e-0273-4850-bcaa-3f8a05214e52"
 
 # Links -- Custom Option
