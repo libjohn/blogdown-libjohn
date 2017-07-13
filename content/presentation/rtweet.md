@@ -47,7 +47,7 @@ Particular attention is paid to demonstrating...
 
 #### Additional Resources
 
-- [Slides](https://libjohn.github.io/rtweet/slides.html) 
+- [Slides](/project/custom/rtweet/slides.html) 
 
 - [Video](https://warpwire.duke.edu/w/iZ4BAA/)
 
