@@ -58,3 +58,5 @@ In Customizing, added files to
     - {{ range $project := where $.Data.Pages "Type" "**presentation**" }}
     
 This enables index.html#presentations
+
+- `blogdown::new_content("workshop/test_workshop1.md", kind = "publication")`  # doesn't completely work as I would expect but it's useful to know this command (maybe)
