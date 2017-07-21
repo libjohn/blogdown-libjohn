@@ -48,7 +48,9 @@ How to Build this site manually
 
 ## Notes
 
-In Customizing, added files to  
+### In Customizing Projects to Presentations
+
+added files to  
 
 - content/presentation
 - content/home/presentations.md
@@ -58,5 +60,34 @@ In Customizing, added files to
     - {{ range $project := where $.Data.Pages "Type" "**presentation**" }}
     
 This enables index.html#presentations
+
+### Publications to Workshops
+
+Note:  This is the more sustainable way to accomplish this
+
+1. Add to config.toml *before* `[params]` settings
+
+```
+[permalinks]
+    publication = "/workshop/:slug"
+```
+
+2. alter the menu link in the config.toml
+
+```
+[[menu.main]]
+  name = "Workshops"
+  url = "#workshops"
+  weight = 2`
+
+```
+
+3. Update `title` in the corresponding markdown file inside `content/home` (e.g. `workshops.md`)
+
+```
+title = "Workshops"
+subtitle = ""
+widget = "publications_selected"
+```
 
 - `blogdown::new_content("workshop/test_workshop1.md", kind = "publication")`  # doesn't completely work as I would expect but it's useful to know this command (maybe)
