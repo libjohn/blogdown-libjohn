@@ -86,7 +86,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = ["duke.css","duke-academic.css","font-awesome-4.7.0/css/font-awesome.min.css"]
+  custom_css = ["duke.css","duke-academic.css","font-awesome-4.7.0/css/font-awesome.min.css", "cc-fonts.css"]
   custom_js  = []
 
   # Publication types.
