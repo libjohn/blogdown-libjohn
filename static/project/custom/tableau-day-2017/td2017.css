@@ -1,15 +1,9 @@
-.td {
-  background-color: #339999;
+.tabday a{
+  /* background-color: #339999; */
+  background-color: rgb(255,217,96);
+  background-color: rgba(255,217,96, 0.8);
   color: #001A57;
-  line-height: 0.3em;
-  text-shadow: 0 0 10px #FFD960;
+  /* line-height: 0.3em; */
+  /* text-shadow: 0 0 10px #FFD960; */
+  padding: 5px;
 }
- 
-
-
-/* 
-
-background-color:rgba(51,153,153,0.3); 
-background-color: #339999;
-
-*/
