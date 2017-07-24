@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Scraping with R</title>
+    <meta charset="utf-8">
+    <meta name="author" content="John Little" />
+    <meta name="date" content="2017-02-01" />
+    <link href="libs/remark-css/example.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Web Scraping with R
+## rvest &amp; httr @ R we having fun yet‽<br>(Feb 2, 2017)
+### John Little
+### 2017-02-01
+
+---
+
+exclude: true
+class: center, middle
+background-image: url(https://d1avok0lzls2w.cloudfront.net/img_uploads/apis-for-marketers.png)
+
+
+
+---
+class: bottom
+background-image: url(https://d1avok0lzls2w.cloudfront.net/img_uploads/apis-for-marketers.png)
+
+## Web Scraping
+
+A presentation for [R we having fun yet‽](https://github.com/data-and-visualization/Rfun/blob/master/readme.md#r-we-having-fun-yet--a-learning-series-on-r), (Feb 2, 2017)  
+Hosted by the [Data &amp; Visualization Services](http://library.duke.edu/data/) Department  
+
+???
+
+Image credit: [Moz](https://moz.com/blog/apis-for-datadriven-marketers)
+
+---
+class: bottom
+
+### Presentation &amp; Supporting Files
+
+- Github Repo -- https://github.com/data-and-visualization/Rfun/tree/master/web%20scraping 
+
+- Web Site -- https://github.com/data-and-visualization/Rfun
+    - [Slides](https://libjohn.github.com/rfun-scrape/slides.html)
+    - [Demonstration](http://libjohn.github.io/rfun-scrape/rvest_demo.nb.html)
+
+### Eat Your Own Dogfood
+
+This presentation consists of an R Notebook and slides composed in *Rmarkdown* via *Rstudio*, slides made with `devtools::install_github("yihui/xaringan")`, files stored in a *Github Repository*, Slides &amp; Notebook served via *Github Pages*.  
+
+???
+
+WARNING:  Mixing Fictions and Metaphors 
+
+---
+
+## Outline
+
+- Scraping is Browsing in Bulk
+
+- HTTP &amp; Parsing HTML
+
+- rvest or httr 
+
+- Demonstration
+
+---
+
+## Why Scraping?
+
+### The Web has lots of stuff
+
+- frontier beyond curated datasets
+
+- stuff is wrapped in HTML
+
+- HTML is transported over HTTP but composed for h2m consumption
+
+???
+
+To get BULK Data!
+
+--
+
+## Intellectual Property rights bear serious consideration
+
+???
+
+Check with the Library's Office of Copyright and Scholarly Communications
+
+---
+
+## API
+
+### Application Program Interface 
+
+- Built for machine-to-machine interactions
+
+- Instructions for programs
+
+![API schematic](images/api.png)
+
+---
+
+### Client / Server 
+
+![](images/Client-server-model.svg.png) 
+
+- Make [R] interface with the web
+
+- Same as h2m but now m2m
+
+---
+
+### h2m Simulation...
+
+- Person enters a URL
+
+![Parts of URL](images/URL.PNG)
+
+--
+    
+- Client &amp; server negotiate handshake (*dramatization...*)
+
+--
+
+.right[![dramatization: good handshake](images/good-handshake.gif)]
+
+---
+
+- Web Browser parses the HTML
+
+--
+
+.right[![happy parsing dance](images/result-happyDance.gif)]
+
+???
+
+Ever seen HTML before?  
+    
+---
+
+- Information is sent back in wrapped HTML
+
+
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;!-- created 2010-01-01 --&gt;
+ &lt;head&gt;
+  &lt;title&gt;sample&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;p&gt;Voluptatem accusantium
+   totam rem aperiam.&lt;/p&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+```
+
+---
+exclude: true
+
+## JSON
+
+* [Javascript Object Notation](https://en.wikipedia.org/wiki/JSON) is a language-independent data format
+* Currently the most common data data format for asynchronous client/server communication format
+* Consists of key-value pairs
+
+
+```json
+# from https://en.wikipedia.org/wiki/JSON
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 25,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    },
+    {
+      "type": "mobile",
+      "number": "123 456-7890"
+    }
+  ],
+  "children": [],
+  "spouse": null
+}
+```
+
+---
+
+## m2m -- development
+
+- Make [R] interface with the web
+
+- Same as h2m but now m2m
+
+*dramatization...*
+
+--
+
+.right[![dramatization: confused about the protocol](images/development-confusion.gif)]
+
+---
+
+## rvest or httr
+
+- rvest 
+
+    - Scrape information from web pages. Designed to work with **magrittr**; works well in a tidyverse. Inspired by libraries like **beautiful soup**.
+
+- httr  
+
+    - The aim of httr is to provide a wrapper for the curl package, customised to the demands of modern web APIs.
+
+---
+exclude: true
+
+## Next
+
+- Demonstration
+    - using an API to http://omdb.org (OMDB is like IMDB.com)
+    - http://libjohn.github.io/rcs2017
+- Hands-on
+    - using An API Of Ice And Fire -- http://anapioficeandfire.com/
+
+---
+
+## R Packages -- Related
+
+*People who do Web Scraping in R use...*
+
+- [httr](https://cran.r-project.org/web/packages/httr/)
+
+- [rvest](https://github.com/hadley/rvest)
+
+- [jsonlite](https://cran.r-project.org/web/packages/jsonlite)
+
+*People who use rvest, use...*
+
+- [tidyverse](http://tidyverse.org/)
+
+---
+
+## Resources 
+
+- [Extracting Data from the Web Part 1](https://www.rstudio.com/resources/webinars/extracting-data-from-the-web-part-1/) -- RStudio Webinar Video
+
+- [jsonlite API intro](../rcs2017/)
+
+- [rvest intro](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/)
+
+- rvest live demos:  `demo(package = "rvest")`
+
+    - `demo(tripadvisor, package = "rvest")`
+    
+- [httr quickstart](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html)
+
+- [HTTP protocol - demystified](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+
+- [HTML on Lynda.com](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html) -- ([Access Lynda.com for Duke](https://oit.duke.edu/what-we-do/applications/lyndacom))
+
+- [CSS Tutorial](http://flukeout.github.io/)
+
+---
+
+## APIs and Scrape Targets
+- Movies of 1976
+    - [OMDB Top Movies](http://www.omdb.org/encyclopedia/year/1976/statistics)
+    - [IMDB Most Popular](http://www.imdb.com/year/1976/)
+- http://www.omdbapi.com/
+- http://anapioficeandfire.com/
+
+---
+
+## Credits
+
+### Content
+
+The content for this slide deck is influenced by items noted in the Resources slide (above) and packages mentioned on the Resources slide (above)
+
+### Images
+
+- [API schematic](https://moz.com/blog/apis-for-datadriven-marketers)
+- [Client / Server](https://commons.wikimedia.org/wiki/File:Client-server-model.svg)
+- [URL](https://commons.wikimedia.org/wiki/File:Uniform_Resource_Locator_%28URL%29_example.PNG)
+- [Good human handshake](http://giphy.com/gifs/thomas-U2XboRuN89Idi)
+- [happy parsed dance](http://giphy.com/gifs/80s-1980s-thomas-dolby-wCKmBd7oNtA4g)
+- [NASA animated GIF](http://i.giphy.com/l2Jht4lIfEQfJ3zj2.gif)     
+
+---
+
+## Shareable under CC BY-NC-SA license 
+
+Data, presentation, and handouts are shareable under [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+
+![This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.](https://licensebuttons.net/l/by-nc/4.0/88x31.png "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License")
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('showSlide', function (slide) {setTimeout(function() {window.dispatchEvent(new Event('resize'));}, 100)});</script>
+
+  </body>
+</html>
