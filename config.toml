@@ -15,6 +15,9 @@ googleAnalytics = ""
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+#[permalinks]
+#    publication = "/workshop/:slug"
+
 [blackfriday]
   hrefTargetBlank = true
 
@@ -174,6 +177,12 @@ defaultContentLanguageInSubdir = false
   name = "Workshops"
   url = "#publications_selected"
   weight = 2
+
+#[[menu.main]]
+#  name = "Workshops"
+#  url = "#workshops_selected"
+#  weight = 2
+
 
 [[menu.main]]
   name = "Presentations"

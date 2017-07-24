@@ -61,9 +61,9 @@ added files to
     
 This enables index.html#presentations
 
-### Publications to Workshops
+### Experimental -- Publications to Workshops
 
-Note:  This is the more sustainable way to accomplish this
+Note:  This approach should be a more sustainable way to accomplish using a different URL for a particular widget.  I want to use the url `/workshop` instead of `/publication`.  At the moment is does not appear to work completely.  
 
 1. Add to config.toml *before* `[params]` settings
 
@@ -82,7 +82,7 @@ Note:  This is the more sustainable way to accomplish this
 
 ```
 
-3. Update `title` in the corresponding markdown file inside `content/home` (e.g. `workshops.md`)
+3. Update `title` in the corresponding markdown file inside `content/home` (e.g. `workshops.md` based on `publications_selected.md`)
 
 ```
 title = "Workshops"

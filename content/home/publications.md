@@ -1,6 +1,6 @@
 +++
 # Recent Publications widget.
-# Note: this widget will only display if `content/workshop/` contains workshops.
+# Note: this widget will only display if `content/publication/` contains workshops.
 
 date = "2016-04-20T00:00:00"
 draft = false
