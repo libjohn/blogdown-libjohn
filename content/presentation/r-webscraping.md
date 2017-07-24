@@ -35,7 +35,7 @@ foo foo foo
 
 #### Additional Resources
 
-- [Slides:  Web Scraping with R](https://libjohn.github.io/rfun-scrape/slides.html) 
+- [Slides:  Web Scraping with R](/project/custom/rfun-scrape/slides.html) 
 
 - [Demonstration code](https://libjohn.github.io/rfun-scrape/rvest_demo.nb.html)
 
