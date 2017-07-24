@@ -31,8 +31,6 @@ caption = "Web Scraping with R and rvest"
 A convenient way to handle webscraping in a tidyverse context, `rvest` will enable you to gather `html_nodes`, 
 parse HTML attributes (`html_attr`) and Text (`html_text`). yeah.
 
-foo foo foo
-
 #### Additional Resources
 
 - [Slides:  Web Scraping with R](/project/custom/rfun-scrape/slides.html) 

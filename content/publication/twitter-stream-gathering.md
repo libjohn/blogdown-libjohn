@@ -49,7 +49,7 @@ url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=82e1f
 # You can make multiple custom links
 [[url_custom]]
 name = "Guide / Handout"
-url = "http://libjohn.github.io/twitter-gather/slides.html"
+url = "/project/custom/twitterj/slides.html"
 
 [[url_custom]]
 name = "DVS Description"
