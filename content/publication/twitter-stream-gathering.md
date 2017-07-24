@@ -42,7 +42,7 @@ url_code = ""
 url_dataset = ""
 url_pdf = ""
 url_project = "https://github.com/libjohn/twitter-stream-gathering"
-url_slides = "https://libjohn.github.io/twitter-gather/slides.html"
+url_slides = "/project/custom/twitterj/slides.html"
 url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=82e1fe62-a003-4160-871e-765e027fc1b0"
 
 # Links -- Custom Option
