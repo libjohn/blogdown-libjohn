@@ -173,15 +173,15 @@ defaultContentLanguageInSubdir = false
   url = "#about"
   weight = 1
 
-[[menu.main]]
-  name = "Workshops"
-  url = "#publications_selected"
-  weight = 2
-
 #[[menu.main]]
 #  name = "Workshops"
-#  url = "#workshops_selected"
+#  url = "#publications_selected"
 #  weight = 2
+
+[[menu.main]]
+  name = "Workshops"
+  url = "#workshops_selected"
+  weight = 2
 
 
 [[menu.main]]
