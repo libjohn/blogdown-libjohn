@@ -6,7 +6,7 @@ date = "2017-04-26"
 title = "DSVIL 2017 - Web Scraping"
 
 # Project summary to display on homepage.
-summary = "A Data Science & Visualization Institute invited a presentation on web scraping and creating your own data sources"
+summary = "The Data Science & Visualization Institute invited a presentation on web scraping and creating customized data sources"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "scraping_propolis.jpg"
