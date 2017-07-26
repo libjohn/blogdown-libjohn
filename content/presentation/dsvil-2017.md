@@ -30,16 +30,9 @@ caption = "[Web] Scraping [Propolis]"
 
 &nbsp;
 
-Preexisting and clean data sets such as the General Social Survey (GSS) 
-or Census data are readily available, cover long periods of time, 
-and have well documented codebooks. Meanwhile, researchers increasingly want 
-to gather their own data from websites which provides a different 
-layer of complexity; accessing content from these sources requires different 
-tools and new techniques.  In this workshop we will use an open-source data 
-wrangling tool (OpenRefine) to gather and clean data from webpages, 
-and "crawl" whole websites, discuss and use Application 
-Programming Interfaces (API), and give examples of how 
-APIs are used with social media sources such as Twitter.
+Preexisting clean data sets such as the General Social Survey (GSS) or Census data, for example, are readily available, cover long periods of time, and have well documented codebooks. However, some people want to gather their own data. Recent tools and techniques for finding and compiling data from webpages, whole websites or social media sources have become more accessible.  Exploiting these web scraping techniques provides a different layer of complexity.
+
+In this workshop we will use an open-source data wrangling tool (OpenRefine) to gather and clean data from webpages, and "crawl" whole websites, discuss and use Application Programming Interfaces (API), and give examples of how APIs are used with social media sources such as Twitter.
 
 
 #### Additional Resources
