@@ -60,5 +60,10 @@ added files to
     - {{ range $project := where $.Data.Pages "Type" "**presentation**" }}
     
 ### Stub .md file
-- `blogdown::new_content("workshop/test_workshop1.md", kind = "publication")`  # doesn't completely work as I would expect but it's useful to know this command (maybe)    
+- `blogdown::new_content("workshop/test_workshop1.md", kind = "publication")`  # doesn't completely work as I would expect but it's useful to know this command (maybe)   
+
+
+### Obscure fact about blogdown environment variables
+
+- `{{ printf "%#v" .}}`
     
