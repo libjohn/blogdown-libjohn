@@ -33,7 +33,7 @@ caption = "Image credit: [**R Markdown by RStudio**](http://rmarkdown.rstudio.co
 
 R Markdown is easy to learn and easy to use.  When used with RStudio, R Markdown will enable report derivitives while the content remains readable and reproducible.  It's a benevolent cycle:  write a document once in R Markdown, derive reports with minimal effort, maintain the whole project with readable source material.  Or even better compose code in a [*literate programming*](https://en.wikipedia.org/wiki/Literate_programming) style, then generate your reports from your code.  For example, R Markdown can be used to create reports in the following formats:  slides, journal articles, PDF, Word files, web pages, web dashboards, web sites, dynamic quizes.
 
-![](/post/2017-08-03-rmarkdown/RMarkdownOutputFormats.png)
+![](RMarkdownOutputFormats.png)
 
 ### What is R Markdown
 
