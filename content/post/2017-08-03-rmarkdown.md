@@ -29,7 +29,7 @@ caption = "Image credit: [**R Markdown by RStudio**](http://rmarkdown.rstudio.co
 
 *R Markdown is Awwwwwesoommmmmme*.  There, I said it. See, I have this nifty [new website](/).  It's produced via Blog*down* and **composed in R Markdown**.  To feed my blog section I plan on writing occasional posts such as this one.  But where do I start? (“Begin at the beginning," the King said, very gravely[^1]) ...  
 
-These days I use R a lot.  I use R Markdown to compose reports while documenting analysis. R scripts and R Notebooks are composable with R Markdown.  Using R Markdown I wrote an e-book, this website, web dashboards, and interactive quizzes.  I make slide presentations constantly.  Different R packages make enable this activity and the common thread, aside from R, is R Markdown.  Initially, I was going to launch my blog with a post about Xaringan Slides.  Then I realized I need to lead with R Markdown -- duh -- because R Markdown enhances the readability and document structure for many reports.  
+These days I use R a lot.  I use R Markdown to compose reports while documenting analysis. R scripts and R Notebooks are composable with R Markdown.  Using R Markdown I wrote an e-book, this website, web dashboards, and interactive quizzes.  I make slide presentations constantly.  Different R packages enable this activity and the common thread, aside from R, is R Markdown.  Initially, I was going to launch my blog with a post about Xaringan Slides.  Then I realized I need to lead with R Markdown -- duh -- because R Markdown enhances the readability and document structure for many reports.  
 
 ### Why use R Markdown
 
