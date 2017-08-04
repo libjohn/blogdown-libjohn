@@ -15,7 +15,7 @@ tags = [
   "R Markdown"
 ]
 math = false
-summary = "R Markdown is the backbone of dynamic documents, literate data science, and reproducibility in R."
+summary = "R Markdown is the backbone of R's dynamic documents, literate data science, and reproducibility."
 
 
 # Optional featured image (relative to `static/img/` folder).  
@@ -27,23 +27,25 @@ caption = "Image credit: [**R Markdown by RStudio**](http://rmarkdown.rstudio.co
 
 ## R Markdown is Awesome
 
-*R Markdown is Awwwwwesoommmmmme*.  There, I said it. See, I have this niffty [new website](/) and it's produced via Blog*down* and **composed in R Markdown**.  To feed the blog section I plan on writing occassional posts such as this one.  But where do I start? (“Begin at the beginning," the King said, very gravely[^1]) ...  Well, these days I'm using R, a lot.  So initially, I was going to lead the blog with a post about [Xaringan slides](https://slides.yihui.name/xaringan/) -- another R Mark*down* option.  Then I realized I need to lead with R Markdown, because cool things enabled via RStudio are enhanced through R Markdown.  I'll come back to Xaringan slides another day.
+*R Markdown is Awwwwwesoommmmmme*.  There, I said it. See, I have this niffty [new website](/).  It's produced via Blog*down* and **composed in R Markdown**.  To feed my blog section I plan on writing occassional posts such as this one.  But where do I start? (“Begin at the beginning," the King said, very gravely[^1]) ...  
+
+These days I use R, a lot and  I use R Markdown to compose reports while documenting analysis. R scripts, R Notebooks, and shiny apps are all composed with R Markdown.  Using R Markdown I wrote an e-book for an OpenRefine workshop, this website, web dashboards, and interactive quizes.  I make slide presentations constantly.  Different packages make this activity possible but the common thread, asside from R, is R Markdown.  Initially, I was going to launch my blog with a post about [Xaringan slides](https://slides.yihui.name/xaringan/).  Then I realized I need to lead with R Markdown -- duh -- because R Markdown enhances the readability and document structure for many reports enabled with R/RStudio.  I'll come back to Xaringan slides another day.
 
 ### Why use R Markdown
 
-R Markdown is easy to learn and easy to use.  When used with RStudio, R Markdown will enable report derivitives while the content remains readable and reproducible.  It's a benevolent cycle:  write a document once in R Markdown, derive reports with minimal effort, maintain the whole project with readable source material.  Or even better compose code in a [*literate programming*](https://en.wikipedia.org/wiki/Literate_programming) style, then generate your reports from your code.  For example, R Markdown can be used to create reports in the following formats:  slides, journal articles, PDF, Word files, web pages, web dashboards, web sites, dynamic quizes.
+R Markdown is easy to learn and easy to use.  When used with RStudio, R Markdown will enable report derivitives while the content remains readable and reproducible.  It's a benevolent cycle:  write a document once in R Markdown, derive reports with minimal effort, maintain the whole project with readable source material. In this way you put [*literate programming*](https://en.wikipedia.org/wiki/Literate_programming) into practice by generating your reports from your code.  Noteably you don't need to be a coder or an anlysist to benefit from using R Markdown as your document generator.  R Markdown can be used to create reports in the following formats:  slides, journal articles, PDF, Word files, web pages, web dashboards, web sites, dynamic quizes, LaTex.  (But wait, there's more!)
 
 ![](/post/2017-08-03-rmarkdown/RMarkdownOutputFormats.png "Image Credit:  RStudio RMarkdown Output Formats http://rmarkdown.rstudio.com/authoring_quick_tour.html")
 <!-- Image Credit:  RStudio http://rmarkdown.rstudio.com/authoring_quick_tour.html -->  
 
 ### What is R Markdown
 
-R Markdown is a flavor of Markdown.  Markdown is a light-weight "language" used to add structure to text.  The mark*down* goal is to simplify mark*up* languages. The resulting simplicity means the content is less cluttered and easier to read. Easier because mark*up* languages are intended to be rendered by other programs before being read. Mark*down* can still be rendered into rich text -- more visually compelling documents -- while the simplicity maintains readability and clarifies document structure.  Additionally, markdown is a more compellingly [reproducible](https://en.wikipedia.org/wiki/Reproducibility) practice which yields quick report production and easy transformations into a variety of report formats.
+R Markdown is a flavor of Markdown.  Markdown is a lightweight "language" used to add structure to text.  The mark*down* goal is to simplify mark*up* languages. The resulting simplicity means the content is less cluttered and easier to read. Easier because mark*up* languages are intended to be rendered by other programs before being read. Mark*down* can still be rendered into rich text -- more visually compelling documents -- while the simplicity maintains readability and clarifies document structure.  Additionally, markdown is a more compellingly [reproducible](https://en.wikipedia.org/wiki/Reproducibility) practice which yields quick report production and easy format transformations.
 
-### R Markdown v Markdown
+### Learn R Markdown in 20 seconds
 
-All you need to learn is R Markdown a [glance at this summary example](https://en.wikipedia.org/wiki/Markdown#Example) -- quick and painless.  The good folks at RStudio have seen the markdown wisdom and incorporated the basics with minor tweaks.  You may have noticed I linked to a markdown example.  There are a few more featuers of R Markdown but the two "languages" are so similar that learning one is essentially learning the other.  Then learn more [R Markdown](http://rmarkdown.rstudio.com/authoring_quick_tour.html) to begin making your data science reports dyanmic and reproducible.
+Learning R Markdown is quick and painless.  Glance at [this summary example](https://en.wikipedia.org/wiki/Markdown#Example) and you've practially learned the whole spec.  You may have noticed I linked to a markdown example.  The good folks at RStudio have seen the  wisdom of markdown and incorporated the spec with minor tweaks to make R Markdown.  The few extra features of R Markdown are useful while the differences in the two "languages" are so similar that learning one is essentially learning the other.  Learn more [R Markdown](http://rmarkdown.rstudio.com/lesson-1.html) ([*cheatsheet*](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)) and make your data science reports dyanmic and reproducible.
 
-Now you know.  In future blog posts I plan to describe some of the other report tools I've composed via R Markdown.  Xaringan slides is coming soon.  Stay tuned...
+Now you know.  In future blog posts I will describe  packages and report tools I've composed via R Markdown.  Xaringan slides is coming soon.  Stay tuned...
 
 [^1]: [Lewis Carroll](https://www.goodreads.com/quotes/6305-begin-at-the-beginning-the-king-said-very-gravely-and)
