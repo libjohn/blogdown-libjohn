@@ -1,0 +1,27 @@
+---
+title: Compose Slides in R with Xaringan Slides
+author: John Little
+date: '2017-08-04'
+draft: true
+slug: compose-slides-in-r-with-xaringan-slides
+categories:
+  - R
+  - Markdown
+tags:
+  - Xaringan
+  - Reproducibility
+  - Slides
+  - Markdown
+---
+
+I've been creating my slide presentations (link) using the Xaringan package and I'm totaly thilled with the approach.
+
+- reproducible
+- r markdown (link to previous post)
+- incorporate analysis, graphs, visualizations
+- very useful presentation tools (help)
+- modify the appearance with CSS
+- link to slide recommendations
+- Visualization is a less developed passion
+
+
