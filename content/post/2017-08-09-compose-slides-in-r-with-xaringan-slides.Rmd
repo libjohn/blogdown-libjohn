@@ -1,0 +1,49 @@
+---
+title: Compose Slides in R with Xaringan Slides
+author: John Little
+date: '2017-08-04'
+draft: true
+slug: compose-slides-in-r-with-xaringan-slides
+categories:
+  - R
+  - Markdown
+tags:
+  - Xaringan
+  - Reproducibility
+  - Slides
+  - Markdown
+summary: "Xarigan Slides generate slides as a report format.  Now your analysis can creat slides at the push of a button."
+---
+
+Last week I wrote on the eternal verities of [R Markdown](/post/2017-08-03-rmarkdown/).  This post covers a slide presentation package in R, Xaringan.  Xaringan slides are one of the many awesome report formats enabled by R Markdown.^[To be complete:  library(Xaringan) + R Markdown + R +  RStudio. For more information, see [R Markdown](/post/2017-08-03-rmarkdown/)]  The ability to integrate my workflow is a critical step in practicing reproducible data science.  With Xaringan, slide decks are an output report derived from data analysis.
+
+> "Notably, you do not have to be a coder to take advantage of this approach."
+
+Did you know one of the early versions of PowerPoint was initially released for the MS-DOS operating system?[^UCberkelyNews]  If I wasn't already a Xaringan Slides user I might wonder about the authoring interface for MS-DOS::PowerPoint.  Afterall, if you don't have a mouse can you even present?  Even still, we do know some fun facts about presentation software and slide decks.
+
+- 1984 first PowerPoint developer is hired
+- 1987 PowerPoint version 1.0 public release for the Mac
+- 1988 PowerPoint versions released for both Windows and MS-DOS
+- 2003 Edward [Tufte hates](https://www.wired.com/2003/09/ppt2/) PowerPoint
+- 2003 David [Byrne loves](https://www.wired.com/2003/09/ppt1/) PowerPoint
+-  **Christopher Columbus** used slides to pitch his **goFundMe** case to Queen Isabella[^CC]
+- **Abraham Lincoln** and **Google's Peter Norvig** co-authored a moving  [Cemetery Dedication at Gettysburg](http://www.norvig.com/Gettysburg/sld001.htm)
+- **You can use a mouse** with Xaringan Slides
+- There **is good advice** about the [art of slide design](https://speakerdeck.com/mseckington/the-art-of-slide-design)
+
+Authoring [my slide presentations](/#presentations) with [Xaringan](https://slides.yihui.name/xaringan/) -- (pronounced *Share-in-gan*) -- is easy because slides are composed in R Markdown.  Since the Xaringan package is optimized for RStudio, it's also easy to maintain versioning and sharing via git/GitHub.   The output slides are actually HTML and are therefore portable.  They can be hosted on a flash drive, on a laptop for presentation, or even served via any webhost. It's also simple to host my slide decks on any website or share a slide deck with anyone. I generate my slides from analysis scripts and integrate the output (slide deck) with blogdown to host on my own website.  No more wondering if I have a publically accessible back-up version of my slides.  
+
+The editor pane and authoring method is well integrated into R and RStudio so inserting analysis and visualization -- generated from R code -- is amazingly simple.  As such, analysis and code are part of the slide authoring process.  This integration helps maintain continuity between analysis and the final report.  Stock images are easy to include.  In fact any slide object can be inserted with ease, just like any presenter tool.  
+
+![](/post/2017-08-09-compose_slides/first_world_slides.jpg "I don't have a mouse. Can I even present?")  
+
+Visually the default slide style is spare, almost austere, but given how most slides are too cluttered I find this an inspiring advantage.  The installed Xaringan package comes with a standard CSS stylesheet, which can be customized to suite personal needs.  The whole slide deck life cycle (analysis, authoring, storing, and archiving methods) is very much inline with a tidyverse approach, thus bringing a nimble approach to reproducibility while enabling you to document your slides with literate code practices.  Notably, you do not have to be a coder to take advantage of this approach.  Xaringan slides can be authored with the same ease as with any other normal or more proprietary tools.  Just spend 20 seconds learning [R Markdown](/post/2017-08-03-rmarkdown/) and you'll be ready to increase your RQ ("Reproducibility Quotient") in no time.  
+
+Last points.  I suspect Xaringan Slides is far more satisfying than MS-DOS for PowerPoint ever was, especially when used within the RStudio IDE.  However the two authoring systems must have some striking similarities in the way that UNIX has influenced so much of modern computing.  And if you're wondering, my mouse remains a vital and relevant partner in all my quotidian slide production rituals.  Thanks be to Engelbart[^mouse].  
+
+
+[^UCberkelyNews]:  http://www.berkeley.edu/news/media/releases/2005/03/08_byrne.shtml 
+
+[^CC]: For early versions of PowerPoint, an early example project used this as an example
+
+[^mouse]: https://en.wikipedia.org/wiki/Douglas_Engelbart
