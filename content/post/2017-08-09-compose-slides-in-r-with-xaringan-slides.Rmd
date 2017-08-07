@@ -19,7 +19,7 @@ Last week I wrote on the eternal verities of [R Markdown](/post/2017-08-03-rmark
 
 > "Notably, you do not have to be a coder to take advantage of this approach."
 
-Did you know one of the early versions of PowerPoint was initially released for the MS-DOS operating system?[^UCberkelyNews]  If I wasn't already a Xaringan Slides user I might wonder about the authoring interface for MS-DOS::PowerPoint.  Afterall, if you don't have a mouse can you even present?  Even still, we do know some fun facts about presentation software and slide decks.
+Did you know one of the early versions of PowerPoint was initially released for the MS-DOS operating system?[^UCberkelyNews]  If I wasn't already a Xaringan Slides user I might wonder about the authoring interface for MS-DOS::PowerPoint.  After all, if you don't have a mouse can you even present?  Even still, we do know some fun facts about presentation software and slide decks.
 
 - 1984 first PowerPoint developer is hired
 - 1987 PowerPoint version 1.0 public release for the Mac
@@ -31,7 +31,7 @@ Did you know one of the early versions of PowerPoint was initially released for 
 - **You can use a mouse** with Xaringan Slides
 - There **is good advice** about the [art of slide design](https://speakerdeck.com/mseckington/the-art-of-slide-design)
 
-Authoring [my slide presentations](/#presentations) with [Xaringan](https://slides.yihui.name/xaringan/) -- (pronounced *Share-in-gan*) -- is easy because slides are composed in R Markdown.  Since the Xaringan package is optimized for RStudio, it's also easy to maintain versioning and sharing via git/GitHub.   The output slides are actually HTML and are therefore portable.  They can be hosted on a flash drive, on a laptop for presentation, or even served via any webhost. It's also simple to host my slide decks on any website or share a slide deck with anyone. I generate my slides from analysis scripts and integrate the output (slide deck) with blogdown to host on my own website.  No more wondering if I have a publically accessible back-up version of my slides.  
+Authoring [my slide presentations](/#presentations) with [Xaringan](https://slides.yihui.name/xaringan/) -- (pronounced *Share-in-gan*) -- is easy because slides are composed in R Markdown.  Since the Xaringan package is optimized for RStudio, it's also easy to maintain versioning and sharing via git/GitHub.   The output slides are actually HTML and are therefore portable.  They can be hosted on a flash drive, on a laptop for presentation, or even served via any web host. It's also simple to host my slide decks on any website or share a slide deck with anyone. I generate my slides from analysis scripts and integrate the output (slide deck) with blogdown to host on my own website.  No more wondering if I have a publicly accessible back-up version of my slides.  
 
 The editor pane and authoring method is well integrated into R and RStudio so inserting analysis and visualization -- generated from R code -- is amazingly simple.  As such, analysis and code are part of the slide authoring process.  This integration helps maintain continuity between analysis and the final report.  Stock images are easy to include.  In fact any slide object can be inserted with ease, just like any presenter tool.  
 
