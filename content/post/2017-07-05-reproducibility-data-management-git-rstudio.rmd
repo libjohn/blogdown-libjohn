@@ -1,6 +1,6 @@
 ---
 title: 'Reproducibility: Data Management, git, RStudio'
-author: John Little
+author: "John Little"
 date: '2017-07-05'
 categories:
   - R
@@ -12,7 +12,7 @@ tags:
   - RStudio
   - Reproducibility
 # slug: reproducibility-data-management-git-rstudio
-summary: New reproducibility workshop with git and RStudio coming in September 2017
+summary: "New reproducibility workshop with git and RStudio coming in September 2017."
 ---
 
 I am please to provide this early-announcement and philosophical musing on a future workshop coming this Fall.  In this workshop we will demonstrate and provide a hands-on option for quickly learning a best-practical approach to reproducible data and research-project hygiene.

@@ -1,7 +1,7 @@
 ---
 draft: false
-title: GIS in R workshop coming this fall
-author: John Little
+title: "GIS in R workshop coming this fall"
+author: "John Little"
 date: '2017-07-03'
 slug: gis-in-r-workshop-coming-this-fall
 categories:
@@ -11,7 +11,7 @@ categories:
 tags: ["GIS", "R", "Workshop"]
 
 math: false
-summary: New GIS workshop in R, coming September 2017. 
+summary: "New GIS workshop in R, coming September 2017." 
 
 # [header]
 # image: headers/getting-started.png
