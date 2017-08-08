@@ -1,6 +1,6 @@
 ---
-title: Compose Slides in R with Xaringan Slides
-author: John Little
+title: "Compose Slides in R with Xaringan Slides"
+author: "John Little"
 date: '2017-08-04'
 slug: compose-slides-in-r-with-xaringan-slides
 categories:
