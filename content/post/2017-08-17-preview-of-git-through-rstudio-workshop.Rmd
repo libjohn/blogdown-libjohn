@@ -1,8 +1,8 @@
 ---
 title: Preview of Git through RStudio Workshop
-draft: true
+draft: false
 author: "John Little"
-date: '2017-08-24'
+date: '2017-08-18'
 slug: preview-of-git-through-rstudio-workshop
 categories:
   - R
@@ -23,7 +23,7 @@ summary: "A preview of the learning resources for an upcoming workshop; *Reprodu
 
 &nbsp; 
 
-In a [previous post](/post/2017-07-05-reproducibility-data-management-git-rstudio/) I mentioned a future workshop:  *Reproducibility: Data Management, git, RStudio*.  This is the second in a five-part series of practical, hands-on workshops making up our R learning series.  The five parts include:
+In a [previous post](/post/2017-07-05-reproducibility-data-management-git-rstudio/) I mentioned a future workshop:  *Reproducibility: Data Management, git, and RStudio*.  This workshop is the second part of a five-part R learning series.  The five hands-on sections include:
 
 1. Intro to R: Data Transformations, Analysis, and Data Structures
 1. **Reproducibility: Data Management, Git, & RStudio**
@@ -31,20 +31,12 @@ In a [previous post](/post/2017-07-05-reproducibility-data-management-git-rstudi
 1. Mapping with R
 1. Developing Interactive Websites with R and Shiny
 
-The goal of the second workshop is to leverage RStudio's Git orchesteration features.  We will demonstrate and using R for reproducible data science and report generation.  We believe a critical component of that reproducibility is Git's version control and we really like how RStudio has simplified Git's function by reducing the need to memorize git archane commands. 
+The goal of the second workshop is to leverage RStudio's Git orchestration features.  In the workshop I will interactively demonstrate reproducible report generation.  Reproducibility is a critical outcome of Data Management and using Git's version control is a practical way to implement a more ideal workflow.  This workshop is aimed at Git beginners because, especially if you have only dabbled with Git, you may have noticed Git commands feel can feel arcane.  I really like RStudio's simplified Git controls.  By transforming the main Git function into clickable buttons, RStudio reduces the need to memorize esoteric commands.  This allows researchers to focus on workflow and productivity without sacrificing version control or collaboration. 
 
 > [![](https://imgs.xkcd.com/comics/git.png)](https://xkcd.com/1597/)
 
-To that end we will provide a gentle introduction to promote the use of Git in developing report outputs through R.  Through this hands-on workshop users will gain practical experience foo foo foo, hands-on workshop where users unfamiliar with Git will come with a configured laptop.  away having configured their laptop to Duke's GitLab instance; 
+To that end we will provide a gentle introduction to promote the use of Git.  Through this hands-on workshop users will gain practical experience creating and manipulating a repository.  Users unfamiliar with Git will arrive with their own laptop and be guided past the obscure Git configuration process.  Upon completion, users will have have configured their own laptop and be able to deposit work-versions to Duke's GitLab instance. Upon completion the researcher will be poised for better version control through Git repositories: able to collaborate, or simply exercise public and private repository control.  
 
+The workshop is open to the Duke University Community. A recording will be made available for self-paced instruction following the in-person presentation.  I'm posting my resources for my portion of the workshop: [Using RStudio to orchestrate Git](https://rfun.netlify.com/git/) -- currently in draft.  From this launch page you can find a link to my slides, the hands-on exercises, and an OSF Project link containing my co-presenter's slides.  [Ping me](/#contact) if you have thoughts or questions.  
 
-The workshop is open to the Duke University Community (registration link, below.)  The workshop will be recorded and made available for self-paced instruction after the presentation.  The recording will be made available publiclly so there is no need to register if you're not part of the Duke Community.^[Registration will not add you to a list annoucing the recording] 
-
-The following is a set of links previewing that workshop...
-
-- Date:  Mon, Sep 18, 2017 — 1:30 PM
-- Registration: http://duke.libcal.com/event/3442538
-
-I've posted the draft resources for my portion: [Using RStudio to orchestrate Git](https://rfun.netlify.com/git/).  From that lanch page you can find a link to my slides and the hands-on portion of the discussion.  An OSF Project link will show up there eventually.
-
-Ping me if you have thoughts or questions.  Meanwhile you can find a full list of our Fall 2017 workshop on [my Departmental webpage](http://library.duke.edu/data/news).
+You can find a full list of our Fall 2017 workshop series at the [Data & Visualization Services Workshops](http://library.duke.edu/data/news) page.  Not part of Duke? No worries. Recordings and resources will be made available.  Stay tuned for a later annoucement or keep an eye on [my workshops page](/publication/).
