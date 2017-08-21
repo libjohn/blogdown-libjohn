@@ -36,7 +36,7 @@ R is a platform independent language which evolved out of the statistical commun
 1. Mapping with R
 1. Developing Interactive Websites with R and Shiny
 
-## When
+## Registration
 The DVS departmental line-up for the Fall 2017 workshop series is posted at the [Data & Visualization Services Workshops](http://library.duke.edu/data/news) page.  The workshops are aimed at the Duke University Community, register with your NetID.  **You can also find a link to our past workshops and all the publicly available recordings and materials.  AND Guides**
 
 
