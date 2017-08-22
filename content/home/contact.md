@@ -62,7 +62,7 @@ detailed_list = false
   <li>
     <span class="fa-li fa fa-twitter"></span>
       <div class="description">
-        <p class="institution"><a href="http://twitter.com/john_little">Twitter</a> -- fallow, but it’s a way to get in touch</p>
+        <p class="institution"><a href="http://twitter.com/john_little">Twitter</a> -- tweet, tweet...</p>
       </div>
   </li>
 
