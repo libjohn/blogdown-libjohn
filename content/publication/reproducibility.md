@@ -55,7 +55,7 @@ url = "http://duke.libcal.com/event/3442538"
 
 [[url_custom]]
 name = "Workshop Materials"
-url = ""
+url = "https://osf.io/r6wfk/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
