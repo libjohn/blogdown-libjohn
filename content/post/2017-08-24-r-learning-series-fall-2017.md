@@ -22,7 +22,7 @@ caption = "Image Credit: [WikiMedia Commons](https://commons.wikimedia.org/wiki/
 
 &nbsp; 
 
-Recently I blogged about an upcoming workshop on Data Management and Git using R/RStudio.  That workshop will be one part of our upcoming **five-part R learning series** beginning in **September**.  In this post I want to more  formally introduce the fall 2017 R learning series, which began life last spring as [R we Having Fun Yet‽](https://rfun.netlify.com/), or **RFun**.  Moving toward the fall semester, we are transforming the series format by adding more hands-on exercises. 
+Recently I blogged about an upcoming workshop on Data Management and Git using R/RStudio.  That workshop will be one part of our upcoming **five-part R learning series** beginning in **September**.  In this post I want to more  formally introduce the fall 2017 R learning series, which began life last spring as [R we Having Fun Yet‽](https://rfun.library.duke.edu/), or **RFun**.  Moving toward the fall semester, we are transforming the series format by adding more hands-on exercises. 
 
 > Beginning in September, DVS will host a 5-part learning series of workshops on R:  Intro/Tidyverse, Reproducibility/Git, Visualization/ggplot2, Mapping, and Shiny.  
 
@@ -38,7 +38,7 @@ R has been called the "lingua franca of data science."[^lingua] It's a platform 
 
 ## The Fall 2017 R Learning Series
 
-Our fall 2017 RFun workshop format will change slightly.  Last spring we hosted eight informal "lunches" highlighting various aspects of R.  ([Recordings, learning materials and slides](https://rfun.netlify.com/2017/01/16/rfun-schedule-spring-2017/) are available.)  This fall we will transform the  series by adding more hands-on learning exercises.  Each R workshop will take place on a Monday, beginning in mid-September.  Individual workshops will last two hours.  The series will extend over four consecutive weeks followed by a brief respite.  The fifth and final workshop will introduce Shiny, a package for developing interactive web visualizations. The workshop line-up is intended to gently build knowledge and ensures subsequent sessions remain engaging and practicable.
+Our fall 2017 RFun workshop format will change slightly.  Last spring we hosted eight informal "lunches" highlighting various aspects of R.  ([Recordings, learning materials and slides](https://rfun.library.duke.edu/2017/01/16/rfun-schedule-spring-2017/) are available.)  This fall we will transform the  series by adding more hands-on learning exercises.  Each R workshop will take place on a Monday, beginning in mid-September.  Individual workshops will last two hours.  The series will extend over four consecutive weeks followed by a brief respite.  The fifth and final workshop will introduce Shiny, a package for developing interactive web visualizations. The workshop line-up is intended to gently build knowledge and ensures subsequent sessions remain engaging and practicable.
 
 1. Intro to R: Data Transformations, Analysis, and Data Structures ([Sept. 11](http://duke.libcal.com/event/3442483?hs=a), Repeated [Oct. 17](http://duke.libcal.com/event/3442545?hs=a))
 1. Reproducibility: Data Management, Git, & RStudio ([Sept. 18](http://duke.libcal.com/event/3442538?hs=a))
