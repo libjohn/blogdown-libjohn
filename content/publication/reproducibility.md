@@ -40,11 +40,11 @@ image_preview = ""
 selected = true
 
 # Links (optional)
-url_code = "https://rfun.netlify.com/git/handson.html"
+url_code = ""
 url_dataset = ""
 url_pdf = ""
-url_project = "http://github.com/libjohn/git-tutorial"
-url_slides = "https://rfun.netlify.com/git/slides/"
+url_project = ""
+url_slides = "https://rfun.library.duke.edu/git/slides/"
 url_video = ""
 
 # Links -- Custom Option
@@ -54,7 +54,15 @@ name = "Registration"
 url = "http://duke.libcal.com/event/3442538"
 
 [[url_custom]]
-name = "Workshop Materials"
+name = "Learning Materials"
+url = "http://rfun.library.duke.edu/git"
+
+[[url_custom]]
+name = "GitHub Code"
+url = "https://github.com/data-and-visualization/git-tutorial"
+
+[[url_custom]]
+name = "OSF Project"
 url = "https://osf.io/r6wfk/"
 
 # Optional featured image (relative to `static/img/` folder).
