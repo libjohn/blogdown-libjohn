@@ -39,15 +39,24 @@ image_preview = ""
 selected = true
 
 # Links (optional)
-url_code = "http://rpubs.com/libjohn/intro2r-dvs"
+url_code = ""
 url_dataset = "https://github.com/data-and-visualization/Intro2R/tree/master/data"
 url_pdf = ""
-url_project = "https://github.com/data-and-visualization/Intro2R"
+url_project = ""
 url_slides = "https://github.com/data-and-visualization/Intro2R/tree/master/slides"
 url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=be91b9f6-f891-4fa4-9151-560c8dc32c18"
+url_GitHub = "https://github.com/data-and-visualization/Intro2R"
 
 # Links -- Custom Option
 # You can make multiple custom links
+[[url_custom]]
+name = "Learning Materials"
+url = "http://rfun.library.duke.edu/intro2r"
+
+[[url_custom]]
+name = "GitHub Code"
+url = "https://github.com/data-and-visualization/Intro2R"
+
 [[url_custom]]
 name = "DVS Description"
 url = "http://library.duke.edu/data/news/past-workshops#r"
