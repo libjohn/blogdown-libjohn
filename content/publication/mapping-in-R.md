@@ -23,7 +23,7 @@ publication_short = ""
 date = "2017-10-02"
 
 # Abstract and optional shortened version.
-abstract = "R has become a popular and reproducibile option for supporting spatial and statistical analysis.  This hands-on workshop will demonstrate how to plot x/y coordinates; how to generate thematic choropleths with US Census and other federal data; import, view and produce shapefiles; and create leaflet maps for viewing on the web."
+abstract = "R has become a popular and reproducible option for supporting spatial and statistical analysis.  This hands-on workshop will demonstrate how to plot x/y coordinates; how to generate thematic choropleths with US Census and other federal data; import, view and produce shapefiles; and create leaflet maps for viewing on the web."
 
 abstract_short = "Mapping in RStudio.  Plot latitude and longitude.  Create choropleths using leaflet, sf, tidycensus, and tmap."
 
@@ -75,4 +75,4 @@ Series Dates:
 ## Recommended
 - Knowledge of GIS concepts.
 
-- Familiarity with tidyvers, ggplot2, R Notebooks, and R Markdown can be very helpful.  We teach workshops and use these concepts.  See more at our [Rfun](http://rfun.library.duke.edu/) site.
+- Familiarity with tidyverse, ggplot2, R Notebooks, and R Markdown can be very helpful.  We teach workshops and use these concepts.  See more at our [Rfun](http://rfun.library.duke.edu/) site.
