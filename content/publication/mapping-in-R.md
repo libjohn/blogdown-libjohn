@@ -59,8 +59,8 @@ url = "https://github.com/libjohn/mapping-with-R"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-# image = "headers/data_sci.png"
-# caption = "Image credit: [Data   Science](https://commons.wikimedia.org/wiki/File:Data_visualization_process_v1.png)"
+image = "headers/xy.png"
+#caption = "foo"
 
 +++
 
