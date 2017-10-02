@@ -45,7 +45,7 @@ url_dataset = ""
 url_pdf = ""
 url_project = ""
 url_slides = "https://rfun.library.duke.edu/git/slides/"
-url_video = ""
+url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=36b63692-7297-4f97-b1be-19cd57511d95"
 
 # Links -- Custom Option
 # You can make multiple custom links
