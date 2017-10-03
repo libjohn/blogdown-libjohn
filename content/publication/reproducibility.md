@@ -50,10 +50,6 @@ url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=36b63
 # Links -- Custom Option
 # You can make multiple custom links
 [[url_custom]]
-name = "Registration"
-url = "http://duke.libcal.com/event/3442538"
-
-[[url_custom]]
 name = "Learning Materials"
 url = "http://rfun.library.duke.edu/git"
 
