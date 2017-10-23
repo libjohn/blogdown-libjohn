@@ -61,6 +61,10 @@ url = "https://github.com/data-and-visualization/git-tutorial"
 name = "OSF Project"
 url = "https://osf.io/r6wfk/"
 
+[[url_custom]]
+name = "DVS Description"
+url = "http://library.duke.edu/data/news/past-workshops#git"
+
 # Optional featured image (relative to `static/img/` folder).
 [header]
 # image = "headers/data_sci.png"

@@ -53,6 +53,10 @@ url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=8b89b
 name = "GitHub Code"
 url = "https://github.com/libjohn/mapping-with-R"
 
+[[url_custom]]
+name = "DVS Description"
+url = "http://library.duke.edu/data/news/past-workshops#rgis"
+
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/xy.png"

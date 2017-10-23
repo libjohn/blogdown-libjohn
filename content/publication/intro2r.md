@@ -44,15 +44,11 @@ url_dataset = "https://github.com/data-and-visualization/Intro2R/tree/master/dat
 url_pdf = ""
 url_project = ""
 url_slides = "https://github.com/data-and-visualization/Intro2R/tree/master/slides"
-url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=be91b9f6-f891-4fa4-9151-560c8dc32c18"
+url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=651c273a-f1b0-485b-bf47-6bd61e304020"
 url_GitHub = "https://github.com/data-and-visualization/Intro2R"
 
 # Links -- Custom Option
 # You can make multiple custom links
-[[url_custom]]
-name = "Registration"
-url = "http://duke.libcal.com/event/3442545"
-
 [[url_custom]]
 name = "Learning Materials"
 url = "http://rfun.library.duke.edu/intro2r"
