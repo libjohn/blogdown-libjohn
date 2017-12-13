@@ -20,7 +20,7 @@ title = "Introduction to R: Data Transformations, Analysis, and Data Structures"
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2017-10-17"
+date = "2018-01-19"
 
 # Abstract and optional shortened version.
 abstract = "A gentle introduction to the basics of the R statistical programming language using the RStudio development environment. Learn about managing your R projects, data types, variable assignments, data cleaning and visualization. No previous experience required."
@@ -60,6 +60,10 @@ url = "https://github.com/data-and-visualization/Intro2R"
 [[url_custom]]
 name = "DVS Description"
 url = "http://library.duke.edu/data/news/past-workshops#r"
+
+[[url_custom]]
+name = "Registration"
+url = "https://duke.libcal.com/event/3734408"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

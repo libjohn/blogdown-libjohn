@@ -20,7 +20,7 @@ title = "Reproducibility: Data Management, Git, & RStudio"
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2017-09-18"
+date = "2018-01-29"
 
 # Abstract and optional shortened version.
 abstract = "In response to a growing focus on the importance of reproducibility, replication, and transparency in the research endeavor, scholars are adapting their practices and learning new skills and tools. This workshop will introduce some general data management strategies that can increase the reproducibility of your work. You will also learn through hands-on exercises how to harness two specific tools, git and RStudio, to support the execution of more reproducible research projects. Git is a powerful version control system and RStudio is an open-source statistical software program. No previous experience with Git or R is required for this workshop. "
@@ -65,6 +65,10 @@ url = "https://osf.io/r6wfk/"
 name = "DVS Description"
 url = "http://library.duke.edu/data/news/past-workshops#git"
 
+[[url_custom]]
+name = "Registration"
+url = "https://duke.libcal.com/event/3734431"
+
 # Optional featured image (relative to `static/img/` folder).
 [header]
 # image = "headers/data_sci.png"
@@ -73,4 +77,4 @@ url = "http://library.duke.edu/data/news/past-workshops#git"
 +++
 
 Series Dates:
-**Fall of 2017**
+**Fall of 2017 to the Present**
