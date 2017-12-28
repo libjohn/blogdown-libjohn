@@ -16,7 +16,7 @@ summary: "R Markdown is the backbone of R's dynamic documents, literate data sci
 
 *The following listicle appeared at the Rfun site on November 6, 2017*
 
-The [Fall Rfun Workshop series](https://rfun.netlify.com/2017/11/06/fall-2017-r-workshops/) was a big hit.  The five-part workshop series introduced the R programming language and it's use as a modern data manipulation tool.  We highlighted a basic set of packages that enable functional and practical data science. To that end, we approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the [tidyverse](https://www.tidyverse.org/). We believe this tool-set provides a context that enables and reinforces workflows, analysis and reporting. Meanwhile this tidy data approach is good for highlighting work best verified through the lens of reproducible research.
+The [Fall Rfun Workshop series](https://rfun.library.duke.edu/2017/11/06/fall-2017-r-workshops/) was a big hit.  The five-part workshop series introduced the R programming language and it's use as a modern data manipulation tool.  We highlighted a basic set of packages that enable functional and practical data science. To that end, we approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the [tidyverse](https://www.tidyverse.org/). We believe this tool-set provides a context that enables and reinforces workflows, analysis and reporting. Meanwhile this tidy data approach is good for highlighting work best verified through the lens of reproducible research.
 
 
 ## Resources
