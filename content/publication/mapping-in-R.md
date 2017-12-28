@@ -44,11 +44,16 @@ url_code = ""
 url_dataset = "https://github.com/libjohn/mapping-with-R/tree/master/data"
 url_pdf = ""
 url_project = ""
-url_slides = "https://github.com/libjohn/mapping-with-R/tree/master/slides"
+url_slides = "http://rfun.library.duke.edu/map/slides/"
 url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=8b89b84c-3f1e-4868-bf07-92bf6f52995a"
 
 # Links -- Custom Option
 # You can make multiple custom links
+[[url_custom]]
+name = "Learning Materials"
+url = "http://rfun.library.duke.edu/map/"
+
+
 [[url_custom]]
 name = "GitHub Code"
 url = "https://github.com/libjohn/mapping-with-R"
