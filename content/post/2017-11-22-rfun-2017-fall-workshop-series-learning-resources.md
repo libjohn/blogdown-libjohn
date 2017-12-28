@@ -41,7 +41,9 @@ The following list includes links to each workshop's resources.  Whenever possib
     - [DVS Description](http://duke.libcal.com/event/3442555)
 1. **Mapping with R**
     - [Streaming Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=8b89b84c-3f1e-4868-bf07-92bf6f52995a)
-    - [GitHub Code](https://github.com/libjohn/mapping-with-R)
+    - [Online Guide](http://rfun.library.duke.edu/map/)
+    - [Slides](http://rfun.library.duke.edu/map/slides/)
+    - [GitHub Repo](https://github.com/libjohn/mapping-with-R)
     - [DVS Description](http://duke.libcal.com/event/3442511)
 1. **Developing Interactive Websites with R and Shiny**
     - [Slides and Lecture Notes](https://docs.google.com/presentation/d/1phPGIP6AJaMimLwdt38OPJZIQR4ckAM5SUg8JQPhBD0/edit#slide=id.g1bb9ceb6c9_0_1026)
