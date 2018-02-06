@@ -30,7 +30,7 @@ caption = "Duke's Tableau Day.  July 26, 2017"
 
 &nbsp;
 
-The code example illustrates how to take a list column in a dataframe and wrangle it, thus making it easier to analyze.  See the [HTML output](/code_example/json_to_dataframe_unnest.nb.html) is for the R Notebook, [list_to_dataframe.Rmd](https://github.com/libjohn/dataframe_with_list) and 
+The code example illustrates how to take a list column in a data frame and wrangle it, thus making it easier to analyze.  See the [HTML output](/code_example/json_to_dataframe_unnest.nb.html) is for the R Notebook, [list_to_dataframe.Rmd](https://github.com/libjohn/dataframe_with_list) and 
 
 From a Jenny Bryan Workshop but similar to [Purrr tutorial](https://jennybc.github.io/purrr-tutorial/):  [Food Markets in New York](https://jennybc.github.io/purrr-tutorial/ex26_ny-food-market-json.html)   
 
