@@ -11,6 +11,7 @@
 
 <meta name="author" content="John Little" />
 
+<meta name="date" content="2018-02-06" />
 
 <title>list to dataframe</title>
 
@@ -170,12 +171,13 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">list to dataframe</h1>
 <h4 class="author"><em>John Little</em></h4>
+<h4 class="date"><em>2018-02-06</em></h4>
 
 </div>
 
 
 <!-- rnb-text-begin -->
-<p>The following is HTML output for the R Notebook, list_to_dataframe.Rmd and illustrates how to take a list column in a dataframe and wrangle it, thus making it easier to analyze</p>
+<p>The following illustrates how to take a list column in a dataframe and wrangle it, thus making it easier to analyze. This is the is HTML output for the R Notebook, <a href="https://github.com/libjohn/dataframe_with_list">list_to_dataframe.Rmd</a> and</p>
 <p>From a Jenny Bryan Workshop but similar to <a href="https://jennybc.github.io/purrr-tutorial/">Purrr tutorial</a>: <a href="https://jennybc.github.io/purrr-tutorial/ex26_ny-food-market-json.html">Food Markets in New York</a></p>
 <div id="load-packages" class="section level2">
 <h2>Load Packages</h2>
@@ -252,10 +254,26 @@ dataframe_list</code></pre>
 <!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+</div>
+<div id="simple-list-to-data-frame" class="section level2">
+<h2>Simple List to Data Frame</h2>
+<p>If the list item is not a nested list, i.e. a single item in the list, then the following code works as peachy as a pie.</p>
+<pre><code>map_dfr(sw_characters, `[`, c(&quot;name&quot;, &quot;gender&quot;))</code></pre>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbInRibF9kZiIsInRibCIsImRhdGEuZnJhbWUiXSwibmNvbCI6MiwibnJvdyI6MzB9LCJyZGYiOiJINHNJQUFBQUFBQUFCcTFVYlcvVE1CQjIwNWF5c0t3RnZrLzVBNnNFLzZBdmJHaFFJV2cxOXZWb2JvMXBhazluZHlYZitLMzhrSlZ6WjVlbDFTU0tpSlQ0L1BpNWx5ZG4zWmZoOWR2NE9oWkNSS0xlcUltb3ptWWo0azlOTk1TUlczOElVWCs5SVFqUjRmZlVIeVNUSExWS0x3akw3N3IwWUdkU2ttVDBJeWdsalVYeStNc3JPYld3T2FvNk5MN0tvdkIyM0NQVTZYdHRJZmRJYzVDanRYN1RHaEFhZzhwdjJ6MlNuQVhURVpERmJaQlhRMENGVkpwMEFqUURLcmNPSjBPNDB5WWRJNncwMmZ4UDBoTFNNUmMzRDhKNnp2c1R6SFBreUI0ODdwa2NkbXB2OTRHSVZZTGlvTVVpd0swcklGaVVRWHJTSjFBWkMzK2NvOU1uaWE1NGZlUHEzRmFURElDMWxEdmtBWkpCdWZkVGo5OWxHVkJXNGJZdlFTNXdqM3B5eVFVTU5JTnFablg0STg4ZE9sWjZ0VldPdE5laDlnZThnLzJPeGlNc3BHRmxoS0djRVJKeHU5Sno5Zy9PbjVlb0xPdXBOaWtadzJMRlc2ZTlDTndYWTFBbXRLSjYxeG9qS1BBLzI4L09jZkhVN21uZTM1MzhTODdEb3gyZThSQ1A2aGhvVGdzd3hyY2xnSEVHRnJvM2ZOdjM2SXF4UUk5Q0ZnZUdMRE5VR1YrbXF0c1I2VlUzdUNiTzlTZC8xdXYxTDE3dWQ4Z3RmV3Q1b0RBMWN2T3B1Vk5jalhhQTlsSzUwTm5aTkYrcStka2JKMkJ6L1BBazNqNTlaRWNQS2V0ckg2b1pxa2Mxa3lwb2FSYndEY1BWUG1FSkd3WGRXNUlxakkrWVVkTzFQTnEydzI2cWk0QnN0SW43MzYrZy9hMk5CUUFBIn0= -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["name"],"name":[1],"type":["chr"],"align":["left"]},{"label":["gender"],"name":[2],"type":["chr"],"align":["left"]}],"data":[{"1":"Theon Greyjoy","2":"Male"},{"1":"Tyrion Lannister","2":"Male"},{"1":"Victarion Greyjoy","2":"Male"},{"1":"Will","2":"Male"},{"1":"Areo Hotah","2":"Male"},{"1":"Chett","2":"Male"},{"1":"Cressen","2":"Male"},{"1":"Arianne Martell","2":"Female"},{"1":"Daenerys Targaryen","2":"Female"},{"1":"Davos Seaworth","2":"Male"},{"1":"Arya Stark","2":"Female"},{"1":"Arys Oakheart","2":"Male"},{"1":"Asha Greyjoy","2":"Female"},{"1":"Barristan Selmy","2":"Male"},{"1":"Varamyr","2":"Male"},{"1":"Brandon Stark","2":"Male"},{"1":"Brienne of Tarth","2":"Female"},{"1":"Catelyn Stark","2":"Female"},{"1":"Cersei Lannister","2":"Female"},{"1":"Eddard Stark","2":"Male"},{"1":"Jaime Lannister","2":"Male"},{"1":"Jon Connington","2":"Male"},{"1":"Jon Snow","2":"Male"},{"1":"Aeron Greyjoy","2":"Male"},{"1":"Kevan Lannister","2":"Male"},{"1":"Melisandre","2":"Female"},{"1":"Merrett Frey","2":"Male"},{"1":"Quentyn Martell","2":"Male"},{"1":"Samwell Tarly","2":"Male"},{"1":"Sansa Stark","2":"Female"}],"options":{"columns":{"min":{},"max":[10],"total":[2]},"rows":{"min":[10],"max":[10],"total":[30]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogImxpc3QgdG8gZGF0YWZyYW1lIg0KYXV0aG9yOiAgIkpvaG4gTGl0dGxlIg0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KDQpUaGUgZm9sbG93aW5nIGlzIEhUTUwgb3V0cHV0IGZvciB0aGUgUiBOb3RlYm9vaywgbGlzdF90b19kYXRhZnJhbWUuUm1kIGFuZCBpbGx1c3RyYXRlcyBob3cgdG8gdGFrZSBhIGxpc3QgY29sdW1uIGluIGEgZGF0YWZyYW1lIGFuZCB3cmFuZ2xlIGl0LCB0aHVzIG1ha2luZyBpdCBlYXNpZXIgdG8gYW5hbHl6ZQ0KDQpGcm9tIGEgSmVubnkgQnJ5YW4gV29ya3Nob3AgYnV0IHNpbWlsYXIgdG8gW1B1cnJyIHR1dG9yaWFsXShodHRwczovL2plbm55YmMuZ2l0aHViLmlvL3B1cnJyLXR1dG9yaWFsLyk6ICBbRm9vZCBNYXJrZXRzIGluIE5ldyBZb3JrXShodHRwczovL2plbm55YmMuZ2l0aHViLmlvL3B1cnJyLXR1dG9yaWFsL2V4MjZfbnktZm9vZC1tYXJrZXQtanNvbi5odG1sKSANCg0KIyMgTG9hZCBQYWNrYWdlcw0KDQotIHB1cnJyICAtLSBhIHBhY2thZ2UgZm9yIGl0ZXJhdGluZyBvdmVyIGxpc3RzDQotIHJlcHVycnJzaXZlIC0tIGEgcGFja2FnZSBmb3IgbGVhcm5pbmcgcHVycnINCg0KYGBge3J9DQpsaWJyYXJ5KHB1cnJyKQ0KbGlicmFyeShyZXB1cnJyc2l2ZSkNCg0KIyMgVGhlIGZvbGxvd2luZyBhcmUgaGVscGZ1bCB0aWR5dmVyc2UgcGFja2FnZXMuICANCmxpYnJhcnkodGliYmxlKQ0KbGlicmFyeShkcGx5cikNCmxpYnJhcnkodGlkeXIpDQpgYGANCg0KQ291bGQgaGF2ZSBtb3JlIHNpbXBseSBsb2FkZWQgdGlkeXZlcnNlICYgcmVwdXJycnNpdmUgcGFja2FnZXMsIGJ1dCB3ZSdyZSBsZWFybmluZyBoZXJlLg0KDQpgYGB7fQ0KbGlicmFyeSh0aWR5dmVyc2UpDQpsaWJyYXJ5KHJlcHVycnJzaXZlKQ0KYGBgDQoNCg0KIyMgQXNzaWduIG9uYm9hcmQgbGlzdCAqZ290X2NocnMqIHRvIGFuIGxpc3QgKnN3X2NoYXJhY3RlcnMqDQoNCmBgYHtyfQ0Kc3dfY2hhcmFjdGVycyA8LSBnb3RfY2hhcnMNCmBgYA0KDQojIyBTaW1wbGlmeSB0aGUgbGlzdA0KDQpzZWxlY3QgbGlzdCBpdGVtcyAoKm5hbWUqLCBhbmQgKnRpdGxlcyopIHRvIHdvcmsgb24sIHRyYW5zZm9ybSB0aGVtIHRvIGEgZGF0YSBmcmFtZSB3aXRoIHR3byB2YXJpYWJsZXMuICBPbmUgdmFyaWFibGUgaXMgYSBjaGFyYWN0ZXIgdmVjdG9yLCB0aGUgb3RoZXIgdmFyaWFibGUgaXMgYSBsaXN0IC0tIGJlY2F1c2UgYSBzaW5nbGUgbmFtZWQgY2hhcmFjdGVyIGNhbiBoYXZlIG1hbnkgYWxlZ2lhbmNlcyAoaS5lLiB0aXRsZXMpLg0KDQpgYGB7cn0NCmRhdGFmcmFtZV9saXN0IDwtIHRpYmJsZSgNCiAgbmFtZSA9IG1hcF9jaHIoc3dfY2hhcmFjdGVycywgIm5hbWUiKSwNCiAgdGl0bGUgPSBtYXAoc3dfY2hhcmFjdGVycywgInRpdGxlcyIpDQopDQoNCmRhdGFmcmFtZV9saXN0DQpgYGANCg0KIyMgVHJhbnNmb3JtIA0KZnJvbSBuZXN0ZWQgbGlzdCwgdG8gInVuZmlsbGVkIiB0YWxsLCB0aGVuIGZpbGxkb3duIChpLmUuIGB1bm5lc3QoKWApDQoNCmBgYHtyfQ0KZGF0YWZyYW1lX2xpc3QgJT4lIA0KICBtdXRhdGUobl90aXRsZXMgPSBtYXBfaW50KHRpdGxlLCBsZW5ndGgpKSAlPiUgDQogIGZpbHRlcihuX3RpdGxlcyA+IDEpICU+JSANCiAgc2VsZWN0KG5hbWUsIHRpdGxlKSAlPiUgDQogIHVubmVzdCgpDQpgYGANCg0KDQo=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogImxpc3QgdG8gZGF0YWZyYW1lIg0KYXV0aG9yOiAgIkpvaG4gTGl0dGxlIg0KZGF0ZTogImByIFN5cy5EYXRlKClgIg0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KDQpUaGUgZm9sbG93aW5nIGlsbHVzdHJhdGVzIGhvdyB0byB0YWtlIGEgbGlzdCBjb2x1bW4gaW4gYSBkYXRhZnJhbWUgYW5kIHdyYW5nbGUgaXQsIHRodXMgbWFraW5nIGl0IGVhc2llciB0byBhbmFseXplLiAgVGhpcyBpcyB0aGUgaXMgSFRNTCBvdXRwdXQgZm9yIHRoZSBSIE5vdGVib29rLCBbbGlzdF90b19kYXRhZnJhbWUuUm1kXShodHRwczovL2dpdGh1Yi5jb20vbGliam9obi9kYXRhZnJhbWVfd2l0aF9saXN0KSBhbmQgDQoNCkZyb20gYSBKZW5ueSBCcnlhbiBXb3Jrc2hvcCBidXQgc2ltaWxhciB0byBbUHVycnIgdHV0b3JpYWxdKGh0dHBzOi8vamVubnliYy5naXRodWIuaW8vcHVycnItdHV0b3JpYWwvKTogIFtGb29kIE1hcmtldHMgaW4gTmV3IFlvcmtdKGh0dHBzOi8vamVubnliYy5naXRodWIuaW8vcHVycnItdHV0b3JpYWwvZXgyNl9ueS1mb29kLW1hcmtldC1qc29uLmh0bWwpIA0KDQojIyBMb2FkIFBhY2thZ2VzDQoNCi0gcHVycnIgIC0tIGEgcGFja2FnZSBmb3IgaXRlcmF0aW5nIG92ZXIgbGlzdHMNCi0gcmVwdXJycnNpdmUgLS0gYSBwYWNrYWdlIGZvciBsZWFybmluZyBwdXJycg0KDQpgYGB7cn0NCmxpYnJhcnkocHVycnIpDQpsaWJyYXJ5KHJlcHVycnJzaXZlKQ0KDQojIyBUaGUgZm9sbG93aW5nIGFyZSBoZWxwZnVsIHRpZHl2ZXJzZSBwYWNrYWdlcy4gIA0KbGlicmFyeSh0aWJibGUpDQpsaWJyYXJ5KGRwbHlyKQ0KbGlicmFyeSh0aWR5cikNCmBgYA0KDQpDb3VsZCBoYXZlIG1vcmUgc2ltcGx5IGxvYWRlZCB0aWR5dmVyc2UgJiByZXB1cnJyc2l2ZSBwYWNrYWdlcywgYnV0IHdlJ3JlIGxlYXJuaW5nIGhlcmUuDQoNCmBgYHt9DQpsaWJyYXJ5KHRpZHl2ZXJzZSkNCmxpYnJhcnkocmVwdXJycnNpdmUpDQpgYGANCg0KDQojIyBBc3NpZ24gb25ib2FyZCBsaXN0ICpnb3RfY2hycyogdG8gYW4gbGlzdCAqc3dfY2hhcmFjdGVycyoNCg0KYGBge3J9DQpzd19jaGFyYWN0ZXJzIDwtIGdvdF9jaGFycw0KYGBgDQoNCiMjIFNpbXBsaWZ5IHRoZSBsaXN0DQoNCnNlbGVjdCBsaXN0IGl0ZW1zICgqbmFtZSosIGFuZCAqdGl0bGVzKikgdG8gd29yayBvbiwgdHJhbnNmb3JtIHRoZW0gdG8gYSBkYXRhIGZyYW1lIHdpdGggdHdvIHZhcmlhYmxlcy4gIE9uZSB2YXJpYWJsZSBpcyBhIGNoYXJhY3RlciB2ZWN0b3IsIHRoZSBvdGhlciB2YXJpYWJsZSBpcyBhIGxpc3QgLS0gYmVjYXVzZSBhIHNpbmdsZSBuYW1lZCBjaGFyYWN0ZXIgY2FuIGhhdmUgbWFueSBhbGVnaWFuY2VzIChpLmUuIHRpdGxlcykuDQoNCmBgYHtyfQ0KZGF0YWZyYW1lX2xpc3QgPC0gdGliYmxlKA0KICBuYW1lID0gbWFwX2Nocihzd19jaGFyYWN0ZXJzLCAibmFtZSIpLA0KICB0aXRsZSA9IG1hcChzd19jaGFyYWN0ZXJzLCAidGl0bGVzIikNCikNCg0KZGF0YWZyYW1lX2xpc3QNCmBgYA0KDQojIyBUcmFuc2Zvcm0gDQpmcm9tIG5lc3RlZCBsaXN0LCB0byAidW5maWxsZWQiIHRhbGwsIHRoZW4gZmlsbGRvd24gKGkuZS4gYHVubmVzdCgpYCkNCg0KYGBge3J9DQpkYXRhZnJhbWVfbGlzdCAlPiUgDQogIG11dGF0ZShuX3RpdGxlcyA9IG1hcF9pbnQodGl0bGUsIGxlbmd0aCkpICU+JSANCiAgZmlsdGVyKG5fdGl0bGVzID4gMSkgJT4lIA0KICBzZWxlY3QobmFtZSwgdGl0bGUpICU+JSANCiAgdW5uZXN0KCkNCmBgYA0KDQojIyBTaW1wbGUgTGlzdCB0byBEYXRhIEZyYW1lDQoNCklmIHRoZSBsaXN0IGl0ZW0gaXMgbm90IGEgbmVzdGVkIGxpc3QsIGkuZS4gYSBzaW5nbGUgaXRlbSBpbiB0aGUgbGlzdCwgdGhlbiB0aGUgZm9sbG93aW5nIGNvZGUgd29ya3MgYXMgcGVhY2h5IGFzIGEgcGllLg0KDQpgYGB7fQ0KbWFwX2Rmcihzd19jaGFyYWN0ZXJzLCBgW2AsIGMoIm5hbWUiLCAiZ2VuZGVyIikpDQpgYGANCg0KYGBge3J9DQptYXBfZGZyKHN3X2NoYXJhY3RlcnMsIGBbYCwgYygibmFtZSIsICJnZW5kZXIiKSkNCmBgYA0KDQo=</div>
 
 
 
