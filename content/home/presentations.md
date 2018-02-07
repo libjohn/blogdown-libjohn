@@ -37,6 +37,10 @@ view = 1
 [[filter]]
   name = "API"
   tag = ".api"
+  
+[[filter]]
+  name = "Code Example"
+  tag = ".code"  
 
 [[filter]]
   name = "CSS"
