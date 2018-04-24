@@ -1,0 +1,71 @@
+---
+title: "DSVIL Resources"
+subtitle: "DSVIL 2018"
+author: "John Little"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css:
+    - default
+    - duke.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+## Outline
+
+- [Introduction](intro_05.html)
+- [Web Scraping](websraping_10.html)
+- [OpenRefine: Cleaning Basics](openrefine_cleaning_basics_20.html)
+- [OpenRefine: Reconciliation](openrefine_cleaning_reconciliation_30.html)
+- [Twitter Streams and TAGS](twitter_streams_TAGS_40.html)
+- [APIs and Twitter](api_and_twitter_50.html)
+- [Web Scraping, Advanced: Parsing HTML and JSON](parsing_html_json_openrefine_api_60.html)
+- [Parsing: More HTML and JSON](parsing_more_html_json_openrefine_api_70.html)
+
+---
+## Thank You For Attending
+
+.pull-left[
+### I am ...
+
+- **John Little**
+- https://johnlittle.info/
+- http://github.com/libjohn
+
+
+- Rfun
+
+    - [R we having fun yet‽](https://rfun.library.duke.edu/)
+    - the **Rfun** resource pages
+
+]
+
+.pull-right[
+### Duke Univesrity...
+- **Data & Visualization Services**
+- http://library.duke.edu/data/
+- The /Edge, Bostock (1st Floor)
+
+#### Walk-in Hours
+- [Schedule](http://library.duke.edu/data/about/schedule)
+
+#### Our Workshops
+- [Current Workshops](http://library.duke.edu/data/news)
+- [Past Workshops](http://library.duke.edu/data/news/past-workshops)
+
+#### Contact Us
+- askData@Duke.edu
+]
+
+---
+class: center, middle
+## Shareable under CC BY-NC license 
+
+
+Data, presentation, and handouts are shareable under [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+
+![This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.](images/cc-by-nc.png "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License")
+
