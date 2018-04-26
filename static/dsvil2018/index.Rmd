@@ -1,0 +1,43 @@
+---
+title: "Pragmatic Datafication - DSVIL 2018"
+subtitle: "Outline"
+author: "John Little"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css:
+    - default
+    - default-fonts
+    - duke.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: bottom, center
+background-image:  url(https://www.lib.ncsu.edu/sites/default/files/styles/large/public/DSVIL%20Vertical%20Logo_0.jpg)
+
+[DSVIL 2018](https://www.lib.ncsu.edu/data-science-and-visualization-institute)
+
+
+
+---
+## Outline
+
+- [Introduction](intro_05.html)
+- [Web Scraping](webscraping_10.html)
+- [OpenRefine: Data Cleaning Basics](openrefine_cleaning_basics_20.html)
+- [OpenRefine: Reconciliation](openrefine_cleaning_reconciliation_30.html)
+- [Capturing Twitter Data](twitter_streams_TAGS_40.html)
+- [APIs & Parsing ](api_50.html)
+- [Advanced Web Scraping: Crawling and Parsing  HTML](parsing_html_openrefine_60.html)
+
+---
+class: middle, center
+[Top / Table of Contents](index.html#3) | [NEXT Introduction)](intro_05.html)
+
+---
+```{r child = 'footer.Rmd'}
+
+```

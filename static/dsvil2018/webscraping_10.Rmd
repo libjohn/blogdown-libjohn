@@ -1,0 +1,100 @@
+---
+title: "Pragmatic Datafication - DSVIL 2018"
+subtitle: "Web Scraping"
+author: "John Little"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css:
+    - default
+    - default-fonts
+    - duke.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: middle, center
+
+### Scraping = Crawling + Parsing
+
+---
+class: softblue
+## Crawl
+
+.pull-left[ 
+Moving across or through a website in an attempt to gather data from more than one page (URL)
+]
+
+.pull-right[ 
+
+![sloth](images/crawling_med.jpg)
+
+]
+
+---
+class: middle, center
+
+For our hands-on and demonstration
+
+# WebScraper.io 
+
+Use the Chrome Browser
+
+
+
+---
+## Demonstration
+
+Congressional Press Releases
+
+- Representative Nancy Pelosi’s Press Releases
+    - CONTENT
+        - Structure of the [Press Release subsection](http://pelosi.house.gov/news/press-releases/) of the site
+            - Pagination
+            - Links to each release
+            - Information Content Structure:  Web Site & Web Page(s)
+    - TOOL
+        - [Webscraper.io](http://Webscraper.io) tool works inside of Chrome
+            - Tutorials
+            - Documentation
+            - Community
+            - Free 
+                - Alternatively, Fee for Service
+
+---
+background-image: url(images/selector_graph.png)
+
+
+---
+class: green
+
+## Now You Try It
+
+1. Download & Install [Webscraper.io](http://Webscraper.io) ; restart your Chrome browser
+
+2. Use one of the following sites
+
+    - http://pelosi.house.gov/news/press-releases/ 
+    - http://butterfield.house.gov/media-center/press-releases 
+    - https://walker.house.gov/media-center/press-releases 
+    - http://www.donnelly.senate.gov/newsroom/press 
+    - https://price.house.gov/press-releases/ (difficult pagination)
+
+3. Follow [Intructions](https://docs.google.com/document/d/17iKQG9JfREEEThz_Qeai5lvv5mYPRsixi0MKbS6aIsM/edit#heading=h.hdqpl186tuyo) 1-8
+
+    - Substitute the site you picked from step 2 (above)
+    
+    - (instructions: http://v.gd/webscraping1111 ) 
+    
+]
+
+---
+class: middle, center
+[Top / Table of Contents](index.html#3) | [NEXT OpenRefine: Basics (Part 1)](openrefine_cleaning_basics_20.html)
+
+---
+```{r child = 'footer.Rmd'}
+
+```

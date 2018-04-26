@@ -1,0 +1,205 @@
+---
+title: "Pragmatic Datafication - DSVIL 2018"
+subtitle: "APIs"
+author: "John Little"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css:
+    - default
+    - default-fonts
+    - duke.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+## Application Program Interface 
+
+A set of rules and protocols used to build a software application.  In the context of Web Scraping an API is a method used to gather clean data from a website (i.e. data that is not wrapped in HTML, Javascript, bound in HTTP, etc.)
+
+- Built for machine-to-machine interactions
+
+- Instructions for programs
+
+![API schematic](images/api.png)
+
+
+---
+## Why Use APIs?
+
+--
+
+- Get data in BULK
+
+    - frontier beyond curated datasets
+    - better data structures and eliminates HTML (JSON is easier to parse)
+    - Easier to generate tidy dataframes
+
+--
+
+## Intellectual Property must be considered
+
+---
+class: softblue
+
+### Client / Server 
+
+![](images/Client-server-model.svg.png) 
+
+- Same as h2m but now m2m
+
+---
+
+### Simulation...
+
+- Person enters a URL
+
+![Parts of URL](images/URL.PNG)
+
+--
+    
+- Client & server negotiate handshake (*dramatization...*)
+
+--
+
+.right[![dramatization: good handshake](images/good-handshake.gif)]
+
+---
+
+- Web Browser parses the HTML
+
+--
+
+.right[![happy parsing dance](images/result-happyDance.gif)]
+
+???
+
+Ever seen HTML before?  
+    
+---
+class: softblue
+## JSON
+
+* [Javascript Object Notation](https://en.wikipedia.org/wiki/JSON) is a language-independent data format
+* Currently the most common data data format for asynchronous client/server communication format
+* Consists of key-value pairs
+
+```{json example}
+# from https://en.wikipedia.org/wiki/JSON
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 25,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    },
+    {
+      "type": "mobile",
+      "number": "123 456-7890"
+    }
+  ],
+  "children": [],
+  "spouse": null
+}
+```
+
+---
+
+## m2m -- development
+
+- Make [OR] interface with the web API
+
+- Same as h2m but now m2m
+
+*dramatization...*
+
+--
+
+.right[![dramatization: confused about the protocol](images/development-confusion.gif)]
+
+---
+
+## Demonstration
+
+Using OpenRefine to query an API delivering JSON data
+
+    - http://www.omdbapi.com/?t=rocky&y=&plot=full&r=json
+    - [JSON Viewer](http://jsonviewer.stack.hu/)
+    - `parseJson().imdbID`
+        - Actors
+        - Writer
+        - Title
+        
+
+---
+class: green
+
+## Now You Try
+
+1. [v.gd/parsing3333](https://docs.google.com/document/d/1ZiHC1v595tf2NAhv4vVdRYy-Ro78Bc37Y0gs1TfGBco/)
+
+
+---
+background-image: url(images/keys6a.jpg)
+
+## API Keys
+
+.left-column[
+- You can 
+    - Regenerate keys
+    - Change access permissions
+    - Delete the keys/application
+    - Keep your *Secret Key* a secret!
+]
+
+.right-column.pull-right[
+- A way for the Service Host to know how their API is being used
+
+- Register your Application at the Twitter API Dashboard 
+]
+
+&lt;!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  --&gt;
+
+---
+## Twitter API Keys?
+
+1. http://apps.twitter.com
+
+    - e.g. when using TAGS version 6.0
+        - Name = TAGS Twitter Data (must be unique across Twittersphere)
+        - Description = My TAGS application collects my Twitter Searches
+        - Web Site = A page that connects to you, or better to your application (e.g. A results report)
+        - Callback URL = https://script.google.com/macros/
+        - Read the developer rules and accept the terms
+
+2. Get your keys
+
+    - Click on the *Keys and Access Tokens* Tab
+        - Consumer Key (API Key)
+        - Consumer Secret (API Secret)
+
+
+---
+class: middle, center
+[Top / Table of Contents](index.html#3) | [NEXT Advanced Crawling and Parsing)](parsing_html_openrefine_60.html)
+
+
+---
+```{r child = 'footer.Rmd'}
+
+```

@@ -1,0 +1,155 @@
+---
+title: "Pragmatic Datafication - DSVIL 2018"
+subtitle: "Capturing Twitter Data"
+author: "John Little"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css:
+    - default
+    - default-fonts
+    - duke.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, middle, center
+
+# Social Media
+
+Gather Twitter streams using the TAGS app for Google Sheets
+
+---
+class: softblue
+
+## TAGS:  a tool for collecting Twitter streams
+
+- TAGS (“New Sheets”; Version 6.1)
+
+    - Form driven (not command line)
+    - Minimal setup
+    - Data are collected in Google Sheets
+    - Gather twitter stream data by type
+        - screen-name stream data
+        - screen-name status updates
+        - twitter user favorited tweets
+        - Search term for last 7 days:  hashtag stream, username, boolean logic
+        - Limit by date
+        - Schedule to run hourly - set your interval, or run once.
+        - 3 minute setup-video; easy to use - https://youtu.be/Vm0kjAvH5HM 
+        - Outputs:  raw CSV structured data, plus default social graph visualizations
+
+---
+background-image: url(images/tags-screen1.png)
+
+---
+background-image: url(images/gsheets-results1.png)
+
+---
+background-image: url(images/network-graph.png)
+
+---
+class: green
+
+## Now You Try...
+
+1. Go to Tags - https://tags.hawksey.info/ 
+
+2. Get Tags > Get version 6.1 (requires Google Account)
+
+    - Make a **copy** of the TAGS 6.1 Template
+    - In the Searchbox search either a hashtag or a Twitter handle
+        - @ViolaDavis
+    - TAGS > Run Now  (requires a Twitter Account ; Authorize TAGS)
+    - Wait for results (maybe 60 seconds)
+    
+3. Results are found in the "Archive" sheet
+
+---
+## Analysis
+
+TAGS offers 
+
+- Summary Sheet 
+
+- Dashboard Sheet 
+
+- TAGS Explorer 
+    - Network graphs
+    - Top Tweets
+    - Top Hashtags
+    - Top Conversations
+    - Sheet must be publicly available 
+    
+- TAGS Archive 
+    - Search filters of the archive
+
+---
+class: green
+
+## Now You Try...
+
+Using your Twitter stream archive and TAGS, visualize the network of a twitter user
+
+1. TAGS &gt; Add Summary Sheet
+
+2. TAGS &gt; Add Dashboard Sheet
+
+3. Make your Google Sheet Public
+
+    - Share button &gt; Done
+    - <img src="images/Google-Share-button.png" style="vertical-align: top;">
+    
+4. On the *Readme/Settings* Sheet &gt; TAGSExplorer
+
+---
+## Historical Twitter Data
+
+A selective list of twitter data tools
+
+- Twitter API (Works with [TAGS](https://tags.hawksey.info/): twitter archiving google sheet)
+
+    - Last 7 Days from the 
+    - **Plan Ahead**
+
+- [gnip.com](http://gnip.com) for historical data
+    
+    - fees may apply
+
+- [NodeXL](https://www.smrfoundation.org/nodexl/)
+
+    - $29/student/month 
+    - https://www.smrfoundation.org/license/ 
+
+---
+## Other Analysis Tools
+
+### Simple 
+
+- Netylics - https://netlytic.org/
+
+- SocioViz - http://socioviz.net/ 
+
+### Visual Text Analysis
+
+- Voyant - http://voyant-tools.org/
+
+- Overview - https://www.overviewdocs.com/
+
+### Network Graph Analysis    
+
+- Gephi - https://gephi.org/
+
+---
+class: middle, center
+[Top / Table of Contents](index.html#3) | [NEXT APIs & Parsing)](api_50.html)
+
+
+---
+```{r child = 'footer.Rmd'}
+
+```
+
+

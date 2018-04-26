@@ -1,0 +1,37 @@
+---
+title: "Pragmatic Datafication - DSVIL 2018"
+subtitle: "OpenRefine, Part 2:  Reconciliation"
+author: "John Little"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css:
+    - default
+    - default-fonts
+    - duke.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: softblue, center, middle
+
+# Reconciliation
+
+
+Try it with me:  [Reconciliation](https://libjohn.github.io/openrefine/hands-on-reconciliation.html)
+
+
+---
+class: middle, center
+[Top / Table of Contents](index.html#3) | [NEXT Capturing Twitter Data)](twitter_streams_TAGS_40.html)
+
+
+---
+```{r child = 'footer.Rmd'}
+
+```
+
+
+

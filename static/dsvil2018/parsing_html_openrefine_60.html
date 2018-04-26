@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pragmatic Datafication - DSVIL 2018</title>
+    <meta charset="utf-8">
+    <meta name="author" content="John Little" />
+    <meta name="date" content="2018-04-26" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="duke.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Pragmatic Datafication - DSVIL 2018
+## Web Scraping: Crawling &amp; Parsing
+### John Little
+### 2018-04-26
+
+---
+
+class: softblue
+
+.pull-left[
+
+## Scrape
+
+![scraping propolis](images/Scraping_propolis.jpg) 
+
+Using tools to gather data you can see on a webpage
+
+]
+
+.pull-right[
+
+## Parse
+
+Analyzing the strings and symbols to reveal only the data you need
+
+
+![strain honey from comb](images/strain_comb.jpg)
+
+]
+
+---
+class: softblue
+
+## HTML
+
+Hypertext Markup Language
+
+
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;!-- created 2010-01-01 --&gt;
+ &lt;head&gt;
+  &lt;title&gt;sample&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;p&gt;Voluptatem accusantium
+   totam rem aperiam.&lt;/p&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+```
+
+---
+
+## URL
+
+![elements of a URL](images/URL.PNG)
+
+- Server sends back marked-up content
+
+    - HTML
+    - CSS StyleSheets
+    - JavaScript
+    
+- Browser parses the HTML
+    
+---
+## OpenRefine (Fetch &amp; Parse)
+
+- Scrape
+
+    - Add column by fetching URL...
+    
+- Parse 
+
+    - BeautifulSoup Libraries
+         - Refine uses GREL Expressions to transform data
+         - jSoup is a Java library implementation of BeautifulSoup -- a tool for HTML Extraction
+    - Resources
+        - [Step-by-step example](https://libjohn.github.io/openrefine/start.html#api)
+    - Documentation
+        - [OpenRefine’s documentation](https://github.com/OpenRefine/OpenRefine/wiki/StrippingHTML) on HTML Parsing
+        - [jSoup Documentation](http://jsoup.org/cookbook/extracting-data/selector-syntax)
+        - [CSS](http://flukeout.github.io/)
+
+---
+## Demonstration -- Process Outline
+
+1. Fetch HTML by URL from Web Server
+
+    - Edit column &gt; Add column by fetching URL...
+
+2. Parse HTML
+
+    - Edit column &gt; Add column based on this column
+        - `parseHTML()`
+        - `select("HTML/CSS handle")`
+            - in Chrome:  highlight text &gt; right-click &gt; inspect (Chrome Developer Mode)
+            - choose an array element, typically `[0]`
+            - convert element:
+                - `htmlText()`
+                - `htmlAttr("attribute handle")`
+                
+---
+###  Parsing by HTML elements and CSS
+
+1. Edit Column &gt; Add column based on this column
+
+    - `value.parseHtml().select("div.contentdata")[0].htmlText()`
+    - `value.parseHtml().select("title")[0].htmlText()`
+
+###  Parsing by Brute Force
+
+2. Edit Column &gt; Add column based on this column
+
+    - `value.split("&lt;/title&gt;")[0]`
+    - Edit Cells &gt; Transform &gt; `value.split("&lt;title&gt;")[1]`
+
+---
+class: green
+
+## Now You Try It
+
+1. [Step-by-Step Worksheet](https://docs.google.com/document/d/173DBCKrfXWT2yGlFeGQ-zaCh5TefwxctL1CoTTQTS1Y/):  Complete the *fetching* and *brute force* parsing method in steps 1-4
+
+2. Complete the parsing example in Step 5
+
+3. If you're speedy try the various parsing examples in step 6 
+
+    - HTML Viewer: http://codebeautify.org/htmlviewer/
+
+---
+## Demonstrate -- Part 2
+
+From price-press_releases.csv
+
+- `value.parseHtml().select("div.contentdata")[0].select("strong")`
+
+- `value.parseHtml().select("div.contentdata")[0].select("strong")[2].htmlText()`
+
+- `value.parseHtml().select("div#centerbox")[0].select("a")[3].htmlAttr("href")`
+
+- `forEach(value.parseHtml().select("div#centerbox")[0].select("a"),j,j.htmlAttr("href")).join("|||")`
+    
+---
+class: middle, center
+[Top / Table of Contents](index.html#3) 
+
+---
+
+# John Little
+
+.pull-left[
+### I am ...
+
+**John Little**
+- Data Analytics Librarian
+- https://johnlittle.info/
+- https://github.com/libjohn
+
+
+#### Your Rfun host...
+You can make **Rfun** with our resources for R and data science analytics.  See the [R we having fun yet‽](https://rfun.library.duke.edu/) resource pages.
+
+]
+
+.pull-right[
+### Duke Univesrity...
+**Data &amp; Visualization Services**
+- https://library.duke.edu/data/
+- askData@Duke.edu
+- The /Edge, Bostock (1st Floor)
+- [Past Workshops](https://library.duke.edu/data/news/past-workshops)
+- [Guides &amp; Tutorials](https://library.duke.edu/data/tutorials)
+
+]
+
+---
+class: center, middle
+## Shareable under CC BY-NC license 
+
+
+Data, presentation, and handouts are shareable under [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+
+![This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.](images/cc-by-nc.png "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License")
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
