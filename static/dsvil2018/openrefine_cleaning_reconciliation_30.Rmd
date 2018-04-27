@@ -15,12 +15,26 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: softblue, center, middle
+class: middle, center
 
-# Reconciliation
+## Reconciliation
 
+**Verify** or **enrich** your data via authoritative third-party sources
 
-Try it with me:  [Reconciliation](https://libjohn.github.io/openrefine/hands-on-reconciliation.html)
+Semi-automated so **you retain control** of the changes
+
+---
+class: green
+
+## Try it with me
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Exercise:  [Reconciliation](https://libjohn.github.io/openrefine/hands-on-reconciliation.html)
 
 
 ---

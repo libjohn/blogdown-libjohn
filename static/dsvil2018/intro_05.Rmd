@@ -48,7 +48,7 @@ background-image: url(http://4.bp.blogspot.com/-XXCVJfR7jeU/Uh022FJuDVI/AAAAAAAA
 ---
 class:  middle, center
 
-### Learn by Doing
+### Learn by doing
 
 ### Pay attention to the data as it's being transformed
 

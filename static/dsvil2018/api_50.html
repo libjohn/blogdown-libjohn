@@ -4,7 +4,7 @@
     <title>Pragmatic Datafication - DSVIL 2018</title>
     <meta charset="utf-8">
     <meta name="author" content="John Little" />
-    <meta name="date" content="2018-04-26" />
+    <meta name="date" content="2018-04-27" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="duke.css" type="text/css" />
@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 # Pragmatic Datafication - DSVIL 2018
 ## APIs
 ### John Little
-### 2018-04-26
+### 2018-04-27
 
 ---
 
@@ -30,7 +30,17 @@ A set of rules and protocols used to build a software application.  In the conte
 
 ![API schematic](images/api.png)
 
+???
 
+```
+  +&gt; Data Request +
+  |               |  
+  |               |  
+my application    +&gt; API  &lt;--&gt; Target Server (application)
+          ^          |
+          |          |
+          +----------+
+```
 ---
 ## Why Use APIs?
 
@@ -144,21 +154,19 @@ class: softblue
 
 Using OpenRefine to query an API delivering JSON data
 
-    - http://www.omdbapi.com/?t=rocky&amp;y=&amp;plot=full&amp;r=json
-    - [JSON Viewer](http://jsonviewer.stack.hu/)
-    - `parseJson().imdbID`
-        - Actors
-        - Writer
-        - Title
+http://v.gd/parsing3333
+
+- http://www.omdbapi.com/?t=rocky&amp;y=&amp;plot=full&amp;r=json
+
+    - You'll need an API **[key](http://www.omdbapi.com/apikey.aspx)**
+
+- [JSON Viewer](http://jsonviewer.stack.hu/)
+- `parseJson().imdbID`
+
+    - Actors
+    - Writer
+    - Title
         
-
----
-class: green
-
-## Now You Try
-
-1. [v.gd/parsing3333](https://docs.google.com/document/d/1ZiHC1v595tf2NAhv4vVdRYy-Ro78Bc37Y0gs1TfGBco/)
-
 
 ---
 background-image: url(images/keys6a.jpg)
@@ -182,7 +190,7 @@ background-image: url(images/keys6a.jpg)
 &amp;lt;!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  --&amp;gt;
 
 ---
-## Twitter API Keys?
+## Twitter API Keys?  
 
 1. http://apps.twitter.com
 
@@ -198,6 +206,19 @@ background-image: url(images/keys6a.jpg)
     - Click on the *Keys and Access Tokens* Tab
         - Consumer Key (API Key)
         - Consumer Secret (API Secret)
+
+
+---
+class: green
+
+## Now You Try
+
+1. [API and Parsing](https://libjohn.github.io/openrefine/hands-on-web-scraping.html)
+
+1. [API with Keys](https://libjohn.github.io/openrefine/hands-on-web-scraping.html#keys)
+
+
+
 
 
 ---

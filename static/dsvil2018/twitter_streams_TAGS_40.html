@@ -4,7 +4,7 @@
     <title>Pragmatic Datafication - DSVIL 2018</title>
     <meta charset="utf-8">
     <meta name="author" content="John Little" />
-    <meta name="date" content="2018-04-26" />
+    <meta name="date" content="2018-04-27" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="duke.css" type="text/css" />
@@ -16,35 +16,32 @@ class: center, middle, inverse, title-slide
 # Pragmatic Datafication - DSVIL 2018
 ## Capturing Twitter Data
 ### John Little
-### 2018-04-26
+### 2018-04-27
 
 ---
 
-class: inverse, middle, center
+class: middle, center
 
 # Social Media
 
-Gather Twitter streams using the TAGS app for Google Sheets
+Gathering streams of data
 
 ---
 class: softblue
 
 ## TAGS:  a tool for collecting Twitter streams
 
-- TAGS (“New Sheets”; Version 6.1)
+- Minimal setup (version 6.1)
 
-    - Form driven (not command line)
-    - Minimal setup
-    - Data are collected in Google Sheets
-    - Gather twitter stream data by type
-        - screen-name stream data
-        - screen-name status updates
-        - twitter user favorited tweets
-        - Search term for last 7 days:  hashtag stream, username, boolean logic
-        - Limit by date
-        - Schedule to run hourly - set your interval, or run once.
-        - 3 minute setup-video; easy to use - https://youtu.be/Vm0kjAvH5HM 
-        - Outputs:  raw CSV structured data, plus default social graph visualizations
+- Gather Twitter data by type
+
+    - Search last 7 days:  hashtag, tweet, username
+        
+    - Schedule: hourly, custom interval
+    
+    - Graph visualizations
+
+- Data are collected in Google Sheets
 
 ---
 background-image: url(images/tags-screen1.png)
@@ -112,16 +109,16 @@ Using your Twitter stream archive and TAGS, visualize the network of a twitter u
 ---
 ## Historical Twitter Data
 
-A selective list of twitter data tools
+A selective list of Twitter data tools
 
-- Twitter API (Works with [TAGS](https://tags.hawksey.info/): twitter archiving google sheet)
+- Twitter API (Works with [TAGS](https://tags.hawksey.info/))
 
     - Last 7 Days from the 
     - **Plan Ahead**
 
 - [gnip.com](http://gnip.com) for historical data
     
-    - fees may apply
+    - Fees may apply
 
 - [NodeXL](https://www.smrfoundation.org/nodexl/)
 

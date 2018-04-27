@@ -19,6 +19,19 @@ class: softblue
 background-image: url(images/data_cleaning.png)
 # Data Cleaning
 
+
+???
+
+Data Cleaning consists of but is not limited to the following data actions
+
+- import
+- export
+- merge data
+- handle missing data
+- standardize and normalize data
+- deduplicate
+- verify, enrich, and enhance
+
 ---
 class: middle
 
