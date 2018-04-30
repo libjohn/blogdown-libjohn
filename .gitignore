@@ -24,8 +24,7 @@ public
 ## themes/*  ## Initially this must be added and committed at the CLI shell
 
 # Xaringan Slides
-# *libs/
-# *.html
+static/dsvil2018/*.Rmd
 
 # produced vignettes
 vignettes/*.html

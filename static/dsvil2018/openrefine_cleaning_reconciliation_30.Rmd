@@ -1,6 +1,6 @@
 ---
-title: "Pragmatic Datafication - DSVIL 2018"
-subtitle: "OpenRefine, Part 2:  Reconciliation"
+title: "OpenRefine, Part 2:  Reconciliation"
+subtitle: "Pragmatic Datafication - DSVIL 2018"
 author: "John Little"
 date: '`r Sys.Date()`'
 output:

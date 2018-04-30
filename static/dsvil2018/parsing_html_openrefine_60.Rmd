@@ -1,6 +1,6 @@
 ---
-title: "Pragmatic Datafication - DSVIL 2018"
-subtitle: "Web Scraping: Crawling & Parsing"
+title: "More HTML Parsing"
+subtitle: "Pragmatic Datafication - DSVIL 2018"
 author: "John Little"
 date: '`r Sys.Date()`'
 output:
@@ -86,11 +86,11 @@ Hypertext Markup Language
          - Refine uses GREL Expressions to transform data
          - jSoup is a Java library implementation of BeautifulSoup -- a tool for HTML Extraction
     - Resources
-        - [Step-by-step example](https://libjohn.github.io/openrefine/start.html#api)
+        - [Workbook Exercise on HTML Parsing  ???  ](https://libjohn.github.io/openrefine/hands-on-web-scraping.html)
     - Documentation
-        - [OpenRefine’s documentation](https://github.com/OpenRefine/OpenRefine/wiki/StrippingHTML) on HTML Parsing
+        - [OpenRefine official documentation](https://github.com/OpenRefine/OpenRefine/wiki/StrippingHTML) on HTML Parsing
+        - [CSS gamification documentation](http://flukeout.github.io/)
         - [jSoup Documentation](http://jsoup.org/cookbook/extracting-data/selector-syntax)
-        - [CSS](http://flukeout.github.io/)
 
 ---
 ## Demonstration -- Process Outline

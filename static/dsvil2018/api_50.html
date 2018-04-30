@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pragmatic Datafication - DSVIL 2018</title>
+    <title>APIs &amp; JSON Parsing</title>
     <meta charset="utf-8">
     <meta name="author" content="John Little" />
-    <meta name="date" content="2018-04-27" />
+    <meta name="date" content="2018-04-30" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="duke.css" type="text/css" />
@@ -13,10 +13,10 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Pragmatic Datafication - DSVIL 2018
-## APIs
+# APIs &amp; JSON Parsing
+## Pragmatic Datafication - DSVIL 2018
 ### John Little
-### 2018-04-27
+### 2018-04-30
 
 ---
 
@@ -152,20 +152,34 @@ class: softblue
 
 ## Demonstration
 
-Using OpenRefine to query an API delivering JSON data
+1. Import Data:  https://raw.githubusercontent.com/libjohn/openrefine/master/data/sample-us-address-data.csv
 
-http://v.gd/parsing3333
+1. Make Full Address:
 
-- http://www.omdbapi.com/?t=rocky&amp;y=&amp;plot=full&amp;r=json
+    -  `value + " " + cells["city"].value + " " + cells["state"].value + " " + cells["zip"].value`
+    
+1. Fetch from Google Geocoding API
 
-    - You'll need an API **[key](http://www.omdbapi.com/apikey.aspx)**
+    - `'https://maps.googleapis.com/maps/api/geocode/json?' + 'sensor=false&amp;key=&lt;&lt;INSERT YOUR Google Console Key&gt;&gt;' + '&amp;address=' + escape(value, 'url')'`  &lt;br&gt;
+    (See slide notes in presenter mode  `p`)
+    
+1. JSON Viewer:  http://jsonviewer.stack.hu/  
 
-- [JSON Viewer](http://jsonviewer.stack.hu/)
-- `parseJson().imdbID`
+1. Longitude: `value.parseJson().results[0].geometry.location.lng`
+1. Latitude: `value.parseJson().results[0].geometry.location.lat`
+    
+???
 
-    - Actors
-    - Writer
-    - Title
+Demonstration Notes:
+
+**Need to Enable the Google Geocoding API**
+
+1. https://console.developers.google.com
+1. Enable APIs and Services ; search = `geocoding` ; select API
+1. Enable
+1. Credentials tab
+
+1. http://v.gd/parsing3333 -- **OR** -- &lt;br&gt; https://docs.google.com/document/d/1ZiHC1v595tf2NAhv4vVdRYy-Ro78Bc37Y0gs1TfGBco/edit &lt;br&gt; Demonstrate JSON parsing with OpenRefine
         
 
 ---
@@ -174,39 +188,14 @@ background-image: url(images/keys6a.jpg)
 ## API Keys
 
 .left-column[
-- You can 
-    - Regenerate keys
-    - Change access permissions
-    - Delete the keys/application
-    - Keep your *Secret Key* a secret!
+- Keep your *Secret Key* to yourself
 ]
 
 .right-column.pull-right[
-- A way for the Service Host to know how their API is being used
-
-- Register your Application at the Twitter API Dashboard 
+- Keys are used by the API provider for tracking application usage  
 ]
 
 &amp;lt;!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  --&amp;gt;
-
----
-## Twitter API Keys?  
-
-1. http://apps.twitter.com
-
-    - e.g. when using TAGS version 6.0
-        - Name = TAGS Twitter Data (must be unique across Twittersphere)
-        - Description = My TAGS application collects my Twitter Searches
-        - Web Site = A page that connects to you, or better to your application (e.g. A results report)
-        - Callback URL = https://script.google.com/macros/
-        - Read the developer rules and accept the terms
-
-2. Get your keys
-
-    - Click on the *Keys and Access Tokens* Tab
-        - Consumer Key (API Key)
-        - Consumer Secret (API Secret)
-
 
 ---
 class: green
@@ -223,7 +212,7 @@ class: green
 
 ---
 class: middle, center
-[Top / Table of Contents](index.html#3) | [NEXT Advanced Crawling and Parsing)](parsing_html_openrefine_60.html)
+[Top / Table of Contents](index.html#3) | [NEXT More HTML Parsing)](parsing_html_openrefine_60.html)
 
 
 ---

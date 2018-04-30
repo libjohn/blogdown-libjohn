@@ -1,6 +1,6 @@
 ---
-title: "Pragmatic Datafication - DSVIL 2018"
-subtitle: "Capturing Twitter Data"
+title: "Capturing Twitter Data"
+subtitle: "Pragmatic Datafication - DSVIL 2018"
 author: "John Little"
 date: '`r Sys.Date()`'
 output:
@@ -53,16 +53,22 @@ class: green
 ## Now You Try...
 
 1. Go to Tags - https://tags.hawksey.info/ 
+1. Get Tags > Get version 6.1 (requires Google Account)
 
-2. Get Tags > Get version 6.1 (requires Google Account)
-
-    - Make a **copy** of the TAGS 6.1 Template
-    - In the Searchbox search either a hashtag or a Twitter handle
-        - @ViolaDavis
-    - TAGS > Run Now  (requires a Twitter Account ; Authorize TAGS)
-    - Wait for results (maybe 60 seconds)
+    1. This will spawn a new tab in Google Drive, click the blue `Make a copy` button 
+    1. In the form, "2. Enter term" searchbox, enter either a hashtag or a Twitter handle
     
-3. Results are found in the "Archive" sheet
+        - for example:  &nbsp; `@ViolaDavis`
+        
+    1. From the GoogleSheets Menubar, choose TAGS > `Run Now!`
+    
+        - In the "Authorization Required" dialogue box, click the blue `Continue` button
+        - In the **Google account** dialogue box, click on your Google account.
+        - In the next screen, click the blue `Allow` button
+        
+    1. Wait for results (maybe 60 seconds)
+    
+1. Results are found in the "Archive" sheet
 
 ---
 ## Analysis
@@ -88,18 +94,18 @@ class: green
 
 ## Now You Try...
 
-Using your Twitter stream archive and TAGS, visualize the network of a twitter user
+Using your Twitter stream archive and TAGS, summarize and visualize the twitter data
 
 1. TAGS &gt; Add Summary Sheet
 
 2. TAGS &gt; Add Dashboard Sheet
 
-3. Make your Google Sheet Public
+3. Make the Google TAGS Sheet Public
 
-    - Share button &gt; Done
-    - <img src="images/Google-Share-button.png" style="vertical-align: top;">
+    - Click the blue share button &gt; Done <br><img src="images/Google-Share-button.png" style="vertical-align: top;">
+    - Then click the `Get a shareable link` option
     
-4. On the *Readme/Settings* Sheet &gt; TAGSExplorer
+4. Back on the GoogleSheets page, the *Readme/Settings* Sheet &gt; TAGSExplorer
 
 ---
 ## Historical Twitter Data
@@ -140,8 +146,22 @@ A selective list of Twitter data tools
 - Gephi - https://gephi.org/
 
 ---
+class: softblue
+## Revoke Permissions
+
+**If you don't plan to ever pursue** further Twitter analysis via the TAGS tool, you may want to undo the permissions you've just allowed...
+
+1. Revoking TAGS access to your Twitter account
+
+    - via the [Twitter Applications dashboard](https://twitter.com/settings/applications) 
+
+1. Revoking Google apps permissions to TAGS 
+
+    - at your [Google Account Permissions Dashboard](https://myaccount.google.com/permissions)
+
+---
 class: middle, center
-[Top / Table of Contents](index.html#3) | [NEXT APIs & Parsing)](api_50.html)
+[Top / Table of Contents](index.html#3) | [NEXT APIs & JSON Parsing)](api_50.html)
 
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Pragmatic Datafication - DSVIL 2018"
-subtitle: "OpenRefine, Part 1:  Navigating, Faceting, Cleaning"
+title: "OpenRefine, Part 1:  Navigating, Faceting, Cleaning"
+subtitle: "Pragmatic Datafication - DSVIL 2018"
 author: "John Little"
 date: '`r Sys.Date()`'
 output:

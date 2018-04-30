@@ -1,6 +1,6 @@
 ---
-title: "Pragmatic Datafication - DSVIL 2018"
-subtitle: "Web Scraping"
+title: "Web Scraping with WebScraper.io"
+subtitle: "Pragmatic Datafication - DSVIL 2018"
 author: "John Little"
 date: '`r Sys.Date()`'
 output:
@@ -80,15 +80,15 @@ class: green
     - http://butterfield.house.gov/media-center/press-releases 
     - https://walker.house.gov/media-center/press-releases 
     - http://www.donnelly.senate.gov/newsroom/press 
-    - https://price.house.gov/press-releases/ (difficult pagination)
+    - https://price.house.gov/press-releases/ 
 
-3. Follow [Intructions](https://docs.google.com/document/d/17iKQG9JfREEEThz_Qeai5lvv5mYPRsixi0MKbS6aIsM/edit#heading=h.hdqpl186tuyo) 1-8
+3. Follow Intructions 1-8
 
-    - Substitute the site you picked from step 2 (above)
+    - Substitute the site you picked above
     
-    - (instructions: http://v.gd/webscraping1111 ) 
+    - instructions: [v.gd/webscraping1111](https://docs.google.com/document/d/17iKQG9JfREEEThz_Qeai5lvv5mYPRsixi0MKbS6aIsM/edit#heading=h.hdqpl186tuyo)
     
-]
+
 
 ---
 class: middle, center
