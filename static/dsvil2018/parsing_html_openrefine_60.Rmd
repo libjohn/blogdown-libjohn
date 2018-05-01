@@ -83,14 +83,12 @@ Hypertext Markup Language
 - Parse 
 
     - BeautifulSoup Libraries
-         - Refine uses GREL Expressions to transform data
          - jSoup is a Java library implementation of BeautifulSoup -- a tool for HTML Extraction
-    - Resources
-        - [Workbook Exercise on HTML Parsing  ???  ](https://libjohn.github.io/openrefine/hands-on-web-scraping.html)
-    - Documentation
-        - [OpenRefine official documentation](https://github.com/OpenRefine/OpenRefine/wiki/StrippingHTML) on HTML Parsing
-        - [CSS gamification documentation](http://flukeout.github.io/)
-        - [jSoup Documentation](http://jsoup.org/cookbook/extracting-data/selector-syntax)
+
+- Documentation
+
+    - [OpenRefine official documentation](https://github.com/OpenRefine/OpenRefine/wiki/StrippingHTML) on HTML parsing
+    - [Learn CSS through gamification](http://flukeout.github.io/)
 
 ---
 ## Demonstration -- Process Outline
@@ -98,6 +96,8 @@ Hypertext Markup Language
 1. Fetch HTML by URL from Web Server
 
     - Edit column > Add column by fetching URL...
+    
+3. Use the [Chrome Browser `Inspect`](https://www.youtube.com/results?search_query=Chrome+Inspect+) feature to identify CSS class and id values
 
 2. Parse HTML
 
@@ -110,46 +110,66 @@ Hypertext Markup Language
                 - `htmlText()`
                 - `htmlAttr("attribute handle")`
                 
+
+                
 ---
 ###  Parsing by HTML elements and CSS
 
-1. Edit Column > Add column based on this column
+- Edit Column > Add column based on this column
 
-    - `value.parseHtml().select("div.contentdata")[0].htmlText()`
     - `value.parseHtml().select("title")[0].htmlText()`
 
 ###  Parsing by Brute Force
 
-2. Edit Column > Add column based on this column
+- Edit Column > Add column based on this column
 
-    - `value.split("</title>")[0]`
-    - Edit Cells > Transform > `value.split("<title>")[1]`
+    1. `value.split("</title>")[0]`
+    2. Edit Cells > Transform > `value.split("<title>")[1]`
 
 ---
 class: green
 
 ## Now You Try It
 
-1. [Step-by-Step Worksheet](https://docs.google.com/document/d/173DBCKrfXWT2yGlFeGQ-zaCh5TefwxctL1CoTTQTS1Y/):  Complete the *fetching* and *brute force* parsing method in steps 1-4
+1. HTML Parsing  
 
-2. Complete the parsing example in Step 5
+    - Complete Steps 1-4 (Import, Crawl, Parse) in the [*OpenRefine Workbook*](https://libjohn.github.io/openrefine/hands-on-html-parsing.html)
 
-3. If you're speedy try the various parsing examples in step 6 
+2. If you're speedy complete as many other steps as suit you
 
-    - HTML Viewer: http://codebeautify.org/htmlviewer/
+### FYI
+
+- Steps 7 & 8 deal with implementing looping control
+
+- Because of Steps 7 & 8, it's advantageous to convert the display to **records** instead of **rows**.  This is covered in the *Inspect your work...* section (7.3)
+
+
 
 ---
 ## Demonstrate -- Part 2
 
 From price-press_releases.csv
 
-- `value.parseHtml().select("div.contentdata")[0].select("strong")`
+```
+date2
+  value.parseHtml().select("div.pane-content")[0].htmlText()
 
-- `value.parseHtml().select("div.contentdata")[0].select("strong")[2].htmlText()`
+dateline 
+  value.parseHtml().select("div.field-item.even p strong")[0].htmlText()
 
-- `value.parseHtml().select("div#centerbox")[0].select("a")[3].htmlAttr("href")`
+Links 
+  forEach(
+      value.parseHtml().select("div#block-system-main")[0].select("a"),
+      v,
+      v.htmlAttr("href")
+  ).join("|")
 
-- `forEach(value.parseHtml().select("div#centerbox")[0].select("a"),j,j.htmlAttr("href")).join("|||")`
+Link Text
+  forEach(value.parseHtml().select("div#block-system-main")[0].select("a"),
+      v,
+      v.htmlText()
+  ).join("|")
+```
     
 ---
 class: middle, center
