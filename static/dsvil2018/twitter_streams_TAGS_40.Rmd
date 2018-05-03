@@ -161,7 +161,7 @@ class: softblue
 
 ---
 class: middle, center
-[Top / Table of Contents](index.html#3) | [NEXT APIs & JSON Parsing)](api_50.html)
+[Top / Table of Contents](index.html#3) | [NEXT APIs & JSON Parsing](api_50.html)
 
 
 ---

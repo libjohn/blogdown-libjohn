@@ -34,7 +34,7 @@ background-image:  url(https://www.lib.ncsu.edu/sites/default/files/styles/large
 
 ---
 class: middle, center
-[Top / Table of Contents](index.html#3) | [NEXT Introduction)](intro_05.html)
+[Top / Table of Contents](index.html#3) | [NEXT Introduction](intro_05.html)
 
 ---
 ```{r child = 'footer.Rmd'}

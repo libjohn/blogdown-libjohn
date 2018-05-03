@@ -32,6 +32,11 @@ Data Cleaning consists of but is not limited to the following data actions
 - deduplicate
 - verify, enrich, and enhance
 
+https://www.quora.com/What-steps-should-be-included-in-a-data-cleansing-process
+
+Image Credit:  [John Little](https://johnlittle.info/)
+![](images/data_cleaning.png  "Data Cleaning")
+
 ---
 class: middle
 

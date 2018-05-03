@@ -38,6 +38,12 @@ Analyzing the strings and symbols to reveal only the data you need
 
 ]
 
+???
+
+Image Credits:
+- [Scraping Propolis](https://commons.wikimedia.org/wiki/File:Scraping_propolis.jpg) by [fishermansdaughter](https://www.flickr.com/photos/fishermansdaughter/)
+
+
 ---
 class: softblue
 
@@ -72,6 +78,12 @@ Hypertext Markup Language
     - JavaScript
     
 - Browser parses the HTML
+
+
+???
+
+Image Credit:
+- [URL](https://commons.wikimedia.org/wiki/File:Uniform_Resource_Locator_%28URL%29_example.PNG)
     
 ---
 ## OpenRefine (Fetch & Parse)

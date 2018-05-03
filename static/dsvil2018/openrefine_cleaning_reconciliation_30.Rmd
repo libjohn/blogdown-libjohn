@@ -39,7 +39,7 @@ Exercise:  [Reconciliation](https://libjohn.github.io/openrefine/hands-on-reconc
 
 ---
 class: middle, center
-[Top / Table of Contents](index.html#3) | [NEXT Capturing Twitter Data)](twitter_streams_TAGS_40.html)
+[Top / Table of Contents](index.html#3) | [NEXT Capturing Twitter Data](twitter_streams_TAGS_40.html)
 
 
 ---
