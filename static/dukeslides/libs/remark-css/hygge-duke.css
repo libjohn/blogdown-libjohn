@@ -15,7 +15,7 @@
 
 
 /* Colors are defined by the          */
-/* Duke Branding Color Palette        */
+/* Duke Branding Color Palette        */ 
 /* https://styleguide.duke.edu/color-palette/   */
 
 .Large { font-size: 144% }
@@ -40,12 +40,13 @@
 
 
 /******************
- *
+ * 
  * Coloured content boxes
  *
  ****************/
 
-.content-box {
+
+.content-box { 
     box-sizing: content-box;
     	background-color: #e2e2e2;
   /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
@@ -85,7 +86,7 @@
 }
 
 .content-box-grey {
-  /* set opacity: uncomment rgba line */
+  /* set opacity: uncomment rgba line */ 
   /* alter opacity with last decimal value of rgba */
 	background-color: rgb(181, 181, 181);
   /* background-color: rgba(181, 181, 181,.85); */
@@ -176,19 +177,19 @@
 .rotate-left {
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+    transform: rotate(-2deg); 
 }
 
 .rotate-right {
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
-    transform: rotate(2deg);
+    transform: rotate(2deg);     
 }
 
 
 
-/**********
- *
+/********** 
+ * 
  * Image stuff
  *
  ************/
@@ -209,7 +210,7 @@
     -moz-box-shadow: 5px 5px 5px #aaa;
     -webkit-box-shadow: 5px 5px 5px #aaa;
     box-shadow: 5px 5px 5px #aaa;
-    border-radius: 2px;
+    border-radius: 2px;  
 }
 
 /*******************
@@ -230,6 +231,7 @@
   text-align: center;
 }
 
+
 /* fix the help page '?' */
 
 .remark-help-content td{
@@ -239,6 +241,7 @@
 .remark-backdrop {
   background: #988675 !important;
 }
+
 
 /*  footer */
 
