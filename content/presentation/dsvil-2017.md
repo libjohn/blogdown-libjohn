@@ -13,7 +13,7 @@ image_preview = "scraping_propolis.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["api", "twitter","presentation"]`
-tags = ["scraping","api","parsing","json"]
+tags = ["scraping","api","parsing","json", "dsvil", "openrefine"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""

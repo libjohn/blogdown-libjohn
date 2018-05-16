@@ -49,10 +49,18 @@ view = 1
 [[filter]]
   name = "Dashboards"
   tag = ".dashboards"
+  
+[[filter]]
+  name = "DSVIL"
+  tag = ".dsvil"
 
 [[filter]]
   name = "JSON"
   tag = ".json"
+  
+[[filter]]
+  name = "OpenRefine"
+  tag = ".openrefine"
 
 [[filter]]
   name = "Parsing"
