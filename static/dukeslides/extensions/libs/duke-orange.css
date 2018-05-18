@@ -1,0 +1,42 @@
+/* Use this style in conjunction with duke-blue for a     */
+/* bright orange splash screen as the inverse style.      */
+
+/* Since .inverse is now orange.  Use this simultaneously */
+/* with the duke-blue style.  This style also adds a      */
+/* duke-blue style type since inverse has been replaced   */
+/* the orange.                                            */
+
+/* Colors are defined by the                       */
+/* Duke Branding Color Palette                     */
+/* https://styleguide.duke.edu/color-palette/      */
+
+
+.inverse {
+  background-color: #F09905;
+  color: #0736A4;
+  text-shadow: 0 0 20px #728302;
+}
+
+.inverse h1, .inverse h2, .inverse h3 {
+  color: #001A57;
+  line-height: 0.8em;
+}
+
+
+.duke-blue {
+  background-color: #003366;
+  color: #B5B5B5;
+  text-shadow: 0 0 20px #728302;
+}
+.duke-blue h1, .duke-blue h2, .duke-blue h3 {
+  color: #B5B5B5;
+  line-height: 0.8em;
+  text-shadow: 0 0 10px #728302;
+}
+
+.duke-blue a, .duke-blue a > code {
+	color: rgb(51,153,153);
+	text-decoration: none;
+}
+
+

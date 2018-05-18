@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OrangeSplash</title>
+    <meta charset="utf-8">
+    <meta name="author" content="John Little" />
+    <meta name="date" content="2018-05-18" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/duke-blue.css" rel="stylesheet" />
+    <link href="libs/remark-css/hygge-duke.css" rel="stylesheet" />
+    <link rel="stylesheet" href="libs\creative-commons-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="libs\duke-orange.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# OrangeSplash
+## Extending dukeslides
+### John Little
+### 2018-05-18
+
+---
+
+
+class: center, middle
+
+# xaringan -- dukeslides + duke-orange
+
+
+.justify-left[
+This example slide deck extends the `dukeslides` styles by changing the inverse screen to a splashy orange. Since the inverse color, duke-blue, is replaced by orange, a duke-blue style is added.  Use this style in addition to duke-blue.
+
+
+**This slide deck shows how to implement duke-orange splash**
+
+See: [documentation](https://johnlittle.info/dukeslides/) and [examples](https://johnlittle.info/dukeslides/slides) for more information on `dukeslides` 
+
+See Also: [xaringan](https://slides.yihui.name/xaringan/) 
+
+]
+
+---
+## CSS styles 
+
+The CSS style used in this example are
+
+- xaringan default  ([`default`](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/default.css))
+- xaringan default font ([`default-fonts`](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/default-fonts.css))
+- [Duke Unversity color palette](https://styleguide.duke.edu/color-palette/) ([`duke-blue`](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/duke-blue.css))
+
+- .content-box-green[**libs/duke-orange.css**  -- Orange (inverse) splash screen]
+
+- Duke color palette overlaid on [Hygge CSS](http://biostatistics.dk/presentations/xaringan/ghoul.html), ([`hygge-duke`](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/hygge-duke.css))
+
+You can find these style sheets declared in the `yaml` header inside the R Markdown file.
+
+---
+class: inverse
+
+## inverse
+
+### h3
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+``` r
+---
+class: inverse
+
+## inverse
+
+### h3
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+```
+
+
+---
+class: duke-blue
+
+## duke-blue
+
+``` r
+---
+class: duke-blue
+```
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+- one
+
+- [Google](http://google.com)
+
+- three
+
+
+---
+
+# Selected xaringan documentation links
+
+- [dukeslides](https://johnlittle.info/dukeslides/slides/)
+
+- [xaringan documentation](https://slides.yihui.name/xaringan/)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
