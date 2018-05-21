@@ -11,6 +11,9 @@
 
 
 .cc {
-font-family: 'CC-ICONS';
-font-size: 200%;
+  font-family: 'CC-ICONS';
+}
+
+.blue2 {
+  color: #0736A4;
 }

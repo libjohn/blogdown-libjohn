@@ -6,20 +6,21 @@
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="libs\figure-captions.css" type="text/css" />
+    <link rel="stylesheet" href="libs\hygge-duke.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
 # Figure Captions
-## CSS technique for xaringan
+## HTML &amp; CSS technique for xaringan
 
 ---
 
 
-# xaringan -- Label Figures with Captions
+# xaringan -- Figures with Captions
 
-This example slide deck extends the [`xaringan`](https://slides.yihui.name/xaringan/) styles by adding [CSS Figure Captions](https://www.w3schools.com/TAGS/tag_figcaption.asp)
+This example slide deck demonstrates how to integrate the HTML/CSS [Figure Captions](https://www.w3schools.com/TAGS/tag_figcaption.asp) technique into  [`xaringan`](https://slides.yihui.name/xaringan/) styles.
 
 such as: 
 
@@ -29,12 +30,10 @@ such as:
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-**This slide deck shows how to implement**
-
 See Also: [Documentation on xaringan](https://slides.yihui.name/xaringan/) slides.
 
 ---
-# Figure Captions
+# Figure Captions Example
 
 &lt;figure&gt;
   &lt;img src="https://c1.staticflickr.com/5/4095/4735322270_29f2a170bb_n.jpg"&gt;
@@ -49,13 +48,13 @@ See Also: [Documentation on xaringan](https://slides.yihui.name/xaringan/) slide
     &lt;figcaption&gt; Image Credit: foo text here &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-# Must declare figure-captions in the YAML header
-# Must use HTML instead of RMarkdown
+# Must declare figure-captions.css in the YAML header
+# Must use HTML tags instead of RMarkdown
 
 ```
 
 ---
-# With Link
+# Example with a link With Link
 
 Use an [HTML anchor reference](https://www.w3schools.com/tags/tag_a.asp) (i.e. link tag) inside the `figcaption` tag
 
@@ -70,6 +69,42 @@ Use an [HTML anchor reference](https://www.w3schools.com/tags/tag_a.asp) (i.e. l
 &lt;/figure&gt;
 
 ```
+
+Do not use Markdown inside the `&lt;figure&gt;` &amp; `&lt;figcaption&gt;` tags.
+
+---
+.pull-left[&lt;figure&gt;
+&lt;img src="https://c1.staticflickr.com/5/4095/4735322270_29f2a170bb_n.jpg"&gt;
+  &lt;figcaption&gt; text &lt;a href="bing.com"&gt;explain&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+]
+
+.pull-right[ 
+
+  There's more to say about this wonderful figure.
+  
+  - it's bright
+  - it's shiny
+  - it's contagious
+  - there's no cure
+]
+
+
+``` html
+.pull-left[
+&lt;figure&gt;
+  &lt;img src="https://c1.staticflickr.com/5/4095/4735322270_29f2a170bb_n.jpg"&gt;
+  &lt;figcaption&gt;text 
+    &lt;a href="bing.com"&gt;explain&lt;/a&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+.pull-right[some explanatory text]
+More text
+```
+
+#### Special Note
+Occasionally I have trouble with the CSS box model not clearing properly.  In those cases, CSS rules define using `clear: both;` and that the `&lt;br&gt;` tag -- no matter how strategically used -- has been deprecated.
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
