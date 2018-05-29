@@ -43,7 +43,19 @@ datatable(schedule, rownames = FALSE,
 background-image: url(http://4.bp.blogspot.com/-XXCVJfR7jeU/Uh022FJuDVI/AAAAAAAADQA/3x5Fep2oJhM/s320/Data_Science_VD.png)
 
 
+
 [Data Science Core Skills](http://www.datasciencecentral.com/profiles/blogs/data-scientist-core-skills) Mitchel Sanders (2013)
+
+
+---
+background-image: url(images/data_science.jpg)
+background-size: contain
+
+???
+
+## Data Science Fragmentation/Maturation
+
+https://twitter.com/KanAugust/status/998730468026671105
 
 ---
 class:  middle, center

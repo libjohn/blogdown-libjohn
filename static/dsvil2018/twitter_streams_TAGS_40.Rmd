@@ -105,7 +105,7 @@ Using your Twitter stream archive and TAGS, summarize and visualize the twitter 
     - Click the blue share button &gt; Done <br><img src="images/Google-Share-button.png" style="vertical-align: top;">
     - Then click the `Get a shareable link` option
     
-4. Back on the GoogleSheets page, the *Readme/Settings* Sheet &gt; TAGSExplorer
+4. Back on the GoogleSheets page, the *Readme/Settings* Sheet &gt; click TAGSExplorer
 
 ---
 ## Historical Twitter Data

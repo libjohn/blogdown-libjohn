@@ -76,10 +76,10 @@ class: green
 
 2. Use one of the following sites
 
-    - http://pelosi.house.gov/news/press-releases/ 
-    - http://butterfield.house.gov/media-center/press-releases 
+    - https://pelosi.house.gov/news/press-releases/ 
+    - https://butterfield.house.gov/media-center/press-releases 
     - https://walker.house.gov/media-center/press-releases 
-    - http://www.donnelly.senate.gov/newsroom/press 
+    - https://www.donnelly.senate.gov/newsroom/press 
     - https://price.house.gov/press-releases/ 
 
 3. Follow Intructions 1-8
