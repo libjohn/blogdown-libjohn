@@ -17,7 +17,7 @@ output:
 ---
 ## Application Program Interface 
 
-A set of rules and protocols used to build a software application.  In the context of Web Scraping an API is a method used to gather clean data from a website (i.e. data that is not wrapped in HTML, Javascript, bound in HTTP, etc.)
+A set of rules and protocols used to build a software application.  In the context of Web Scraping an API is a method used to gather clean data from a website. (data not wrapped in HTML, Javascript, etc.)
 
 - Built for machine-to-machine interactions
 
@@ -49,13 +49,18 @@ Image Credit:  [John Little](https://johnlittle.info/)
 
 - Get data in BULK
 
-    - frontier beyond curated datasets
-    - better data structures and eliminates HTML (JSON is easier to parse)
+    - Text Analysis projects
+    - Frontier beyond curated datasets
+    - Coerce or process your target data into more usable data structures by eliminating HTML
+    - JSON and XML is easier to parse
     - Easier to generate tidy dataframes
 
 --
 
-## Intellectual Property must be considered
+However, consider Intellectual Property issues
+
+- Is all web data is scrapable?
+- You can get shut out
 
 ---
 class: softblue
@@ -168,6 +173,25 @@ JSON record from https://en.wikipedia.org/wiki/JSON
 .right[![dramatization: confused about the protocol](images/development-confusion.gif "confused about the protocol")]
 
 ---
+background-image: url(images/keys6a.jpg)
+background-size: contain
+
+## API Keys
+
+.left-column[
+- Keep your *Secret Key* to yourself
+]
+
+.right-column[ 
+- Keys are used by the API provider for tracking application usage  
+]
+
+???
+
+Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489
+
+
+---
 
 ## Demonstration
 
@@ -198,25 +222,10 @@ Demonstration Notes:
 1. Enable
 1. Credentials tab
 
+    - key is ALSO in my lastpass
+
 1. http://v.gd/parsing3333 -- **OR** -- <br> https://docs.google.com/document/d/1ZiHC1v595tf2NAhv4vVdRYy-Ro78Bc37Y0gs1TfGBco/edit <br> Demonstrate JSON parsing with OpenRefine
         
-
----
-background-image: url(images/keys6a.jpg)
-
-## API Keys
-
-.left-column[
-- Keep your *Secret Key* to yourself
-]
-
-.right-column.pull-right[
-- Keys are used by the API provider for tracking application usage  
-]
-
-???
-
-Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489
 
 ---
 class: green

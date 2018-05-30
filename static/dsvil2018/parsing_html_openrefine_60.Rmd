@@ -103,27 +103,27 @@ Image Credit:
     - [Learn CSS through gamification](http://flukeout.github.io/)
 
 ---
-## Demonstration -- Process Outline
+## Process Outline
 
 1. Fetch HTML by URL from Web Server
 
     - Edit column > Add column by fetching URL...
     
-3. Use the [Chrome Browser `Inspect`](https://www.youtube.com/results?search_query=Chrome+Inspect+) feature to identify CSS class and id values
+3. Identify CSS class and id values.  Typically using the [Chrome Browser's `Inspect`](https://www.youtube.com/results?search_query=Chrome+Inspect+) feature works best 
+
+    - in Chrome:  highlight text > right-click > inspect (Chrome Developer Mode)
 
 2. Parse HTML
 
     - Edit column > Add column based on this column
         - `parseHTML()`
         - `select("HTML/CSS handle")`
-            - in Chrome:  highlight text > right-click > inspect (Chrome Developer Mode)
-            - choose an array element, typically `[0]`
-            - convert element:
-                - `htmlText()`
-                - `htmlAttr("attribute handle")`
+        - choose an array element, typically `[0]`
+        - convert element:
+            - `htmlText()`
+            - `htmlAttr("attribute handle")`
                 
 
-                
 ---
 ###  Parsing by HTML elements and CSS
 
@@ -139,26 +139,36 @@ Image Credit:
     2. Edit Cells > Transform > `value.split("<title>")[1]`
 
 ---
+## Demonstration
+
+
+- https://libjohn.github.io/openrefine/demonstration.html#web-scrape-api
+
+#### use data from
+
+- https://raw.githubusercontent.com/libjohn/openrefine/master/data/bicycle-subset-phm-collection.tsv 
+
+---
 class: green
 
 ## Now You Try It
 
 1. HTML Parsing  
 
-    - Complete Steps 1-4 (Import, Crawl, Parse) in the [*OpenRefine Workbook*](https://libjohn.github.io/openrefine/hands-on-html-parsing.html)
+    - Complete Steps 1-6 (Import, Crawl, Parse) in the [*OpenRefine Workbook*](https://libjohn.github.io/openrefine/hands-on-html-parsing.html)
 
-2. If you're speedy complete as many other steps as suit you
+1. If you're speedy complete as many other steps as suit you
 
 ### FYI
 
-- Steps 7 & 8 deal with implementing looping control
+- Steps 7 & 8 implement looping control
 
-- Because of Steps 7 & 8, it's advantageous to convert the display to **records** instead of **rows**.  This is covered in the *Inspect your work...* section (7.3)
-
-
+    - convert the display to **records** instead of **rows**
+ 
+- *Inspect your work*. See section (7.3) in the *Workbook*
 
 ---
-## Demonstrate -- Part 2
+## Review 
 
 From price-press_releases.csv
 
