@@ -5,6 +5,8 @@ theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
