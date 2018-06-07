@@ -80,23 +80,33 @@ Slides are divided into the following sections
 
 ## Exercises
 
+### Web Scraping
+
 1. [**Web Scraping**](http://www.johnlittle.info/dsvil2018/webscraping_10.html#7)
     
     - http://v.gd/webscraping1111
     
-A. [Data Cleaning -- **Basic Transformation** with OpenRefine](https://libjohn.github.io/openrefine/start.html)  (Exercise 1)
-B. [Data Cleaning -- **GREL**](https://libjohn.github.io/openrefine/grel.html)  (Exercise 2)
-C. [**Reconciliation** with OpenRefine](https://libjohn.github.io/openrefine/hands-on-reconciliation.html)
+### Data Cleaning
+    
+1. [Data Cleaning -- **Basic Transformation** with OpenRefine](https://libjohn.github.io/openrefine/start.html)  (Exercise 1)
+2. [Data Cleaning -- **GREL**](https://libjohn.github.io/openrefine/grel.html)  (Exercise 2)
+3. [**Reconciliation** with OpenRefine](https://libjohn.github.io/openrefine/hands-on-reconciliation.html)
+
+### Social Media
 
 1. Social Media -- [Twitter gathering with TAGS app](http://www.johnlittle.info/dsvil2018/twitter_streams_tags_40#7)  (Exercise 1)
 1. Social Media -- [Twitter: TAGS visualization and tools](http://www.johnlittle.info/dsvil2018/twitter_streams_tags_40#9)
 
-A. [**APIs & JSON parsing** -- OpenRefine](https://libjohn.github.io/openrefine/hands-on-web-scraping.html) (exercise 1)
-B. [APIs -- using **API Keys**](https://libjohn.github.io/openrefine/hands-on-web-scraping.html#keys)  (exercise 2)
-C. HTML Parsing
+### API & JSON Parsing
 
-    1. [Intro HTML Parsing:  Steps 1 -6](https://libjohn.github.io/openrefine/hands-on-html-parsing.html) (exercise 1)
-    1. [More OpenRefine -- Looping Control: Steps 7-end](https://libjohn.github.io/openrefine/hands-on-html-parsing.html)  (exercise 2 -- This section will introduced more advanced features of OpenRefine using HTML parsing as the example exercise)
+1. [**APIs & JSON parsing** -- OpenRefine](https://libjohn.github.io/openrefine/hands-on-web-scraping.html) (exercise 1)
+2. [APIs -- using **API Keys**](https://libjohn.github.io/openrefine/hands-on-web-scraping.html#keys)  (exercise 2)
+
+
+### HTML Parsing
+
+1. [Intro HTML Parsing:  Steps 1 -6](https://libjohn.github.io/openrefine/hands-on-html-parsing.html) (exercise 1)
+1. [More OpenRefine -- Looping Control: Steps 7-end](https://libjohn.github.io/openrefine/hands-on-html-parsing.html)  (exercise 2 -- This section will introduced more advanced features of OpenRefine using HTML parsing as the example exercise)
 
 ## Datasets
 
