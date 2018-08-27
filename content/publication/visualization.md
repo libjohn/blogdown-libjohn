@@ -23,7 +23,7 @@ publication_short = ""
 date = "2018-09-14"
 
 # Abstract and optional shortened version.
-abstract = "A gentle introduction to using ggplot2 as a visualization package.  This presentation is based on the Data Visualization chapter in Grolemund's & Wickham's [*R for Data Science*](http://r4ds.had.co.nz/data-visualisation.html)."
+abstract = "A gentle introduction to using ggplot2 as a visualization package.  This presentation is based on the Data Visualization chapter in Grolemund's & Wickham's [R for Data Science](http://r4ds.had.co.nz/data-visualisation.html)."
 abstract_short = "ggplot for visualization"
 
 # Does this page contain LaTeX math? (true/false)
