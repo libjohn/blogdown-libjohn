@@ -63,7 +63,7 @@ url = "http://library.duke.edu/data/news/past-workshops#r"
 
 [[url_custom]]
 name = "Registration"
-url = "https://duke.libcal.com/event/3734408"
+url = "https://duke.libcal.com/event/4337268"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
