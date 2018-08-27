@@ -1,7 +1,7 @@
 +++
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Joel Herndon", "John Little"]
+authors = ["John Little"]
 
 # Publication type.
 # Legend:
@@ -15,12 +15,12 @@ authors = ["Joel Herndon", "John Little"]
 publication_types = ["1"]
 
 # titles
-title = "Introduction to R: Data Transformations, Analysis, and Data Structures"
+title = "Introduction to R: Data Transformations and the Tidyverse"
 
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2018-01-19"
+date = "2018-09-04"
 
 # Abstract and optional shortened version.
 abstract = "A gentle introduction to the basics of the R statistical programming language using the RStudio development environment. Learn about managing your R projects, data types, variable assignments, data cleaning and visualization. No previous experience required."

@@ -15,15 +15,15 @@ authors = ["John Little", "Sophia Lafferty-Hess", "Jen Darragh" ]
 publication_types = ["5"]
 
 # titles
-title = "Reproducibility: Data Management, Git, & RStudio"
+title = "Building Blocks for Reproducibility: RStudio and Git:  Part 1. Version Control"
 
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2018-01-29"
+date = "2018-09-25"
 
 # Abstract and optional shortened version.
-abstract = "In response to a growing focus on the importance of reproducibility, replication, and transparency in the research endeavor, scholars are adapting their practices and learning new skills and tools. This workshop will introduce some general data management strategies that can increase the reproducibility of your work. You will also learn through hands-on exercises how to harness two specific tools, git and RStudio, to support the execution of more reproducible research projects. Git is a powerful version control system and RStudio is an open-source statistical software program. No previous experience with Git or R is required for this workshop. "
+abstract = "In response to a growing focus on the importance of reproducibility, replication, and transparency in the research endeavor, scholars are adapting their practices and learning new skills and tools. This workshop will introduce some version control strategies that can increase the reproducibility of your work. Learning through hands-on exercises you will harness two specific tools (Git and RStudio) to support the execution of more reproducible research projects. Git is a powerful version control system and RStudio is an open-source statistical software program. No previous experience with Git or R is required for this workshop. "
 
 abstract_short = "For practical data management, use RStudio to orchestrate your repositories and leverage Git-based version control."
 
@@ -67,7 +67,7 @@ url = "http://library.duke.edu/data/news/past-workshops#git"
 
 [[url_custom]]
 name = "Registration"
-url = "https://duke.libcal.com/event/3734431"
+url = "https://duke.libcal.com/event/4337253"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

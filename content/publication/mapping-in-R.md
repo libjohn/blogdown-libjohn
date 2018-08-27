@@ -20,7 +20,7 @@ title = "Practical Mapping in R: Lat/Lon plotting & Choropleths"
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
-date = "2018-01-25"
+date = "2018-10-23"
 
 # Abstract and optional shortened version.
 abstract = "R has become a popular and reproducible option for supporting spatial and statistical analysis.  This hands-on workshop will demonstrate how to plot x/y coordinates; how to generate thematic choropleths with US Census and other federal data; import, view and produce shapefiles; and create leaflet maps for viewing on the web."
@@ -64,7 +64,7 @@ url = "http://library.duke.edu/data/news/past-workshops#rgis"
 
 [[url_custom]]
 name = "Registration"
-url = "https://duke.libcal.com/event/3734428"
+url = "https://duke.libcal.com/event/4337318"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
