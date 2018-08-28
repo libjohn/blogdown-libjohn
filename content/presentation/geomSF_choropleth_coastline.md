@@ -13,7 +13,7 @@ image_preview = "ny_with_coast.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["code","gis"]`
-tags = ["code", "scraping"]
+tags = ["code", "gis"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = "/project/custom/twitterj/slides.html"

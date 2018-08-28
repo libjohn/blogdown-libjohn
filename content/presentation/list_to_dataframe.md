@@ -13,7 +13,7 @@ image_preview = "lego-rstats_014-smaller.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["code"]`
-tags = ["code", "scraping"]
+tags = ["code"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = "/project/custom/twitterj/slides.html"

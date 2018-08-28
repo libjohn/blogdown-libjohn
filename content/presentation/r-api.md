@@ -12,7 +12,7 @@ summary = "In this Hand's on presentation given to the Research Computing Sympos
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["api", "twitter","presentation"]`
+# Example: `tags = ["api", "twitter", "presentation"]`
 tags = ["api","json"]
 
 # Optional external URL for project (replaces project detail page).
