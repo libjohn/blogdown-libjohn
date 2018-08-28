@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "ny_with_coast.png"
+image = "ny_with_coast_wide.png"
 caption = "Population choropleth with coastline"
 
 +++
