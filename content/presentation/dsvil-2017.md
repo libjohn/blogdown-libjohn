@@ -12,7 +12,7 @@ summary = "The Data Science & Visualization Institute invited a presentation on 
 image_preview = "scraping_propolis.jpg"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["api", "twitter","presentation"]`
+# Example: `tags = ["api", "twitter"]`
 tags = ["scraping","api","parsing","json", "dsvil", "openrefine"]
 
 # Optional external URL for project (replaces project detail page).

@@ -14,7 +14,7 @@ summary = "Workshop Materials cover Web Scraping, Data Cleaning, Reconciliation,
 image_preview = "data_science.gif"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["api", "twitter","presentation"]`
+# Example: `tags = ["api", "twitter"]`
 tags = ["scraping","api","parsing","json", "dsvil", "twitter", "openrefine"]
 
 # Optional external URL for project (replaces project detail page).

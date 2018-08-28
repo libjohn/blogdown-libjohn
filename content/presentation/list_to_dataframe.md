@@ -12,7 +12,7 @@ summary = "This code example illustrates `purrr` and `repurrrsive`"
 image_preview = "lego-rstats_014-smaller.jpg"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["presentation","code"]`
+# Example: `tags = ["code"]`
 tags = ["code", "scraping"]
 
 # Optional external URL for project (replaces project detail page).

@@ -12,7 +12,7 @@ summary = "This code example illustrates a choropleth made with ggplot::geom_sf(
 image_preview = "ny_with_coast.png"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["presentation","code","gis"]`
+# Example: `tags = ["code","gis"]`
 tags = ["code", "scraping"]
 
 # Optional external URL for project (replaces project detail page).
