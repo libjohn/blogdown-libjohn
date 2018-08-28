@@ -53,6 +53,10 @@ view = 1
 [[filter]]
   name = "DSVIL"
   tag = ".dsvil"
+  
+[[filter]]
+  name = "GIS"
+  tag = ".gis"
 
 [[filter]]
   name = "JSON"
