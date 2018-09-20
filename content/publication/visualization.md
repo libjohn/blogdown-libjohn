@@ -15,7 +15,7 @@ authors = ["John Little"]
 publication_types = ["6"]
 
 # titles
-title = "Visualization:  Introduction to ggplo2"
+title = "Visualization:  Introduction to ggplot2"
 
 # Publication name and optional abbreviated version.
 publication = ""
