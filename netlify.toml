@@ -3,4 +3,4 @@
   from = "https://libjohn.netlify.com/*"
   to = "https://www.johnlittle.info/:splat"
   status = 301
-  force - true
+  force = true
