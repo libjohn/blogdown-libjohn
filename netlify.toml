@@ -1,0 +1,6 @@
+# COMMENT: redirect rules with all the fields expanded
+[[redirects]]
+  from = "https://libjohn.netlify.com/*"
+  to = "https://www.johnlittle.info/:splat"
+  status = 301
+  force - true
