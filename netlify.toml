@@ -1,6 +1,20 @@
 # COMMENT: redirect rules with all the fields expanded
+# According to netlify domain management
+# https://app.netlify.com/sites/libjohn/settings/domain#domains
+# # Redirect default Netlify subdomain to primary domain
+# https://libjohn.netlify.com/* https://www.johnlittle.info/:splat 301!
 [[redirects]]
   from = "https://libjohn.netlify.com/*"
+  to = "https://www.johnlittle.info/:splat"
+  status = 301
+  force = true
+  
+  
+# According to netlify domain management
+# https://app.netlify.com/sites/libjohn/settings/domain#domains
+# # These extra rules are required because HTTPS is not forced
+# http://libjohn.netlify.com/* https://www.johnlittle.info/:splat 301![[redirects]]
+  from = "http://libjohn.netlify.com/*"
   to = "https://www.johnlittle.info/:splat"
   status = 301
   force = true
