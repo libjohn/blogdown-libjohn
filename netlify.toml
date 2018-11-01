@@ -27,6 +27,18 @@
 # http://dukeslides.netlify.com/* http://dukeslides.johnlittle.info/:splat 301!
 [[redirects]]
   from = "/dukeslides/*"
-  to = "http://dukeslides.johnlittle.info/:splat"
+  to = "https://dukeslides.johnlittle.info/:splat"
+  status = 301
+  force = true
+  
+# openrefine
+[[redirects]]
+  from = "/openrefine/*"
+  to = "https://libjohn.github.io/openrefine/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://openrefine.johnlittle.info/*"
+  to = "https://libjohn.github.io/openrefine/:splat"
   status = 301
   force = true
