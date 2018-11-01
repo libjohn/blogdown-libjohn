@@ -43,8 +43,7 @@
   status = 301
   force = true
   
-  # dsvil
-  # openrefine
+# dsvil
 [[redirects]]
   from = "/dsvil/*"
   to = "https://dsvil.johnlittle.info/:splat"
