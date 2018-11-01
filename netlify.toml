@@ -42,3 +42,16 @@
   to = "https://libjohn.github.io/openrefine/:splat"
   status = 301
   force = true
+  
+  # dsvil
+  # openrefine
+[[redirects]]
+  from = "/dsvil/*"
+  to = "https://dsvil.johnlittle.info/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/dsvil2018/*"
+  to = "https://dsvil.johnlittle.info/:splat"
+  status = 301
+  force = true
