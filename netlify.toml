@@ -39,7 +39,7 @@
   force = true
 [[redirects]]
   from = "https://openrefine.johnlittle.info/*"
-  to = "/openrefine/:splat"
+  to = "https://libjohn.github.io/openrefine/:splat"
   status = 301
   force = true
   
