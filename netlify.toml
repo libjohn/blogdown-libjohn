@@ -26,7 +26,7 @@
 # Redirect default Netlify subdomain to primary domain
 # http://dukeslides.netlify.com/* http://dukeslides.johnlittle.info/:splat 301!
 [[redirects]]
-  from = "http://dukeslides.netlify.com/*"
+  from = "/dukeslides/*"
   to = "http://dukeslides.johnlittle.info/:splat"
   status = 301
   force = true
