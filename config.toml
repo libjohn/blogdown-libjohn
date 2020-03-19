@@ -150,7 +150,7 @@ defaultContentLanguageInSubdir = false
     link = "//github.com/libjohn"
 
   [[params.social]]
-    icon = "github"
+    icon = "skype"
     icon_pack = "fa"
     link = "//duke.zoom.us/my/libjohn"    
 
