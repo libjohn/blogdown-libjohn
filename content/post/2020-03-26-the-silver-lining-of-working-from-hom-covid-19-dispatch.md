@@ -12,8 +12,6 @@ highlight: yes
 math: no
 ---
 
-**DRAFT**
-
 I live, and now work, a half block from Duke’s east campus.  From my window perch, which now doubles as my office, I see social distance in action.  People walk, jog, and scooter down sidewalks.  On nice days I amble over to East Campus where a small multitude of walkers route around the perimeter campus wall.  These days there are more exercisers but fewer social klatches.   To the north of campus across Markham avenue where I practice working from home, managing workshops and data consultations via **Zoom is the "new normal**."  Two weeks ago, Zoom was a little used feature of my work environment while my day-to-day interactions (those data consultations and data science training workshops) were primarily done in face-to-face settings. 
 
 As a data science librarian my work is service oriented, helping people use various digital tools or learn about digital options.  I enjoy helping people become more data savvy and digitally self-sufficient as we all move through broader and ongoing digital transitions.  As such, remote online interactions are not new to me.  Although Duke prides itself on our face-to-face campus presence, suddenly the health concerns of COVID-19 demand rethinking the feasibility of close interactions. This means we rely on existing digital tools that are not yet completely normal to us.
