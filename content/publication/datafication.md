@@ -68,14 +68,14 @@ caption = "Image credit: https://flic.kr/p/JjjPof"
 
 Slides are divided into the following sections
 
-0. [Index](http://www.johnlittle.info/dsvil2018/)
-1. [Introduction](http://www.johnlittle.info/dsvil2018/intro_05.html)
-2. [Web Scraping](http://www.johnlittle.info/dsvil2018/webscraping_10.html)
-1. [OpenRefine: Data Cleaning Basics](http://www.johnlittle.info/dsvil2018/openrefine_cleaning_basics_20.html)
-1. [OpenRefine: Reconciliation](http://www.johnlittle.info/dsvil2018/openrefine_cleaning_reconciliation_30.html)
-1. [Capturing Twitter Data](http://www.johnlittle.info/dsvil2018/twitter_streams_TAGS_40.html)
-1. [APIs & JSON Parsing ](http://www.johnlittle.info/dsvil2018/api_50.html)
-1. [More HTML Parsing ](http://www.johnlittle.info/dsvil2018/parsing_html_openrefine_60.html)
+0. [Index](//www.johnlittle.info/dsvil2018/)
+1. [Introduction](//www.johnlittle.info/dsvil2018/intro_05.html)
+2. [Web Scraping](//www.johnlittle.info/dsvil2018/webscraping_10.html)
+1. [OpenRefine: Data Cleaning Basics](//www.johnlittle.info/dsvil2018/openrefine_cleaning_basics_20.html)
+1. [OpenRefine: Reconciliation](//www.johnlittle.info/dsvil2018/openrefine_cleaning_reconciliation_30.html)
+1. [Capturing Twitter Data](//www.johnlittle.info/dsvil2018/twitter_streams_TAGS_40.html)
+1. [APIs & JSON Parsing ](//www.johnlittle.info/dsvil2018/api_50.html)
+1. [More HTML Parsing ](//www.johnlittle.info/dsvil2018/parsing_html_openrefine_60.html)
 
 
 ## Exercises
@@ -84,7 +84,7 @@ Slides are divided into the following sections
 
 1. [**Web Scraping**](http://www.johnlittle.info/dsvil2018/webscraping_10.html#7)
     
-    - http://v.gd/webscraping1111
+    - https://v.gd/webscraping1111
     
 ### Data Cleaning
     

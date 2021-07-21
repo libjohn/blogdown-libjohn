@@ -27,20 +27,20 @@ defaultContentLanguageInSubdir = false
   name = "John R Little"
   role = "Data Janitor"
   organization = "Duke University Libraries"
-  organization_url = "http://library.duke.edu/data/"
+  organization_url = "https://library.duke.edu/data/"
 #  avatar = "bicycle.png"
   avatar = "data-science-vector-fromPixabay.svg"
 #  email = "John.Little@Duke.edu"
 #  address = "Data & Visualization Studio, the /Edge, Duke University Libraries"
-#  office_hours = "Wednesday 1PM to 3PM or make an appointment: http://v.gd/littleconsult"
-#  phone = "http://v.gd/littleconsult"
+#  office_hours = "Wednesday 1PM to 3PM or make an appointment: https://v.gd/littleconsult"
+#  phone = "https://is.gd/littleconsult"
 #  skype = "echo123"
 #  telegram = "send me a t'gram"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
 
-  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  # Date format (refer to Go's date format: https://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Mon, Jan 2, 2006"
 
@@ -148,11 +148,16 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/libjohn"
-
+    
   [[params.social]]
-    icon = "skype"
+    icon = "youtube"
     icon_pack = "fa"
-    link = "//duke.zoom.us/my/libjohn"    
+    link = "//www.youtube.com/johnlittle1"   
+
+#  [[params.social]]
+#    icon = "orcid"
+#    icon_pack = "fa"
+#    link = "//duke.zoom.us/my/libjohn"    
 
 #  [[params.social]]
 #    icon = "twitter"

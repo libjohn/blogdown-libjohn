@@ -51,7 +51,7 @@ url_GitHub = "https://github.com/data-and-visualization/Intro2R"
 # You can make multiple custom links
 [[url_custom]]
 name = "Learning Materials"
-url = "http://rfun.library.duke.edu/intro2r"
+url = "//rfun.library.duke.edu/intro2r"
 
 [[url_custom]]
 name = "GitHub Code"
@@ -59,7 +59,7 @@ url = "https://github.com/data-and-visualization/Intro2R"
 
 [[url_custom]]
 name = "DVS Description"
-url = "http://library.duke.edu/data/news/past-workshops#r"
+url = "//library.duke.edu/data/news/past-workshops#r"
 
 [[url_custom]]
 name = "Registration"

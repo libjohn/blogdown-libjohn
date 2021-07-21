@@ -44,14 +44,14 @@ url_code = ""
 url_dataset = "https://github.com/libjohn/mapping-with-R/tree/master/data"
 url_pdf = ""
 url_project = ""
-url_slides = "http://rfun.library.duke.edu/map/slides/"
+url_slides = "//rfun.library.duke.edu/map/slides/"
 url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=8b89b84c-3f1e-4868-bf07-92bf6f52995a"
 
 # Links -- Custom Option
 # You can make multiple custom links
 [[url_custom]]
 name = "Learning Materials"
-url = "http://rfun.library.duke.edu/map/"
+url = "//rfun.library.duke.edu/map/"
 
 
 [[url_custom]]
@@ -60,7 +60,7 @@ url = "https://github.com/libjohn/mapping-with-R"
 
 [[url_custom]]
 name = "DVS Description"
-url = "http://library.duke.edu/data/news/past-workshops#rgis"
+url = "//library.duke.edu/data/news/past-workshops#rgis"
 
 [[url_custom]]
 name = "Registration"
@@ -84,4 +84,4 @@ Series Dates:
 ## Recommended
 - Knowledge of GIS concepts.
 
-- Familiarity with tidyverse, ggplot2, R Notebooks, and R Markdown can be very helpful.  We teach workshops and use these concepts.  See more at our [Rfun](http://rfun.library.duke.edu/) site.
+- Familiarity with tidyverse, ggplot2, R Notebooks, and R Markdown can be very helpful.  We teach workshops and use these concepts.  See more at our [Rfun](//rfun.library.duke.edu/) site.

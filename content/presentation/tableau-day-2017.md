@@ -30,7 +30,7 @@ caption = "Duke's Tableau Day.  July 26, 2017"
 
 &nbsp;
 
-The [Data & Visualization Services Department](http://library.duke.edu/data) has a long history of supporting Tableau users.  This presentation identifies DVS services, methods, and resources useful to the Duke Community.  Our aim is to  help Tableau users create effective visualizations.  Welcome Duke Tableau Users Group.  
+The [Data & Visualization Services Department](//library.duke.edu/data) has a long history of supporting Tableau users.  This presentation identifies DVS services, methods, and resources useful to the Duke Community.  Our aim is to  help Tableau users create effective visualizations.  Welcome Duke Tableau Users Group.  
 
 See the [Slides:  Tableau Day 2017](/project/custom/tableau-day-2017/)
 

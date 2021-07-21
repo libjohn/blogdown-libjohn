@@ -14,8 +14,8 @@ weight = 1
   interests = [
     "Data Science",
     "Data: Cleaning, Engineering, Analysis",
-    "Reproducibility",
-    "Tidyverse / R / RStudio / git"
+    "Reproducibility / git",
+    "Tidyverse / R / RStudio "
   ]
 
 # List your qualifications (such as academic degrees).

@@ -30,9 +30,9 @@ detailed_list = false
   <li>
     <span class="fa-li fa fa-map-marker"></span>
       <div class="description">
-        <p class="course">Data & Visualization <a href="http://library.duke.edu/data/about/lab">Lab</a></p>
+        <p class="course">Data & Visualization <a href="https://library.duke.edu/data/about/lab">Lab</a></p>
         <p class="institution">the /Edge - Bostock Library</p>
-        <p class="institution">Duke University Libraries.  (<a href="http://library.duke.edu/edge/spaces">floor map</a>)</p>
+        <p class="institution">Duke University Libraries.  (<a href="https://library.duke.edu/edge/spaces">floor map</a>)</p>
       </div>
   </li>
   
@@ -40,7 +40,7 @@ detailed_list = false
     <span class="fa-li fa fa-calendar"></span>
       <div class="description">
         <p class="course">For my <b>in-person</b> clients, schedule me</p>
-        <p class="institution"><a href="http://duke.libcal.com/appointment/2695">http://v.gd/littleconsult</a> </p>
+        <p class="institution"><a href="https://duke.libcal.com/appointment/2695">https://is.gd/littleconsult</a> </p>
       </div>
   </li>
   
@@ -54,7 +54,7 @@ detailed_list = false
  <li>
     <span class="fa-li fa fa-phone"></span>
       <div class="description">
-        <p class="course"><a href="http://library.duke.edu/about/directory/staff/1441">Old ways work</a></p>
+        <p class="course"><a href="https://library.duke.edu/about/directory/staff/1441">Old ways work</a></p>
         <p class="institution">telephone, answering machine, email, etc.</p>
       </div>
   </li>
@@ -62,8 +62,8 @@ detailed_list = false
   <li>
     <span class="fa-li fa fa-twitter"></span>
       <div class="description">
-        <p class="institution"><a href="http://twitter.com/john_little">Twitter</a> -- tweet, tweet...</p>
+        <p class="institution"><a href="https://twitter.com/john_little">Twitter</a> -- tweet, tweet...</p>
       </div>
   </li>
 
-[![xkcd - I have five phone numbers which should I use](//imgs.xkcd.com/comics/phone_numbers.png)](http://xkcd.com/1789/)
+[![xkcd - I have five phone numbers which should I use](//imgs.xkcd.com/comics/phone_numbers.png)](https://xkcd.com/1789/)
