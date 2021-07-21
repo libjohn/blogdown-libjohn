@@ -46,7 +46,7 @@ url_dataset = "https://github.com/libjohn/openrefine/tree/master/data"
 url_pdf = ""
 url_project = "https://github.com/libjohn/openrefine"
 url_slides = ""
-url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=4994b28f-21b2-4d73-8af4-c36b92d836b1"
+url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=4994b28f-21b2-4d73-8af4-c36b92d836b1"
 
 # Links -- Custom Option
 # You can make multiple custom links

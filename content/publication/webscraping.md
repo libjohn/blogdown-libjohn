@@ -43,7 +43,7 @@ url_dataset = ""
 url_pdf = ""
 url_project = ""
 url_slides = "https://docs.google.com/presentation/d/1QVUR3B4QDgM5fLBtFditwKyGwij0hM1qDCUL56vs34k/edit"
-url_video = "http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=08b0e58a-7b51-44da-9aa4-165c9c509797"
+url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=08b0e58a-7b51-44da-9aa4-165c9c509797"
 
 # Links -- Custom Option
 # You can make multiple custom links
@@ -53,7 +53,7 @@ url = "https://docs.google.com/presentation/d/1QVUR3B4QDgM5fLBtFditwKyGwij0hM1qD
 
 [[url_custom]]
 name = "DVS Description"
-url = "http://library.duke.edu/data/news/past-workshops#scraping"
+url = "https://library.duke.edu/data/news/past-workshops#scraping"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

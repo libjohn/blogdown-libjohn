@@ -37,7 +37,7 @@ dashboards can effectively highlight interesting information and draw a reader i
 
 - [Demonstration and Code](/project/custom/flexdashboard/)
 
-- [Video](http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=3e301f74-332a-403f-a0f8-b41e19d2822f)
+- [Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=3e301f74-332a-403f-a0f8-b41e19d2822f)
 
 #### Date
 2017-02-23
