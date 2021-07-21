@@ -51,11 +51,7 @@ url_GitHub = "https://github.com/libjohn/ggplot-intro"
 # You can make multiple custom links
 [[url_custom]]
 name = "Learning Materials"
-url = "http://rfun.library.duke.edu/ggplot/"
-
-[[url_custom]]
-name = "DVS Description"
-url = "http://library.duke.edu/data/news/past-workshops#r"
+url = "//rfun.library.duke.edu/ggplot/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

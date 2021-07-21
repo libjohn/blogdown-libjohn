@@ -51,10 +51,6 @@ url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=0abd1
 name = "Guide / Handout"
 url = "/project/custom/regex/regex.html"
 
-[[url_custom]]
-name = "DVS Description"
-url = "http://library.duke.edu/data/news/past-workshops#regex"
-
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = ""

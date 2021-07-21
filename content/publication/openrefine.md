@@ -51,10 +51,6 @@ url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=4994b
 # Links -- Custom Option
 # You can make multiple custom links
 [[url_custom]]
-name = "DVS Description"
-url = "http://library.duke.edu/data/news/past-workshops#openrefine"
-
-[[url_custom]]
 name = "E-Book / Guide"
 url = "https://libjohn.github.io/openrefine"
 

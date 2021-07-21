@@ -51,7 +51,7 @@ url_video = "https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=36b63
 # You can make multiple custom links
 [[url_custom]]
 name = "Learning Materials"
-url = "http://rfun.library.duke.edu/git"
+url = "//rfun.library.duke.edu/git"
 
 [[url_custom]]
 name = "GitHub Code"
@@ -60,10 +60,6 @@ url = "https://github.com/data-and-visualization/git-tutorial"
 [[url_custom]]
 name = "OSF Project"
 url = "https://osf.io/r6wfk/"
-
-[[url_custom]]
-name = "DVS Description"
-url = "http://library.duke.edu/data/news/past-workshops#git"
 
 [[url_custom]]
 name = "Registration"
