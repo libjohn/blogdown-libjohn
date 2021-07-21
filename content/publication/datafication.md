@@ -94,8 +94,8 @@ Slides are divided into the following sections
 
 ### Social Media
 
-1. Social Media -- [Twitter gathering with TAGS app](http://www.johnlittle.info/dsvil2018/twitter_streams_tags_40#7)  (Exercise 1)
-1. Social Media -- [Twitter: TAGS visualization and tools](http://www.johnlittle.info/dsvil2018/twitter_streams_tags_40#9)
+1. Social Media -- [Twitter gathering with TAGS app](//www.johnlittle.info/dsvil2018/twitter_streams_tags_40#7)  (Exercise 1)
+1. Social Media -- [Twitter: TAGS visualization and tools](//www.johnlittle.info/dsvil2018/twitter_streams_tags_40#9)
 
 ### API & JSON Parsing
 
