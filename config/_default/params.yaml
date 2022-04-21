@@ -1,0 +1,167 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+
+theme: Ocean
+day_night: true
+font: ''
+font_size: L
+
+# SEO
+
+site_type: Person
+local_business_type: 'library'
+org_name: 'Rfun. Center for Data & Visualization Sciences. Duke University Libraries'
+description: 'John Little is a data science librarian in the Center for Data & Visualization Sciences'
+twitter: 'john_little'
+
+# Contact (edit or remove options as required)
+
+email: John.Little@Duke.edu
+phone: (919) 627-7795
+address:
+  street: 411 Chapel Drive
+  city: Duke University, Durham
+  region: NC
+  postcode: '27708'
+  country: United States
+  country_code: US
+coordinates:
+  latitude: '36.00299'
+  longitude: '-78.93841'
+directions: Walk-in hours in the Brandaleone Lab, 1st Floor. Bostock Library.
+office_hours:
+  - 'Wednesday 1:00 PM to 3:00 PM'
+appointment_url: 'https://duke.libcal.com/appointments/little'
+contact_links:
+  - icon: twitter
+    icon_pack: fab
+    name: Twitter
+    link: 'https://twitter.com/Twitter'
+  - icon: youtube
+    icon_pack: fab
+    name: YouTube
+    link: 'https://youtube.com/johnlittle1'
+  - icon: github
+    icon_pack: fab
+    name: GitHub
+    link: 'https://github.com/libjohn'
+  # - icon: skype
+  #   icon_pack: fab
+  #   name: Skype Me
+  #   link: 'skype:echo123?call'
+  # - icon: keybase
+  #   icon_pack: fab
+  #   name: Chat on Keybase
+  #   link: 'https://keybase.io/'
+  # - icon: comments
+  #   icon_pack: fas
+  #   name: Discuss on Forum
+  #   link: 'https://discourse.gohugo.io'
+
+# Site header
+
+main_menu:
+  enable: true
+  align: l
+  show_logo: true
+  show_language: false
+  show_day_night: true
+  show_search: true
+  highlight_active_link: true
+
+# Localization
+
+date_format: 'Jan 2, 2006'
+time_format: '3:04 PM'
+address_format: en-us
+
+# Site features
+
+highlight: true
+highlight_languages:
+  - r
+  - python
+  - latex
+math: false
+diagram: false
+privacy_pack: false
+edit_page:
+  repo_url: ''
+  content_dir: ''
+  repo_branch: main
+  editable:
+    page: false
+    post: false
+    book: false
+show_related:
+  book: true
+  page: false
+  post: true
+  project: true
+  publication: true
+  event: true
+reading_time: true
+section_pager: false
+docs_section_pager: true
+sharing: true
+copyright_license:
+  enable: false
+  allow_derivatives: false
+  share_alike: true
+  allow_commercial: false
+  notice: 'This work is licensed under {license}'
+abstract_length: 135
+plugins_js: []
+avatar:
+  gravatar: false
+  shape: circle
+publications:
+  date_format: January 2006
+  citation_style: apa
+projects:
+  post_view: 2
+  publication_view: 2
+  talk_view: 2
+breadcrumb:
+  page_types:
+    book: true
+comments:
+  provider: ''
+  commentable:
+    post: true
+    book: true
+    project: true
+    publication: true
+    event: true
+  disqus:
+    shortname: ''
+    show_count: true
+  commento:
+    url: ''
+search:
+  provider: wowchemy
+  algolia:
+    app_id: ''
+    api_key: ''
+    index_name: ''
+    show_logo: false
+map:
+  provider: mapnik
+  api_key: ''
+  zoom: 15
+marketing:
+  google_analytics: ''
+  google_tag_manager: ''
+  google_site_verification: ''
+  baidu_site_verification: ''
+  baidu_tongji: ''
+cms:
+  branch: master
+  local_backend: false
+icon:
+  pack:
+    ai: false
