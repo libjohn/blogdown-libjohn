@@ -66,4 +66,8 @@ added files to
 ### Obscure fact about blogdown environment variables
 
 - `{{ printf "%#v" .}}`
+
+## test
+
+add a note
     
