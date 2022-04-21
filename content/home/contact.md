@@ -18,7 +18,7 @@ content:
   
   # Email form provider (replace nobody with formspree or netlify)
   form:
-    provider: nobody
+    provider: netlify
     formspree:
       id: test
     netlify:
