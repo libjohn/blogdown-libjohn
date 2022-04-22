@@ -10,7 +10,7 @@ tags:
   - R Markdown
 subtitle: ''
 summary: ''
-authors: []
+authors: [admin]
 lastmod: '2022-04-19T21:16:59-04:00'
 featured: no
 image:

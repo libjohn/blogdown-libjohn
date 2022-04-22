@@ -1,5 +1,5 @@
 ---
-title: Migrating from hugo-academic v.0.1x via blogdown upto blogdown v.1x & wowchemy/starter-hugo.
+title: Migrating from hugo-academic v.0.1x via blogdown upto blogdown v.1x & wowchemy/starter-hugo
 author: John Little
 date: '2022-04-20'
 slug: Migrating from hugo-academic v.0.1x via blogdown upto blogdown v.1x & wowchemy/starter-hugo
@@ -9,8 +9,8 @@ categories:
   - migration
 tags: [Quarto, Netlify, web sites]
 subtitle: ''
-summary: ''
-authors: []
+summary: 'I spent some time migrating and upgrading my old blogown/hugo site.  Now is a good time to upgrade.  Waiting longer may yield some benefit with the impending stable Quarto release, but now is a great time to migrate your Blogdown and Hugo-theme.'
+authors: [admin]
 lastmod: '2022-04-20T17:00:35-04:00'
 featured: no
 image:
@@ -23,6 +23,7 @@ projects: []
 ## Summary
 
 I spent some time migrating and upgrading my old blogown/hugo site.  Now's a good time to upgrade.  Waiting longer may yield some benefit with the impending stable Quarto release, but now is a great time to migrate your Blogdown and Hugo-theme.
+
 
 ## Disclaimer
 

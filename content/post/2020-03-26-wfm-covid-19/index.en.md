@@ -1,6 +1,6 @@
 ---
 title: The silver lining of working from home
-author: John Little
+author: [admin]
 date: '2020-03-26'
 slug: wfm-covid-19
 categories:
