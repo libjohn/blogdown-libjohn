@@ -1,6 +1,7 @@
 ---
 title: Code Repository vs Archival Repository. You need both.
-author: John Little
+authors: 
+- admin
 date: '2022-02-17'
 slug: code-repository-vs-archival-repository-you-need-both
 categories:
@@ -13,7 +14,6 @@ tags:
   - git
 subtitle: ''
 summary: 'The imperatives for preserving research data are derived from expressly different motives than those driving version-control repositories.'
-authors: []
 lastmod: '2022-04-21T13:16:20-04:00'
 featured: no
 image:

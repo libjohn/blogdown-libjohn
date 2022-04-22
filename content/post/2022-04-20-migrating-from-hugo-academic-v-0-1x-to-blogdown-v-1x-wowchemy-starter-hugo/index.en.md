@@ -1,6 +1,7 @@
 ---
 title: Migrating from hugo-academic v.0.1x via blogdown upto blogdown v.1x & wowchemy/starter-hugo
-author: John Little
+authors:
+- admin
 date: '2022-04-20'
 slug: Migrating from hugo-academic v.0.1x via blogdown upto blogdown v.1x & wowchemy/starter-hugo
 categories:

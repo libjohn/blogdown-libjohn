@@ -1,6 +1,5 @@
 ---
 title: The silver lining of working from home
-author: [admin]
 date: '2020-03-26'
 slug: wfm-covid-19
 categories:
@@ -9,7 +8,7 @@ tags:
   - Demo
 subtitle: ''
 summary: ''
-authors: []
+authors: [admin]
 lastmod: '2022-04-19T21:14:52-04:00'
 featured: no
 image:
