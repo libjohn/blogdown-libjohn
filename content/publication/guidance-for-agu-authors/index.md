@@ -40,6 +40,9 @@ featured: false
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
+links:
+- name: Web
+  url: https://data.agu.org/resources/r-guidance-agu-authors
 
 url_pdf: https://zenodo.org/record/5647998
 url_code:
@@ -47,7 +50,7 @@ url_dataset:
 url_poster:
 url_project:
 url_slides:
-url_source: https://data.agu.org/resources/r-guidance-agu-authors
+url_source: 
 url_video:
 
 # Featured image
