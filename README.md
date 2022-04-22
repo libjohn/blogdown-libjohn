@@ -28,6 +28,6 @@ Web hosting via [Netlify](https://www.netlify.com/)
 Most content is found in the `gitHub.com/blogdown-libjohn/content`
 directory Additional good places to look include
 
--   `congig/_defualt`
+-   `congig/_default`
 -   `assets/media`
 -   `laouts/partials`
