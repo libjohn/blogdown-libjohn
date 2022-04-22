@@ -67,3 +67,6 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+
+Little, John R. "A librarian's perspective on portals." _Educause Quarterly_ 24, no. 2 (2001): 52-54.

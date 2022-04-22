@@ -7,7 +7,7 @@ date: 2018-05-03T15:46:06-04:00
 doi: "https://doi.org/10.5281/zenodo.6478493"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2018-05-03T15:46:06-04:00
+publishDate: 2022-04-03T15:46:06-04:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
