@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Pragmatic Datafication DSVIL 2018"
-authors: [John Little]
+authors: [admin]
 date: 2018-05-03T15:46:06-04:00
 doi: "https://doi.org/10.5281/zenodo.6478493"
 
