@@ -28,7 +28,7 @@ subtitle:
 design:
   columns: "2"
   background:
-    image: hex_bg_blue_2018.jpg    # hex_top_rfun_logo.png | 
+    image: mindset-programmer-machine-learning-brain-mind-think-1440817-pxhere.com.jpg    # hex_top_rfun_logo.png | 
     image_darken: .5         # 1.0 | 0.2
     image_parallax: true
     image_position: center
