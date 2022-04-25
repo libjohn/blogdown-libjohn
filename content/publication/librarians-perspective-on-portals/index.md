@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Librarians Perspective on Portals"
+title: "A Librarian's Perspective on Portals"
 authors: [admin]
 date: 2001-06-15T16:28:08-04:00
 doi: ""
