@@ -1,5 +1,5 @@
 ---
-bio: The [Tidyverse](https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/) empowers my passion for wrangling data into happy little rectangles
+bio: Using the [Tidyverse](https://rviews.rstudio.com/2017/06/08/what-is-the-tidyverse/) to wrangle data into happy little rectangles
 education:
   courses:
   - course: MSLS Library & Information Science
