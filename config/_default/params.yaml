@@ -37,10 +37,6 @@ office_hours:
   - 'Wednesday 1:00 PM to 3:00 PM'
 appointment_url: 'https://duke.libcal.com/appointments/little'
 contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: Twitter
-    link: 'https://twitter.com/Twitter'
   - icon: youtube
     icon_pack: fab
     name: YouTube
@@ -49,6 +45,11 @@ contact_links:
     icon_pack: fab
     name: GitHub
     link: 'https://github.com/libjohn'
+  # - icon: twitter
+  #   icon_pack: fab
+  #   [?] name:  [?]
+  #   link: 'https://twitter.com/Twitter'
+  #   name: Twitter  
   # - icon: skype
   #   icon_pack: fab
   #   name: Skype Me
