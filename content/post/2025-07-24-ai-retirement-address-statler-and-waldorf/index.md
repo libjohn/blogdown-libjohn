@@ -6,7 +6,7 @@ slug: ai-retirement-address-statler-and-waldorf
 categories: []
 tags: []
 subtitle: ''
-summary: 'I asked Gemin to create a retirement farewell address in the style of Statler and Waldor'
+summary: 'I asked a few LLMs to create a retirement farewell address in the style of Statler and Waldor'
 authors: []
 lastmod: '2025-07-24T13:32:18-04:00'
 featured: yes
