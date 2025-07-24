@@ -42,7 +42,7 @@ superuser: true
 title: John Little
 ---
 
-**As of July 2015, I am** a happily **retired** Data Science Librarian/Consultant, formerly working in the [**Center for Data & Visualization Sciences**](//library.duke.edu/data). My workshop series -- AKA ([**Rfun**](//rfun.library.duke.edu/)) or *R we having fun yet?!* -- offers practical tips in data analytics and reproducbile data workflows. 
+**As of July 2015, I am** a happily **[retired](/post/ai-retirement-address-statler-and-waldorf/)** Data Science Librarian/Consultant, formerly working in the [**Center for Data & Visualization Sciences**](//library.duke.edu/data). My workshop series -- AKA ([**Rfun**](//rfun.library.duke.edu/)) or *R we having fun yet?!* -- offers practical tips in data analytics and reproducbile data workflows. 
 
 My presentations focused on using **R** as a **data-first** coding language via the **Tidyverse**, reproducibility with **Quarto**, and a love of **tidy data**.  Topics include: Text mining and sentiment analysis, APIs, web scraping, data parsing, data cleaning, and data visualization. Check out my previously recorded [video streaming](https://youtube.com/johnlittle1). 
 
