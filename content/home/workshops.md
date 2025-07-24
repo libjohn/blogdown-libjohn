@@ -18,10 +18,10 @@ subtitle:
     <UL>
       <li>quickStart with R
       <li>Visualization with ggplot2
-      <li>Sentiment analsysis
+      <li>Sentiment analysis
       <li>Dashboards
-      <li>Webscraping
-      <li>Xaringan slide decks
+      <li>Web scraping
+      <li>Quarto slide decks
       <li>and more
     </UL>
 

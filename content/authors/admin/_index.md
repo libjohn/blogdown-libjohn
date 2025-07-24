@@ -14,7 +14,7 @@ interests:
 - Data Science
 - Reproducibility / Git
 - Data Cleaning
-- Tidyverse / R / RStudio
+- Tidyverse / Quarto / R / RStudio
 organizations:
 - name: Duke University Libraries
   url: https://library.duke.edu/data
@@ -42,9 +42,11 @@ superuser: true
 title: John Little
 ---
 
-As a Data Science Librarian/Consultant in the [**Center for Data & Visualization Sciences**](//library.duke.edu/data), I help Duke University students and researchers navigate practical data science challenges.  To that end I provide a series of *workshops* on *R*; offer walk-in and by-appointment consultations; and host the *R we having fun yet* learning series ([**Rfun**](//rfun.library.duke.edu/)). 
+**As of July 2015, I am** a happily **retired** Data Science Librarian/Consultant, formerly working in the [**Center for Data & Visualization Sciences**](//library.duke.edu/data). My workshop series -- AKA ([**Rfun**](//rfun.library.duke.edu/)) or *R we having fun yet?!* -- offers practical tips in data analytics and reproducbile data workflows. 
 
-My [workshops](#workshops) and presentations focus on using **R** as a **data-first** coding language via the **Tidyverse** dialect, Reproducibility and tidy data, Text mining and sentiment analysis, APIs, web scraping, data parsing, data cleaning, and data visualization. Each workshop is designed as a hands-on experience where you can download  practice data, presentation slides, and workbook guides.  Recorded [video streaming](https://youtube.com/johnlittle1) is often available. 
+My presentations focused on using **R** as a **data-first** coding language via the **Tidyverse**, reproducibility with **Quarto**, and a love of **tidy data**.  Topics include: Text mining and sentiment analysis, APIs, web scraping, data parsing, data cleaning, and data visualization. Check out my previously recorded [video streaming](https://youtube.com/johnlittle1). 
+
+**After March 2026**, [contact me](/#contact) for side-hussle and gig opportunities.
 
 ***
 
