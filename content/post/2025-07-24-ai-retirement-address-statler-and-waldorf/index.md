@@ -1,5 +1,5 @@
 ---
-title: AI retirement address - ala Statler and Waldorf
+title: AI/LLM retirement address - ala Statler and Waldorf
 author: ''
 date: '2025-07-24'
 slug: ai-retirement-address-statler-and-waldorf
